@@ -63,7 +63,7 @@ async function groupByLine(data) {
     return map;
 }
 
-function renderOverview(groupedData) {
+async function renderOverview(groupedData) {
     const container = getOverviewContainer();
 
     if (!container) {
@@ -104,10 +104,10 @@ function renderOverview(groupedData) {
     });
 }
 
-function loadCounterData() {
+async function loadCounterData() {
     try {
-        const response = fetch("counter.json");
-        const data = response.then(res => res.json());
+        const response = await fetch("counter.json");
+        const data = await response.json();
         return data;
     } catch (error) {
         console.error("Error loading counter data:", error);
@@ -116,7 +116,7 @@ function loadCounterData() {
 
 }
 
-function renderCounter(counterData) {
+async function renderCounter(counterData) {
     const counterContainer = document.getElementById("counter");
 
     if (!counterContainer) {
@@ -125,18 +125,11 @@ function renderCounter(counterData) {
 
     counterContainer.innerHTML = "";
 
-    // only render Karlsplatz for now, but this can be easily extended in the future
     const karlsplatzData = counterData["Karlsplatz"];
     if (karlsplatzData) {
-        const countDigitsElement = document.createElement("p");
-        countDigitsElement.className = "counter-digits";
+        const countDigitsElement = document.createElement("h1");
         countDigitsElement.textContent = karlsplatzData.count;
-
-        const countTextElement = document.createElement("p");
-        countTextElement.className = "counter-text";
-        countTextElement.textContent = `days since last breakdown (last updated: ${karlsplatzData.last_updated})`;
         counterContainer.appendChild(countDigitsElement);
-        counterContainer.appendChild(countTextElement);
     }
 }
 
@@ -150,5 +143,4 @@ function renderCounter(counterData) {
 
     renderOverview(groupedData);
     renderCounter(counterData);
-
 })();
