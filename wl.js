@@ -105,13 +105,11 @@ function renderOverview(groupedData) {
 }
 
 
-async function printFilteredData() {
+(async () => {
     const data = await fetchData();
     const filteredData = await filterData(data);
     const transformedData = await transformData(filteredData);
     const groupedData = await groupByLine(transformedData);
 
     renderOverview(groupedData);
-};
-
-printFilteredData();
+})();
