@@ -30,6 +30,33 @@
             },
             {
                 "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_70",
+                "title": "Stephansplatz",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Gleis U3 Erdberg ins Zwischengeschoß.",
+                "attributes": {
+                    "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+                    "relatedLines": [
+                        "U3"
+                    ],
+                    "station": "Stephansplatz",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Gleis U3 Erdberg ins Zwischengeschoß.",
+                    "towards": "U3 beide Richtungen",
+                    "relatedStops": [
+                        4906,
+                        4911
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U3"
+                ],
+                "relatedStops": [
+                    4906,
+                    4911
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
                 "name": "ftazS_143",
                 "title": "Praterstern",
                 "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß zum U1 Bahnsteig Fahrtrichtung Oberlaa.",
@@ -53,6 +80,33 @@
                 "relatedStops": [
                     4112,
                     4117
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_206",
+                "title": "Nestroyplatz",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Praterstraße Stadteinwärts.",
+                "attributes": {
+                    "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+                    "relatedLines": [
+                        "U1"
+                    ],
+                    "station": "Nestroyplatz",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Praterstraße Stadteinwärts.",
+                    "towards": "U1 beide Richtungen",
+                    "relatedStops": [
+                        4114,
+                        4115
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U1"
+                ],
+                "relatedStops": [
+                    4114,
+                    4115
                 ]
             },
             {
@@ -282,7 +336,7 @@
                 "id": 4,
                 "refTrafficInfoCategoryGroupId": 1,
                 "name": "fahrtreppeninfo",
-                "trafficInfoNameList": "ftazS_56, ftazS_143, ftazS_269, ftazS_439, ftazS_537, ftazS_762, ftazS_1016879, ftazS_1017113, ftazS_1031278, ftazS_1031900",
+                "trafficInfoNameList": "ftazS_56, ftazS_70, ftazS_143, ftazS_206, ftazS_269, ftazS_439, ftazS_537, ftazS_762, ftazS_1016879, ftazS_1017113, ftazS_1031278, ftazS_1031900",
                 "title": "Fahrtreppenstörungen"
             }
         ],
@@ -297,6 +351,6 @@
     "message": {
         "value": "OK",
         "messageCode": 1,
-        "serverTime": "2026-05-31T21:08:54.000+0200"
+        "serverTime": "2026-05-31T22:36:14.000+0200"
     }
 }
