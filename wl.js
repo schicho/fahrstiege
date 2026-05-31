@@ -104,12 +104,51 @@ function renderOverview(groupedData) {
     });
 }
 
+function loadCounterData() {
+    try {
+        const response = fetch("counter.json");
+        const data = response.then(res => res.json());
+        return data;
+    } catch (error) {
+        console.error("Error loading counter data:", error);
+        return null;
+    }
+
+}
+
+function renderCounter(counterData) {
+    const counterContainer = document.getElementById("counter");
+
+    if (!counterContainer) {
+        return;
+    }
+
+    counterContainer.innerHTML = "";
+
+    // only render Karlsplatz for now, but this can be easily extended in the future
+    const karlsplatzData = counterData["Karlsplatz"];
+    if (karlsplatzData) {
+        const countDigitsElement = document.createElement("p");
+        countDigitsElement.className = "counter-digits";
+        countDigitsElement.textContent = karlsplatzData.count;
+
+        const countTextElement = document.createElement("p");
+        countTextElement.className = "counter-text";
+        countTextElement.textContent = `days since last breakdown (last updated: ${karlsplatzData.last_updated})`;
+        counterContainer.appendChild(countDigitsElement);
+        counterContainer.appendChild(countTextElement);
+    }
+}
+
 
 (async () => {
     const data = await fetchData();
     const filteredData = await filterData(data);
     const transformedData = await transformData(filteredData);
     const groupedData = await groupByLine(transformedData);
+    const counterData = await loadCounterData();
 
     renderOverview(groupedData);
+    renderCounter(counterData);
+
 })();
