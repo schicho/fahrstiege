@@ -57,26 +57,6 @@
             },
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_220",
-                "title": "Bahnhof Meidling",
-                "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U6 Bahnsteig.",
-                "attributes": {
-                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
-                    "relatedLines": [
-                        "U6"
-                    ],
-                    "station": "Bahnhof Meidling",
-                    "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U6 Bahnsteig.",
-                    "towards": "U6 beide Richtungen",
-                    "relatedStops": [],
-                    "status": "außer Betrieb"
-                },
-                "relatedLines": [
-                    "U6"
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
                 "name": "ftazS_269",
                 "title": "Landstraße",
                 "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß ins Aufnahmegebäude.",
@@ -187,46 +167,6 @@
                 "relatedStops": [
                     4936,
                     4939
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_1016600",
-                "title": "Erzherzog-Karl-Straße",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche.",
-                "attributes": {
-                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
-                    "relatedLines": [
-                        "Unterflurstrassenbahn"
-                    ],
-                    "station": "Erzherzog-Karl-Straße",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche.",
-                    "towards": "Unterflurstrassenbahn beide Richtungen",
-                    "relatedStops": [],
-                    "status": "außer Betrieb"
-                },
-                "relatedLines": [
-                    "Unterflurstrassenbahn"
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_1016601",
-                "title": "Erzherzog-Karl-Straße",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche.",
-                "attributes": {
-                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
-                    "relatedLines": [
-                        "Unterflurstrassenbahn"
-                    ],
-                    "station": "Erzherzog-Karl-Straße",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche.",
-                    "towards": "Unterflurstrassenbahn beide Richtungen",
-                    "relatedStops": [],
-                    "status": "außer Betrieb"
-                },
-                "relatedLines": [
-                    "Unterflurstrassenbahn"
                 ]
             },
             {
@@ -369,7 +309,7 @@
                 "id": 4,
                 "refTrafficInfoCategoryGroupId": 1,
                 "name": "fahrtreppeninfo",
-                "trafficInfoNameList": "ftazS_56, ftazS_71, ftazS_220, ftazS_269, ftazS_439, ftazS_537, ftazS_762, ftazS_1016600, ftazS_1016601, ftazS_1016879, ftazS_1017113, ftazS_1031278, ftazS_1031900, ftazS_1351728",
+                "trafficInfoNameList": "ftazS_56, ftazS_71, ftazS_269, ftazS_439, ftazS_537, ftazS_762, ftazS_1016879, ftazS_1017113, ftazS_1031278, ftazS_1031900, ftazS_1351728",
                 "title": "Fahrtreppenstörungen"
             }
         ],
@@ -384,6 +324,6 @@
     "message": {
         "value": "OK",
         "messageCode": 1,
-        "serverTime": "2026-05-31T15:40:43.000+0200"
+        "serverTime": "2026-05-31T17:56:53.000+0200"
     }
 }
