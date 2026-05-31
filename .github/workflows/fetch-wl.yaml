@@ -20,6 +20,8 @@ jobs:
 
             - run: python3 download.py
 
+            - run: python3 update_counter.py
+
             - name: Commit json to the repo
               run: |
                   git config --global user.name github-actions
