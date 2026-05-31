@@ -14,18 +14,11 @@ jobs:
 
         steps:
             - uses: actions/checkout@v6
-              with:
-                  ref: main
-
             - uses: actions/setup-python@v6
               with:
                   python-version: "3.10"
-                  architecture: "x64"
-                  cache: "pip"
 
-            - name: Download
-              run: |
-                  python3 download.py
+            - run: python3 download.py
 
             - name: Commit json to the repo
               run: |
