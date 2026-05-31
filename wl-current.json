@@ -3,33 +3,6 @@
         "trafficInfos": [
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_35",
-                "title": "Herrengasse",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Herrengasse.",
-                "attributes": {
-                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
-                    "relatedLines": [
-                        "U3"
-                    ],
-                    "station": "Herrengasse",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Herrengasse.",
-                    "towards": "U3 beide Richtungen",
-                    "relatedStops": [
-                        4907,
-                        4910
-                    ],
-                    "status": "außer Betrieb"
-                },
-                "relatedLines": [
-                    "U3"
-                ],
-                "relatedStops": [
-                    4907,
-                    4910
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
                 "name": "ftazS_56",
                 "title": "Stephansplatz",
                 "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Zwischengeschoß N-1 (Stationswart) in das Zwischengeschoß N-3.\n\n",
@@ -84,20 +57,20 @@
             },
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_143",
-                "title": "Praterstern",
-                "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß zum U1 Bahnsteig Fahrtrichtung Oberlaa.",
+                "name": "ftazS_184",
+                "title": "Südtiroler Platz-Hauptbahnhof",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (alter Südtirolerplatz) in das oberste Zwischengeschoß Ausgang Graf Starhemberggasse und Favoritenstraße.",
                 "attributes": {
-                    "reason": "Geplante Wartung wird durchgeführt.",
+                    "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
                     "relatedLines": [
                         "U1"
                     ],
-                    "station": "Praterstern",
-                    "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß zum U1 Bahnsteig Fahrtrichtung Oberlaa.",
+                    "station": "Südtiroler Platz-Hauptbahnhof",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (alter Südtirolerplatz) in das oberste Zwischengeschoß Ausgang Graf Starhemberggasse und Favoritenstraße.",
                     "towards": "U1 beide Richtungen",
                     "relatedStops": [
-                        4112,
-                        4117
+                        4105,
+                        4124
                     ],
                     "status": "außer Betrieb"
                 },
@@ -105,8 +78,41 @@
                     "U1"
                 ],
                 "relatedStops": [
-                    4112,
-                    4117
+                    4105,
+                    4124
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_185",
+                "title": "Südtiroler Platz-Hauptbahnhof",
+                "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß/Passage zum U1 Bahnsteig.\n\n",
+                "attributes": {
+                    "ausBis": "23.06.2026 05:15",
+                    "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+                    "relatedLines": [
+                        "U1"
+                    ],
+                    "station": "Südtiroler Platz-Hauptbahnhof",
+                    "ausVon": "23.06.2026 01:15",
+                    "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß/Passage zum U1 Bahnsteig.\n\n",
+                    "towards": "U1 beide Richtungen",
+                    "relatedStops": [
+                        4105,
+                        4124
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "time": {
+                    "start": "2026-06-23T01:15:00.000+0200",
+                    "end": "2026-06-23T05:15:00.000+0200"
+                },
+                "relatedLines": [
+                    "U1"
+                ],
+                "relatedStops": [
+                    4105,
+                    4124
                 ]
             },
             {
@@ -116,7 +122,7 @@
                 "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Zugang zur ÖBB) an die Oberfläche Ausgang Schedifkaplatz.",
                 "attributes": {
                     "ausBis": "25.06.2026 05:15",
-                    "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
                     "relatedLines": [
                         "U6"
                     ],
@@ -224,20 +230,20 @@
             },
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_743",
-                "title": "Zippererstraße",
-                "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Eingang Zipperserstraße / Simmeringer Hauptstraße auf den Bahnsteig.",
+                "name": "ftazS_608",
+                "title": "Ottakring",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung von der Oberfläche Eingang Thaliastraße auf das Gleis 1 und 3 Richtung Simmering.",
                 "attributes": {
                     "reason": "",
                     "relatedLines": [
                         "U3"
                     ],
-                    "station": "Zippererstraße",
-                    "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Eingang Zipperserstraße / Simmeringer Hauptstraße auf den Bahnsteig.",
+                    "station": "Ottakring",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung von der Oberfläche Eingang Thaliastraße auf das Gleis 1 und 3 Richtung Simmering.",
                     "towards": "U3 beide Richtungen",
                     "relatedStops": [
-                        4935,
-                        4940
+                        4930,
+                        4931
                     ],
                     "status": "außer Betrieb"
                 },
@@ -245,8 +251,8 @@
                     "U3"
                 ],
                 "relatedStops": [
-                    4935,
-                    4940
+                    4930,
+                    4931
                 ]
             },
             {
@@ -389,7 +395,7 @@
                 "id": 4,
                 "refTrafficInfoCategoryGroupId": 1,
                 "name": "fahrtreppeninfo",
-                "trafficInfoNameList": "ftazS_35, ftazS_56, ftazS_70, ftazS_143, ftazS_223, ftazS_269, ftazS_439, ftazS_537, ftazS_743, ftazS_762, ftazS_1016879, ftazS_1017113, ftazS_1031278, ftazS_1031900",
+                "trafficInfoNameList": "ftazS_56, ftazS_70, ftazS_184, ftazS_185, ftazS_223, ftazS_269, ftazS_439, ftazS_537, ftazS_608, ftazS_762, ftazS_1016879, ftazS_1017113, ftazS_1031278, ftazS_1031900",
                 "title": "Fahrtreppenstörungen"
             }
         ],
@@ -404,6 +410,6 @@
     "message": {
         "value": "OK",
         "messageCode": 1,
-        "serverTime": "2026-05-31T23:54:04.000+0200"
+        "serverTime": "2026-06-01T00:54:19.000+0200"
     }
 }
