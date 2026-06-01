@@ -30,33 +30,6 @@
             },
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_73",
-                "title": "Stephansplatz",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Gleis U3 Ottakring ins Zwischengeschoß.",
-                "attributes": {
-                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
-                    "relatedLines": [
-                        "U3"
-                    ],
-                    "station": "Stephansplatz",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Gleis U3 Ottakring ins Zwischengeschoß.",
-                    "towards": "U3 beide Richtungen",
-                    "relatedStops": [
-                        4906,
-                        4911
-                    ],
-                    "status": "außer Betrieb"
-                },
-                "relatedLines": [
-                    "U3"
-                ],
-                "relatedStops": [
-                    4906,
-                    4911
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
                 "name": "ftazS_269",
                 "title": "Landstraße",
                 "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß ins Aufnahmegebäude.",
@@ -90,35 +63,29 @@
             },
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_275",
-                "title": "Landstraße",
+                "name": "ftazS_413",
+                "title": "Westbahnhof",
                 "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig ins Zwischengeschoß.",
                 "attributes": {
-                    "ausBis": "18.06.2026 05:15",
                     "reason": "An der Instandsetzung wird bereits gearbeitet.",
                     "relatedLines": [
                         "U3"
                     ],
-                    "station": "Landstraße",
-                    "ausVon": "18.06.2026 01:15",
+                    "station": "Westbahnhof",
                     "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig ins Zwischengeschoß.",
                     "towards": "U3 beide Richtungen",
                     "relatedStops": [
-                        4904,
-                        4913
+                        4920,
+                        4921
                     ],
                     "status": "außer Betrieb"
-                },
-                "time": {
-                    "start": "2026-06-18T01:15:00.000+0200",
-                    "end": "2026-06-18T05:15:00.000+0200"
                 },
                 "relatedLines": [
                     "U3"
                 ],
                 "relatedStops": [
-                    4904,
-                    4913
+                    4920,
+                    4921
                 ]
             },
             {
@@ -261,33 +228,6 @@
                     4254,
                     4269
                 ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_1032352",
-                "title": "Aspern Nord",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U2 Mittelbahnsteig in das obere Zwischengeschoß Ausgang Mayrederstraße/Ostbahnbegleitstraße.",
-                "attributes": {
-                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
-                    "relatedLines": [
-                        "U2"
-                    ],
-                    "station": "Aspern Nord",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U2 Mittelbahnsteig in das obere Zwischengeschoß Ausgang Mayrederstraße/Ostbahnbegleitstraße.",
-                    "towards": "U2 beide Richtungen",
-                    "relatedStops": [
-                        4275,
-                        4278
-                    ],
-                    "status": "außer Betrieb"
-                },
-                "relatedLines": [
-                    "U2"
-                ],
-                "relatedStops": [
-                    4275,
-                    4278
-                ]
             }
         ],
         "trafficInfoCategories": [
@@ -295,7 +235,7 @@
                 "id": 4,
                 "refTrafficInfoCategoryGroupId": 1,
                 "name": "fahrtreppeninfo",
-                "trafficInfoNameList": "ftazS_56, ftazS_73, ftazS_269, ftazS_275, ftazS_439, ftazS_537, ftazS_1016879, ftazS_1017113, ftazS_1031278, ftazS_1032352",
+                "trafficInfoNameList": "ftazS_56, ftazS_269, ftazS_413, ftazS_439, ftazS_537, ftazS_1016879, ftazS_1017113, ftazS_1031278",
                 "title": "Fahrtreppenstörungen"
             }
         ],
@@ -310,6 +250,6 @@
     "message": {
         "value": "OK",
         "messageCode": 1,
-        "serverTime": "2026-06-01T18:33:49.000+0200"
+        "serverTime": "2026-06-01T22:52:16.000+0200"
     }
 }
