@@ -3,35 +3,35 @@
         "trafficInfos": [
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_398",
-                "title": "Westbahnhof",
-                "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche auf den U6 Bahnsteig.",
+                "name": "ftazS_287",
+                "title": "Kagran",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung von der Oberfläche auf den U1 Bahnsteig.\n\n",
                 "attributes": {
-                    "ausBis": "08.06.2026 05:15",
-                    "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+                    "ausBis": "05.06.2026 00:45",
+                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
                     "relatedLines": [
-                        "U3"
+                        "U1"
                     ],
-                    "station": "Westbahnhof",
-                    "ausVon": "08.06.2026 01:15",
-                    "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche auf den U6 Bahnsteig.",
-                    "towards": "U3 beide Richtungen",
+                    "station": "Kagran",
+                    "ausVon": "04.06.2026 20:45",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung von der Oberfläche auf den U1 Bahnsteig.\n\n",
+                    "towards": "U1 beide Richtungen",
                     "relatedStops": [
-                        4920,
-                        4921
+                        4102,
+                        4127
                     ],
                     "status": "außer Betrieb"
                 },
                 "time": {
-                    "start": "2026-06-08T01:15:00.000+0200",
-                    "end": "2026-06-08T05:15:00.000+0200"
+                    "start": "2026-06-04T20:45:00.000+0200",
+                    "end": "2026-06-05T00:45:00.000+0200"
                 },
                 "relatedLines": [
-                    "U3"
+                    "U1"
                 ],
                 "relatedStops": [
-                    4920,
-                    4921
+                    4102,
+                    4127
                 ]
             },
             {
@@ -65,32 +65,6 @@
                 "relatedStops": [
                     4111,
                     4118
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_251",
-                "title": "Karlsplatz",
-                "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Verbindungsgang von der U1 auf den Bahnsteig der U4.",
-                "attributes": {
-                    "ausBis": "22.06.2026 05:15",
-                    "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
-                    "relatedLines": [
-                        "U4"
-                    ],
-                    "station": "Karlsplatz",
-                    "ausVon": "22.06.2026 01:15",
-                    "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Verbindungsgang von der U1 auf den Bahnsteig der U4.",
-                    "towards": "U4 beide Richtungen",
-                    "relatedStops": [],
-                    "status": "außer Betrieb"
-                },
-                "time": {
-                    "start": "2026-06-22T01:15:00.000+0200",
-                    "end": "2026-06-22T05:15:00.000+0200"
-                },
-                "relatedLines": [
-                    "U4"
                 ]
             },
             {
@@ -263,22 +237,29 @@
             },
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_219",
-                "title": "Bahnhof Meidling",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig ins Zwischengeschoß.",
+                "name": "ftazS_230",
+                "title": "Praterstern",
+                "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Praterstern in das Zwischengeschoß.\n\n",
                 "attributes": {
-                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
+                    "reason": "Geplante Wartung wird durchgeführt.",
                     "relatedLines": [
-                        "U6"
+                        "U1"
                     ],
-                    "station": "Bahnhof Meidling",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig ins Zwischengeschoß.",
-                    "towards": "U6 beide Richtungen",
-                    "relatedStops": [],
+                    "station": "Praterstern",
+                    "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Praterstern in das Zwischengeschoß.\n\n",
+                    "towards": "U1 beide Richtungen",
+                    "relatedStops": [
+                        4112,
+                        4117
+                    ],
                     "status": "außer Betrieb"
                 },
                 "relatedLines": [
-                    "U6"
+                    "U1"
+                ],
+                "relatedStops": [
+                    4112,
+                    4117
                 ]
             }
         ],
@@ -287,7 +268,7 @@
                 "id": 4,
                 "refTrafficInfoCategoryGroupId": 1,
                 "name": "fahrtreppeninfo",
-                "trafficInfoNameList": "ftazS_398, ftazS_64, ftazS_251, ftazS_269, ftazS_537, ftazS_1016879, ftazS_439, ftazS_1031278, ftazS_56, ftazS_219",
+                "trafficInfoNameList": "ftazS_287, ftazS_64, ftazS_269, ftazS_537, ftazS_1016879, ftazS_439, ftazS_1031278, ftazS_56, ftazS_230",
                 "title": "Fahrtreppenstörungen"
             }
         ],
@@ -302,6 +283,6 @@
     "message": {
         "value": "OK",
         "messageCode": 1,
-        "serverTime": "2026-06-02T18:57:55.000+0200"
+        "serverTime": "2026-06-02T22:22:13.000+0200"
     }
 }
