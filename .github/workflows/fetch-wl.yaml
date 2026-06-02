@@ -2,7 +2,7 @@ name: Fetch the escalator information from Wiener Linien API
 
 on:
     schedule:
-        - cron: "0,30 * * * *"
+        - cron: "20 * * * *"
     workflow_dispatch:
 
 permissions:
