@@ -22,5 +22,5 @@ def download_data(timeout=10):
 
 if __name__ == "__main__":
     data = download_data()
-    with open("wl-current.json", "w", encoding="utf-8") as f:
+    with open("data/wl-current.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)

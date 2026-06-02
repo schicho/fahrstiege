@@ -1,5 +1,4 @@
 const ENDPOINT = "https://www.wienerlinien.at/ogd_realtime/trafficInfoList?name=fahrtreppeninfo";
-const FILE = "wl-current.json";
 
 const METRO_LINES = ["U1", "U2", "U3", "U4", "U5", /* future proofing lol */ "U6"];
 
@@ -9,7 +8,7 @@ function getOverviewContainer() {
 
 async function fetchData() {
     try {
-        const response = await fetch(FILE);
+        const response = await fetch("data/wl-current.json");
         const data = await response.json();
         return data;
     } catch (error) {
@@ -106,7 +105,7 @@ async function renderOverview(groupedData) {
 
 async function loadCounterData() {
     try {
-        const response = await fetch("counter.json");
+        const response = await fetch("data/counter.json");
         const data = await response.json();
         return data;
     } catch (error) {

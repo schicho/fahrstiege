@@ -4,7 +4,7 @@ from datetime import date
 STATIONS_TO_TRACK = ["Karlsplatz"]
 
 def load_current_broken_stations() -> list[str]:
-    with open("wl-current.json", "r", encoding="utf-8") as f:
+    with open("data/wl-current.json", "r", encoding="utf-8") as f:
         data = json.load(f)
     broken_stations = set()
     for station in data["data"]["trafficInfos"]:
@@ -13,7 +13,7 @@ def load_current_broken_stations() -> list[str]:
     return broken_stations
 
 def update_counter(broken_stations: set[str]) -> dict[str, int]:
-    with open("counter.json", "r", encoding="utf-8") as f:
+    with open("data/counter.json", "r", encoding="utf-8") as f:
         counters = json.load(f)
     for station in STATIONS_TO_TRACK:
         if station not in counters or station in broken_stations:
@@ -31,5 +31,5 @@ if __name__ == "__main__":
     current_broken_stations = load_current_broken_stations()
     counter = update_counter(current_broken_stations)
 
-    with open("counter.json", "w", encoding="utf-8") as f:
+    with open("data/counter.json", "w", encoding="utf-8") as f:
         json.dump(counter, f, ensure_ascii=False, indent=4)
