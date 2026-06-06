@@ -57,29 +57,29 @@
             },
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_1351731",
-                "title": "Altes Landgut",
-                "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Altes Landgut auf den U1 Bahnsteig.",
+                "name": "ftazS_609",
+                "title": "Hütteldorfer Straße",
+                "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Hütteldorferstr./Breitenseerstraße auf den U3 Bahnsteig.",
                 "attributes": {
-                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
+                    "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
                     "relatedLines": [
-                        "U1"
+                        "U3"
                     ],
-                    "station": "Altes Landgut",
-                    "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Altes Landgut auf den U1 Bahnsteig.",
-                    "towards": "U1 beide Richtungen",
+                    "station": "Hütteldorfer Straße",
+                    "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Hütteldorferstr./Breitenseerstraße auf den U3 Bahnsteig.",
+                    "towards": "U3 beide Richtungen",
                     "relatedStops": [
-                        4130,
-                        4137
+                        4928,
+                        4933
                     ],
                     "status": "außer Betrieb"
                 },
                 "relatedLines": [
-                    "U1"
+                    "U3"
                 ],
                 "relatedStops": [
-                    4130,
-                    4137
+                    4928,
+                    4933
                 ]
             },
             {
@@ -169,7 +169,7 @@
                 "id": 4,
                 "refTrafficInfoCategoryGroupId": 1,
                 "name": "fahrtreppeninfo",
-                "trafficInfoNameList": "ftazS_537, ftazS_1016879, ftazS_1351731, ftazS_439, ftazS_1031278, ftazS_56",
+                "trafficInfoNameList": "ftazS_537, ftazS_1016879, ftazS_609, ftazS_439, ftazS_1031278, ftazS_56",
                 "title": "Fahrtreppenstörungen"
             }
         ],
@@ -184,6 +184,6 @@
     "message": {
         "value": "OK",
         "messageCode": 1,
-        "serverTime": "2026-06-06T20:41:30.000+0200"
+        "serverTime": "2026-06-06T22:36:32.000+0200"
     }
 }
