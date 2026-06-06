@@ -30,35 +30,29 @@
             },
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_399",
-                "title": "Westbahnhof",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig an die Oberfläche.",
+                "name": "ftazS_120",
+                "title": "Schwedenplatz",
+                "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Schwedenplatz.",
                 "attributes": {
-                    "ausBis": "09.06.2026 05:15",
                     "reason": "An der Instandsetzung wird bereits gearbeitet.",
                     "relatedLines": [
-                        "U3"
+                        "U1"
                     ],
-                    "station": "Westbahnhof",
-                    "ausVon": "09.06.2026 01:15",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig an die Oberfläche.",
-                    "towards": "U3 beide Richtungen",
+                    "station": "Schwedenplatz",
+                    "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Schwedenplatz.",
+                    "towards": "U1 beide Richtungen",
                     "relatedStops": [
-                        4920,
-                        4921
+                        4113,
+                        4116
                     ],
                     "status": "außer Betrieb"
                 },
-                "time": {
-                    "start": "2026-06-09T01:15:00.000+0200",
-                    "end": "2026-06-09T05:15:00.000+0200"
-                },
                 "relatedLines": [
-                    "U3"
+                    "U1"
                 ],
                 "relatedStops": [
-                    4920,
-                    4921
+                    4113,
+                    4116
                 ]
             },
             {
@@ -90,29 +84,35 @@
             },
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_456",
-                "title": "Schweglerstraße",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig an die Oberfläche Ausgang Märzstraße.",
+                "name": "ftazS_447",
+                "title": "Johnstraße",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig an die Oberfläche Ausgang Wasserwelt.",
                 "attributes": {
-                    "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+                    "ausBis": "23.06.2026 05:15",
+                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
                     "relatedLines": [
                         "U3"
                     ],
-                    "station": "Schweglerstraße",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig an die Oberfläche Ausgang Märzstraße.",
+                    "station": "Johnstraße",
+                    "ausVon": "23.06.2026 01:15",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig an die Oberfläche Ausgang Wasserwelt.",
                     "towards": "U3 beide Richtungen",
                     "relatedStops": [
-                        4924,
-                        4927
+                        4925,
+                        4926
                     ],
                     "status": "außer Betrieb"
+                },
+                "time": {
+                    "start": "2026-06-23T01:15:00.000+0200",
+                    "end": "2026-06-23T05:15:00.000+0200"
                 },
                 "relatedLines": [
                     "U3"
                 ],
                 "relatedStops": [
-                    4924,
-                    4927
+                    4925,
+                    4926
                 ]
             },
             {
@@ -140,6 +140,33 @@
                 "relatedStops": [
                     4645,
                     4646
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_760",
+                "title": "Enkplatz",
+                "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Simmeringer Hauptstraße.",
+                "attributes": {
+                    "reason": "",
+                    "relatedLines": [
+                        "U3"
+                    ],
+                    "station": "Enkplatz",
+                    "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Simmeringer Hauptstraße.",
+                    "towards": "U3 beide Richtungen",
+                    "relatedStops": [
+                        4936,
+                        4939
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U3"
+                ],
+                "relatedStops": [
+                    4936,
+                    4939
                 ]
             },
             {
@@ -202,7 +229,7 @@
                 "id": 4,
                 "refTrafficInfoCategoryGroupId": 1,
                 "name": "fahrtreppeninfo",
-                "trafficInfoNameList": "ftazS_56, ftazS_399, ftazS_439, ftazS_456, ftazS_537, ftazS_1016879, ftazS_1031278",
+                "trafficInfoNameList": "ftazS_56, ftazS_120, ftazS_439, ftazS_447, ftazS_537, ftazS_760, ftazS_1016879, ftazS_1031278",
                 "title": "Fahrtreppenstörungen"
             }
         ],
@@ -217,6 +244,6 @@
     "message": {
         "value": "OK",
         "messageCode": 1,
-        "serverTime": "2026-06-06T06:31:05.000+0200"
+        "serverTime": "2026-06-06T10:03:46.000+0200"
     }
 }
