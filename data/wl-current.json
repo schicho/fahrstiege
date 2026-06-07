@@ -3,32 +3,6 @@
         "trafficInfos": [
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_241",
-                "title": "Karlsplatz",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U4 Bahnsteig in die Passage.",
-                "attributes": {
-                    "ausBis": "16.06.2026 05:15",
-                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
-                    "relatedLines": [
-                        "U4"
-                    ],
-                    "station": "Karlsplatz",
-                    "ausVon": "16.06.2026 01:15",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U4 Bahnsteig in die Passage.",
-                    "towards": "U4 beide Richtungen",
-                    "relatedStops": [],
-                    "status": "außer Betrieb"
-                },
-                "time": {
-                    "start": "2026-06-16T01:15:00.000+0200",
-                    "end": "2026-06-16T05:15:00.000+0200"
-                },
-                "relatedLines": [
-                    "U4"
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
                 "name": "ftazS_437",
                 "title": "Schweglerstraße",
                 "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Ausgang Goldschladstrasse/Stättermeyergasse auf den U3 Bahnsteig.",
@@ -170,20 +144,20 @@
             },
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_33",
-                "title": "Herrengasse",
-                "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Herrengasse.\n",
+                "name": "ftazS_163",
+                "title": "Stubentor",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 1 Richtung Erdberg ins Zwischengeschoß Aufgang Wollzeile/Dr.Karl Lueger Platz.",
                 "attributes": {
                     "reason": "An der Instandsetzung wird bereits gearbeitet.",
                     "relatedLines": [
                         "U3"
                     ],
-                    "station": "Herrengasse",
-                    "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Herrengasse.\n",
+                    "station": "Stubentor",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 1 Richtung Erdberg ins Zwischengeschoß Aufgang Wollzeile/Dr.Karl Lueger Platz.",
                     "towards": "U3 beide Richtungen",
                     "relatedStops": [
-                        4907,
-                        4910
+                        4905,
+                        4912
                     ],
                     "status": "außer Betrieb"
                 },
@@ -191,8 +165,8 @@
                     "U3"
                 ],
                 "relatedStops": [
-                    4907,
-                    4910
+                    4905,
+                    4912
                 ]
             },
             {
@@ -255,7 +229,7 @@
                 "id": 4,
                 "refTrafficInfoCategoryGroupId": 1,
                 "name": "fahrtreppeninfo",
-                "trafficInfoNameList": "ftazS_241, ftazS_437, ftazS_537, ftazS_89, ftazS_1016879, ftazS_439, ftazS_33, ftazS_1031278, ftazS_56",
+                "trafficInfoNameList": "ftazS_437, ftazS_537, ftazS_89, ftazS_1016879, ftazS_439, ftazS_163, ftazS_1031278, ftazS_56",
                 "title": "Fahrtreppenstörungen"
             }
         ],
@@ -270,6 +244,6 @@
     "message": {
         "value": "OK",
         "messageCode": 1,
-        "serverTime": "2026-06-07T14:03:11.000+0200"
+        "serverTime": "2026-06-07T16:23:30.000+0200"
     }
 }
