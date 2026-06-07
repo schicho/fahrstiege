@@ -3,35 +3,62 @@
         "trafficInfos": [
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_399",
-                "title": "Westbahnhof",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig an die Oberfläche.",
+                "name": "ftazS_109",
+                "title": "Schottentor",
+                "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U2 Bahnsteig in die Passage.\n\n",
                 "attributes": {
-                    "ausBis": "09.06.2026 05:15",
-                    "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+                    "ausBis": "08.06.2026 05:15",
+                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
                     "relatedLines": [
-                        "U3"
+                        "U2"
                     ],
-                    "station": "Westbahnhof",
-                    "ausVon": "09.06.2026 01:15",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig an die Oberfläche.",
-                    "towards": "U3 beide Richtungen",
+                    "station": "Schottentor",
+                    "ausVon": "08.06.2026 01:15",
+                    "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U2 Bahnsteig in die Passage.\n\n",
+                    "towards": "U2 beide Richtungen",
                     "relatedStops": [
-                        4920,
-                        4921
+                        4203,
+                        4212
                     ],
                     "status": "außer Betrieb"
                 },
                 "time": {
-                    "start": "2026-06-09T01:15:00.000+0200",
-                    "end": "2026-06-09T05:15:00.000+0200"
+                    "start": "2026-06-08T01:15:00.000+0200",
+                    "end": "2026-06-08T05:15:00.000+0200"
                 },
                 "relatedLines": [
-                    "U3"
+                    "U2"
                 ],
                 "relatedStops": [
-                    4920,
-                    4921
+                    4203,
+                    4212
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_1351730",
+                "title": "Troststraße",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig an die Oberfläche Ausgang Klausenburgerstraße.",
+                "attributes": {
+                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
+                    "relatedLines": [
+                        "U1"
+                    ],
+                    "station": "Troststraße",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig an die Oberfläche Ausgang Klausenburgerstraße.",
+                    "towards": "U1 beide Richtungen",
+                    "relatedStops": [
+                        4129,
+                        4138
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U1"
+                ],
+                "relatedStops": [
+                    4129,
+                    4138
                 ]
             },
             {
@@ -59,6 +86,33 @@
                 "relatedStops": [
                     4645,
                     4646
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_89",
+                "title": "Volkstheater",
+                "description": "Fahrtreppe fährt in Abwärtsrichtung vom Ausgang Burggasse in die Passage zum Zugang zur U3 bzw. auf den Bahnsteig U2 Richtung Karlsplatz.",
+                "attributes": {
+                    "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+                    "relatedLines": [
+                        "U3"
+                    ],
+                    "station": "Volkstheater",
+                    "location": "Fahrtreppe fährt in Abwärtsrichtung vom Ausgang Burggasse in die Passage zum Zugang zur U3 bzw. auf den Bahnsteig U2 Richtung Karlsplatz.",
+                    "towards": "U3 beide Richtungen",
+                    "relatedStops": [
+                        4908,
+                        4909
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U3"
+                ],
+                "relatedStops": [
+                    4908,
+                    4909
                 ]
             },
             {
@@ -175,7 +229,7 @@
                 "id": 4,
                 "refTrafficInfoCategoryGroupId": 1,
                 "name": "fahrtreppeninfo",
-                "trafficInfoNameList": "ftazS_399, ftazS_537, ftazS_1016879, ftazS_439, ftazS_1031278, ftazS_56",
+                "trafficInfoNameList": "ftazS_109, ftazS_1351730, ftazS_537, ftazS_89, ftazS_1016879, ftazS_439, ftazS_1031278, ftazS_56",
                 "title": "Fahrtreppenstörungen"
             }
         ],
@@ -190,6 +244,6 @@
     "message": {
         "value": "OK",
         "messageCode": 1,
-        "serverTime": "2026-06-07T03:33:49.000+0200"
+        "serverTime": "2026-06-07T08:44:14.000+0200"
     }
 }
