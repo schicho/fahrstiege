@@ -31,7 +31,7 @@ def update_counter(broken_stations: set[str]) -> dict[str, int]:
         
         if station in broken_stations:
             # reset if it is currently broken
-            station_counter_entry = {"count": 0, "highscore": current_highscore}
+            station_counter_entry["count"] = 0
             print(f"Station '{station}' is currently broken. Count reset to 0.")
 
         elif last_updated < CURRENT_DATE.isoformat() and station not in broken_stations:
@@ -39,7 +39,7 @@ def update_counter(broken_stations: set[str]) -> dict[str, int]:
             current_count += CURRENT_DATE.day - datetime.fromisoformat(last_updated).day
             station_counter_entry["highscore"] = max(current_highscore, current_count)
             station_counter_entry["count"] = current_count
-            print(f"Station '{station}' is not broken. Count incremented to {station_counter_entry['count']}.")
+            print(f"Station '{station}' is not broken. Count incremented to {current_count}.")
 
         station_counter_entry["last_updated"] = CURRENT_DATE.isoformat()
         station_counters[station] = station_counter_entry
