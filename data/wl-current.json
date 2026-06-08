@@ -3,20 +3,47 @@
         "trafficInfos": [
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_55",
-                "title": "Stephansplatz",
-                "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß N-1 (Stationswart) in das Zwischengeschoß N-3.\n\n",
+                "name": "ftazS_34",
+                "title": "Herrengasse",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Herrengasse.",
                 "attributes": {
-                    "reason": "",
+                    "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+                    "relatedLines": [
+                        "U3"
+                    ],
+                    "station": "Herrengasse",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Herrengasse.",
+                    "towards": "U3 beide Richtungen",
+                    "relatedStops": [
+                        4907,
+                        4910
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U3"
+                ],
+                "relatedStops": [
+                    4907,
+                    4910
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_39",
+                "title": "Keplerplatz",
+                "description": "Fahrtreppe fährt vom Bahnsteig in Aufwärtsrichtung in das Zwischengeschoß.\n\n",
+                "attributes": {
+                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
                     "relatedLines": [
                         "U1"
                     ],
-                    "station": "Stephansplatz",
-                    "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß N-1 (Stationswart) in das Zwischengeschoß N-3.\n\n",
+                    "station": "Keplerplatz",
+                    "location": "Fahrtreppe fährt vom Bahnsteig in Aufwärtsrichtung in das Zwischengeschoß.\n\n",
                     "towards": "U1 beide Richtungen",
                     "relatedStops": [
-                        4111,
-                        4118
+                        4103,
+                        4126
                     ],
                     "status": "außer Betrieb"
                 },
@@ -24,8 +51,8 @@
                     "U1"
                 ],
                 "relatedStops": [
-                    4111,
-                    4118
+                    4103,
+                    4126
                 ]
             },
             {
@@ -138,66 +165,12 @@
             },
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_163",
-                "title": "Stubentor",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 1 Richtung Erdberg ins Zwischengeschoß Aufgang Wollzeile/Dr.Karl Lueger Platz.",
-                "attributes": {
-                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
-                    "relatedLines": [
-                        "U3"
-                    ],
-                    "station": "Stubentor",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 1 Richtung Erdberg ins Zwischengeschoß Aufgang Wollzeile/Dr.Karl Lueger Platz.",
-                    "towards": "U3 beide Richtungen",
-                    "relatedStops": [
-                        4905,
-                        4912
-                    ],
-                    "status": "außer Betrieb"
-                },
-                "relatedLines": [
-                    "U3"
-                ],
-                "relatedStops": [
-                    4905,
-                    4912
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_181",
-                "title": "Südtiroler Platz-Hauptbahnhof",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom obersten Zwischengeschoß an die Oberfläche Ausgang Graf Starhemberggasse.",
-                "attributes": {
-                    "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
-                    "relatedLines": [
-                        "U1"
-                    ],
-                    "station": "Südtiroler Platz-Hauptbahnhof",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom obersten Zwischengeschoß an die Oberfläche Ausgang Graf Starhemberggasse.",
-                    "towards": "U1 beide Richtungen",
-                    "relatedStops": [
-                        4105,
-                        4124
-                    ],
-                    "status": "außer Betrieb"
-                },
-                "relatedLines": [
-                    "U1"
-                ],
-                "relatedStops": [
-                    4105,
-                    4124
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
                 "name": "ftazS_195",
                 "title": "Michelbeuern-AKH",
                 "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig in die Passage AKH oder über den Gürtel.",
                 "attributes": {
                     "ausBis": "11.06.2026 00:45",
-                    "reason": "",
+                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
                     "relatedLines": [
                         "U6"
                     ],
@@ -247,6 +220,33 @@
                 },
                 "relatedLines": [
                     "U6"
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_238",
+                "title": "Landstraße",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberflßche Ausgang Beatrixgasse / Landstrasse Hauptstrasse(Ost).",
+                "attributes": {
+                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
+                    "relatedLines": [
+                        "U3"
+                    ],
+                    "station": "Landstraße",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberflßche Ausgang Beatrixgasse / Landstrasse Hauptstrasse(Ost).",
+                    "towards": "U3 beide Richtungen",
+                    "relatedStops": [
+                        4904,
+                        4913
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U3"
+                ],
+                "relatedStops": [
+                    4904,
+                    4913
                 ]
             },
             {
@@ -444,7 +444,7 @@
                 "id": 4,
                 "refTrafficInfoCategoryGroupId": 1,
                 "name": "fahrtreppeninfo",
-                "trafficInfoNameList": "ftazS_55, ftazS_56, ftazS_61, ftazS_65, ftazS_110, ftazS_163, ftazS_181, ftazS_195, ftazS_222, ftazS_272, ftazS_397, ftazS_439, ftazS_506, ftazS_537, ftazS_765, ftazS_1016879",
+                "trafficInfoNameList": "ftazS_34, ftazS_39, ftazS_56, ftazS_61, ftazS_65, ftazS_110, ftazS_195, ftazS_222, ftazS_238, ftazS_272, ftazS_397, ftazS_439, ftazS_506, ftazS_537, ftazS_765, ftazS_1016879",
                 "title": "Fahrtreppenstörungen"
             }
         ],
@@ -459,6 +459,6 @@
     "message": {
         "value": "OK",
         "messageCode": 1,
-        "serverTime": "2026-06-08T21:36:57.000+0200"
+        "serverTime": "2026-06-09T00:02:48.000+0200"
     }
 }
