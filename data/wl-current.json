@@ -3,6 +3,134 @@
         "trafficInfos": [
             {
                 "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_720",
+                "title": "Kliebergasse",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Durchgang auf den Bahnsteig Fahrtrichtung Schlachthausgasse",
+                "attributes": {
+                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
+                    "relatedLines": [
+                        "Unterflurstrassenbahn"
+                    ],
+                    "station": "Kliebergasse",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Durchgang auf den Bahnsteig Fahrtrichtung Schlachthausgasse",
+                    "towards": "Unterflurstrassenbahn beide Richtungen",
+                    "relatedStops": [],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "Unterflurstrassenbahn"
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_183",
+                "title": "Südtiroler Platz-Hauptbahnhof",
+                "description": "Fahrtreppe fährt in Abwärtsrichtung vom Ausgang Favoritenstraße in das oberste Zwischengeschoß.",
+                "attributes": {
+                    "reason": "Geplante Wartung wird durchgeführt.",
+                    "relatedLines": [
+                        "U1"
+                    ],
+                    "station": "Südtiroler Platz-Hauptbahnhof",
+                    "location": "Fahrtreppe fährt in Abwärtsrichtung vom Ausgang Favoritenstraße in das oberste Zwischengeschoß.",
+                    "towards": "U1 beide Richtungen",
+                    "relatedStops": [
+                        4105,
+                        4124
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U1"
+                ],
+                "relatedStops": [
+                    4105,
+                    4124
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_96",
+                "title": "Südtiroler Platz-Hauptbahnhof",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Kolschitzkygasse.\n\n",
+                "attributes": {
+                    "reason": "Geplante Wartung wird durchgeführt.",
+                    "relatedLines": [
+                        "U1"
+                    ],
+                    "station": "Südtiroler Platz-Hauptbahnhof",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Kolschitzkygasse.\n\n",
+                    "towards": "U1 beide Richtungen",
+                    "relatedStops": [
+                        4105,
+                        4124
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U1"
+                ],
+                "relatedStops": [
+                    4105,
+                    4124
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_279",
+                "title": "Volkstheater",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Dr.Karl Renner Ring.",
+                "attributes": {
+                    "reason": "",
+                    "relatedLines": [
+                        "U3"
+                    ],
+                    "station": "Volkstheater",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Dr.Karl Renner Ring.",
+                    "towards": "U3 beide Richtungen",
+                    "relatedStops": [
+                        4908,
+                        4909
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U3"
+                ],
+                "relatedStops": [
+                    4908,
+                    4909
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_278",
+                "title": "Volkstheater",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig ins Zwischengeschoß Ausgang Ring.",
+                "attributes": {
+                    "reason": "Geplante Wartung wird durchgeführt.",
+                    "relatedLines": [
+                        "U3"
+                    ],
+                    "station": "Volkstheater",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig ins Zwischengeschoß Ausgang Ring.",
+                    "towards": "U3 beide Richtungen",
+                    "relatedStops": [
+                        4908,
+                        4909
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U3"
+                ],
+                "relatedStops": [
+                    4908,
+                    4909
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
                 "name": "ftazS_56",
                 "title": "Stephansplatz",
                 "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Zwischengeschoß N-1 (Stationswart) in das Zwischengeschoß N-3.\n\n",
@@ -30,35 +158,55 @@
             },
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_122",
-                "title": "Schwedenplatz",
-                "description": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig ins Zwischengeschoß.\n\n",
+                "name": "ftazS_272",
+                "title": "Landstraße",
+                "description": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig ins Zwischengeschoß zur U3.",
                 "attributes": {
-                    "ausBis": "17.06.2026 00:45",
-                    "reason": "",
+                    "reason": "Geplante Wartung wird durchgeführt. Voraussichtlich bis 16.06.2026 außer Betrieb!",
                     "relatedLines": [
-                        "U1"
+                        "U3"
                     ],
-                    "station": "Schwedenplatz",
-                    "ausVon": "16.06.2026 20:45",
-                    "location": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig ins Zwischengeschoß.\n\n",
-                    "towards": "U1 beide Richtungen",
+                    "station": "Landstraße",
+                    "location": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig ins Zwischengeschoß zur U3.",
+                    "towards": "U3 beide Richtungen",
                     "relatedStops": [
-                        4113,
-                        4116
+                        4904,
+                        4913
                     ],
                     "status": "außer Betrieb"
                 },
-                "time": {
-                    "start": "2026-06-16T20:45:00.000+0200",
-                    "end": "2026-06-17T00:45:00.000+0200"
-                },
                 "relatedLines": [
-                    "U1"
+                    "U3"
                 ],
                 "relatedStops": [
-                    4113,
-                    4116
+                    4904,
+                    4913
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_222",
+                "title": "Bahnhof Meidling",
+                "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Schedifkaplatz in das Zwischengeschoß (Zugang zur ÖBB).\n",
+                "attributes": {
+                    "ausBis": "25.06.2026 00:45",
+                    "reason": "Die Fahrtreppe ist vorübergehend außer Betrieb. Die erforderlichen Maßnahmen wurden eingeleitet, Voraussichtlich bis 22.06.2026 außer Betrieb!",
+                    "relatedLines": [
+                        "U6"
+                    ],
+                    "station": "Bahnhof Meidling",
+                    "ausVon": "24.06.2026 20:45",
+                    "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Schedifkaplatz in das Zwischengeschoß (Zugang zur ÖBB).\n",
+                    "towards": "U6 beide Richtungen",
+                    "relatedStops": [],
+                    "status": "außer Betrieb"
+                },
+                "time": {
+                    "start": "2026-06-24T20:45:00.000+0200",
+                    "end": "2026-06-25T00:45:00.000+0200"
+                },
+                "relatedLines": [
+                    "U6"
                 ]
             },
             {
@@ -96,291 +244,16 @@
             },
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_222",
-                "title": "Bahnhof Meidling",
-                "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Schedifkaplatz in das Zwischengeschoß (Zugang zur ÖBB).\n",
-                "attributes": {
-                    "ausBis": "25.06.2026 00:45",
-                    "reason": "Die Fahrtreppe ist vorübergehend außer Betrieb. Die erforderlichen Maßnahmen wurden eingeleitet, Voraussichtlich bis 22.06.2026 außer Betrieb!",
-                    "relatedLines": [
-                        "U6"
-                    ],
-                    "station": "Bahnhof Meidling",
-                    "ausVon": "24.06.2026 20:45",
-                    "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Schedifkaplatz in das Zwischengeschoß (Zugang zur ÖBB).\n",
-                    "towards": "U6 beide Richtungen",
-                    "relatedStops": [],
-                    "status": "außer Betrieb"
-                },
-                "time": {
-                    "start": "2026-06-24T20:45:00.000+0200",
-                    "end": "2026-06-25T00:45:00.000+0200"
-                },
-                "relatedLines": [
-                    "U6"
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_272",
-                "title": "Landstraße",
-                "description": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig ins Zwischengeschoß zur U3.",
-                "attributes": {
-                    "reason": "Geplante Wartung wird durchgeführt. Voraussichtlich bis 16.06.2026 außer Betrieb!",
-                    "relatedLines": [
-                        "U3"
-                    ],
-                    "station": "Landstraße",
-                    "location": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig ins Zwischengeschoß zur U3.",
-                    "towards": "U3 beide Richtungen",
-                    "relatedStops": [
-                        4904,
-                        4913
-                    ],
-                    "status": "außer Betrieb"
-                },
-                "relatedLines": [
-                    "U3"
-                ],
-                "relatedStops": [
-                    4904,
-                    4913
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_279",
-                "title": "Volkstheater",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Dr.Karl Renner Ring.",
-                "attributes": {
-                    "reason": "",
-                    "relatedLines": [
-                        "U3"
-                    ],
-                    "station": "Volkstheater",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Dr.Karl Renner Ring.",
-                    "towards": "U3 beide Richtungen",
-                    "relatedStops": [
-                        4908,
-                        4909
-                    ],
-                    "status": "außer Betrieb"
-                },
-                "relatedLines": [
-                    "U3"
-                ],
-                "relatedStops": [
-                    4908,
-                    4909
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_382",
-                "title": "Zieglergasse",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (West) an die Oberfläche Ausgang Otto Bauer Gasse.",
-                "attributes": {
-                    "reason": "",
-                    "relatedLines": [
-                        "U3"
-                    ],
-                    "station": "Zieglergasse",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (West) an die Oberfläche Ausgang Otto Bauer Gasse.",
-                    "towards": "U3 beide Richtungen",
-                    "relatedStops": [
-                        4919,
-                        4922
-                    ],
-                    "status": "außer Betrieb"
-                },
-                "relatedLines": [
-                    "U3"
-                ],
-                "relatedStops": [
-                    4919,
-                    4922
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_439",
-                "title": "Schweglerstraße",
-                "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Stättermeyergasse ins Zwischengeschoß.",
-                "attributes": {
-                    "reason": "Die Fahrtreppe ist vorübergehend außer Betrieb. Die erforderlichen Maßnahmen wurden eingeleitet, Voraussichtlich bis 22.06.2026 außer Betrieb!",
-                    "relatedLines": [
-                        "U3"
-                    ],
-                    "station": "Schweglerstraße",
-                    "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Stättermeyergasse ins Zwischengeschoß.",
-                    "towards": "U3 beide Richtungen",
-                    "relatedStops": [
-                        4924,
-                        4927
-                    ],
-                    "status": "außer Betrieb"
-                },
-                "relatedLines": [
-                    "U3"
-                ],
-                "relatedStops": [
-                    4924,
-                    4927
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_453",
-                "title": "Johnstraße",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß ins Zwischengeschoß Eingang Markt.",
-                "attributes": {
-                    "ausBis": "26.06.2026 05:00",
-                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
-                    "relatedLines": [
-                        "U3"
-                    ],
-                    "station": "Johnstraße",
-                    "ausVon": "26.06.2026 01:00",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß ins Zwischengeschoß Eingang Markt.",
-                    "towards": "U3 beide Richtungen",
-                    "relatedStops": [
-                        4925,
-                        4926
-                    ],
-                    "status": "außer Betrieb"
-                },
-                "time": {
-                    "start": "2026-06-26T01:00:00.000+0200",
-                    "end": "2026-06-26T05:00:00.000+0200"
-                },
-                "relatedLines": [
-                    "U3"
-                ],
-                "relatedStops": [
-                    4925,
-                    4926
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_506",
-                "title": "Jägerstraße",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Dresdnerstraße.",
-                "attributes": {
-                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
-                    "relatedLines": [
-                        "U6"
-                    ],
-                    "station": "Jägerstraße",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Dresdnerstraße.",
-                    "towards": "U6 beide Richtungen",
-                    "relatedStops": [
-                        4641,
-                        4650
-                    ],
-                    "status": "außer Betrieb"
-                },
-                "relatedLines": [
-                    "U6"
-                ],
-                "relatedStops": [
-                    4641,
-                    4650
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_537",
-                "title": "Floridsdorf",
-                "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche auf den U6 Bahnsteig.",
-                "attributes": {
-                    "reason": "FAHRTREPPENERNEUERUNG Voraussichtlich bis 13.07.2026 außer Betrieb!",
-                    "relatedLines": [
-                        "U6"
-                    ],
-                    "station": "Floridsdorf",
-                    "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche auf den U6 Bahnsteig.",
-                    "towards": "U6 beide Richtungen",
-                    "relatedStops": [
-                        4645,
-                        4646
-                    ],
-                    "status": "außer Betrieb"
-                },
-                "relatedLines": [
-                    "U6"
-                ],
-                "relatedStops": [
-                    4645,
-                    4646
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_538",
-                "title": "Floridsdorf",
-                "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U6 Bahnsteig an die Oberfläche.",
-                "attributes": {
-                    "reason": "",
-                    "relatedLines": [
-                        "U6"
-                    ],
-                    "station": "Floridsdorf",
-                    "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U6 Bahnsteig an die Oberfläche.",
-                    "towards": "U6 beide Richtungen",
-                    "relatedStops": [
-                        4645,
-                        4646
-                    ],
-                    "status": "außer Betrieb"
-                },
-                "relatedLines": [
-                    "U6"
-                ],
-                "relatedStops": [
-                    4645,
-                    4646
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_765",
-                "title": "Enkplatz",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Enkplatz.",
-                "attributes": {
-                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
-                    "relatedLines": [
-                        "U3"
-                    ],
-                    "station": "Enkplatz",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Enkplatz.",
-                    "towards": "U3 beide Richtungen",
-                    "relatedStops": [
-                        4936,
-                        4939
-                    ],
-                    "status": "außer Betrieb"
-                },
-                "relatedLines": [
-                    "U3"
-                ],
-                "relatedStops": [
-                    4936,
-                    4939
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_1016877",
+                "name": "ftazS_1018088",
                 "title": "Praterstern",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Richtung Leopoldau in das Zwischengeschoß Ausgang Lassallstraße.",
+                "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U2 Mittelbahnsteig in das Zwischengeschoß Zugang U1/Ausgang Prater.",
                 "attributes": {
-                    "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+                    "reason": "",
                     "relatedLines": [
                         "U1"
                     ],
                     "station": "Praterstern",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Richtung Leopoldau in das Zwischengeschoß Ausgang Lassallstraße.",
+                    "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U2 Mittelbahnsteig in das Zwischengeschoß Zugang U1/Ausgang Prater.",
                     "towards": "U1 beide Richtungen",
                     "relatedStops": [
                         4112,
@@ -422,6 +295,363 @@
                     4112,
                     4117
                 ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_1016877",
+                "title": "Praterstern",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Richtung Leopoldau in das Zwischengeschoß Ausgang Lassallstraße.",
+                "attributes": {
+                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
+                    "relatedLines": [
+                        "U1"
+                    ],
+                    "station": "Praterstern",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Richtung Leopoldau in das Zwischengeschoß Ausgang Lassallstraße.",
+                    "towards": "U1 beide Richtungen",
+                    "relatedStops": [
+                        4112,
+                        4117
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U1"
+                ],
+                "relatedStops": [
+                    4112,
+                    4117
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_129",
+                "title": "Schwedenplatz",
+                "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U1 Bahnsteig.\n\n",
+                "attributes": {
+                    "reason": "Geplante Wartung wird durchgeführt.",
+                    "relatedLines": [
+                        "U1"
+                    ],
+                    "station": "Schwedenplatz",
+                    "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U1 Bahnsteig.\n\n",
+                    "towards": "U1 beide Richtungen",
+                    "relatedStops": [
+                        4113,
+                        4116
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U1"
+                ],
+                "relatedStops": [
+                    4113,
+                    4116
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_128",
+                "title": "Schwedenplatz",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß.",
+                "attributes": {
+                    "reason": "Geplante Wartung wird durchgeführt.",
+                    "relatedLines": [
+                        "U1"
+                    ],
+                    "station": "Schwedenplatz",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß.",
+                    "towards": "U1 beide Richtungen",
+                    "relatedStops": [
+                        4113,
+                        4116
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U1"
+                ],
+                "relatedStops": [
+                    4113,
+                    4116
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_122",
+                "title": "Schwedenplatz",
+                "description": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig ins Zwischengeschoß.\n\n",
+                "attributes": {
+                    "ausBis": "17.06.2026 00:45",
+                    "reason": "",
+                    "relatedLines": [
+                        "U1"
+                    ],
+                    "station": "Schwedenplatz",
+                    "ausVon": "16.06.2026 20:45",
+                    "location": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig ins Zwischengeschoß.\n\n",
+                    "towards": "U1 beide Richtungen",
+                    "relatedStops": [
+                        4113,
+                        4116
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "time": {
+                    "start": "2026-06-16T20:45:00.000+0200",
+                    "end": "2026-06-17T00:45:00.000+0200"
+                },
+                "relatedLines": [
+                    "U1"
+                ],
+                "relatedStops": [
+                    4113,
+                    4116
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_382",
+                "title": "Zieglergasse",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (West) an die Oberfläche Ausgang Otto Bauer Gasse.",
+                "attributes": {
+                    "reason": "",
+                    "relatedLines": [
+                        "U3"
+                    ],
+                    "station": "Zieglergasse",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (West) an die Oberfläche Ausgang Otto Bauer Gasse.",
+                    "towards": "U3 beide Richtungen",
+                    "relatedStops": [
+                        4919,
+                        4922
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U3"
+                ],
+                "relatedStops": [
+                    4919,
+                    4922
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_418",
+                "title": "Westbahnhof",
+                "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet. Fahrtreppe fährt in Auf/Abwärtsrichtung vom Zwischengeschoß an die Oberfläche Äußere Mariahilferstraße.",
+                "attributes": {
+                    "reason": "Geplante Wartung wird durchgeführt.",
+                    "relatedLines": [
+                        "U3"
+                    ],
+                    "station": "Westbahnhof",
+                    "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet. Fahrtreppe fährt in Auf/Abwärtsrichtung vom Zwischengeschoß an die Oberfläche Äußere Mariahilferstraße.",
+                    "towards": "U3 beide Richtungen",
+                    "relatedStops": [
+                        4920,
+                        4921
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U3"
+                ],
+                "relatedStops": [
+                    4920,
+                    4921
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_410",
+                "title": "Westbahnhof",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig ins Zwischengeschoß.",
+                "attributes": {
+                    "reason": "Geplante Wartung wird durchgeführt.",
+                    "relatedLines": [
+                        "U3"
+                    ],
+                    "station": "Westbahnhof",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig ins Zwischengeschoß.",
+                    "towards": "U3 beide Richtungen",
+                    "relatedStops": [
+                        4920,
+                        4921
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U3"
+                ],
+                "relatedStops": [
+                    4920,
+                    4921
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_439",
+                "title": "Schweglerstraße",
+                "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Stättermeyergasse ins Zwischengeschoß.",
+                "attributes": {
+                    "reason": "Die Fahrtreppe ist vorübergehend außer Betrieb. Die erforderlichen Maßnahmen wurden eingeleitet, Voraussichtlich bis 22.06.2026 außer Betrieb!",
+                    "relatedLines": [
+                        "U3"
+                    ],
+                    "station": "Schweglerstraße",
+                    "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Stättermeyergasse ins Zwischengeschoß.",
+                    "towards": "U3 beide Richtungen",
+                    "relatedStops": [
+                        4924,
+                        4927
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U3"
+                ],
+                "relatedStops": [
+                    4924,
+                    4927
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_513",
+                "title": "Dresdner Straße",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Dresdnerstraße.",
+                "attributes": {
+                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
+                    "relatedLines": [
+                        "U6"
+                    ],
+                    "station": "Dresdner Straße",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Dresdnerstraße.",
+                    "towards": "U6 beide Richtungen",
+                    "relatedStops": [
+                        4642,
+                        4649
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U6"
+                ],
+                "relatedStops": [
+                    4642,
+                    4649
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_538",
+                "title": "Floridsdorf",
+                "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U6 Bahnsteig an die Oberfläche.",
+                "attributes": {
+                    "reason": "",
+                    "relatedLines": [
+                        "U6"
+                    ],
+                    "station": "Floridsdorf",
+                    "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U6 Bahnsteig an die Oberfläche.",
+                    "towards": "U6 beide Richtungen",
+                    "relatedStops": [
+                        4645,
+                        4646
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U6"
+                ],
+                "relatedStops": [
+                    4645,
+                    4646
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_537",
+                "title": "Floridsdorf",
+                "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche auf den U6 Bahnsteig.",
+                "attributes": {
+                    "reason": "FAHRTREPPENERNEUERUNG Voraussichtlich bis 13.07.2026 außer Betrieb!",
+                    "relatedLines": [
+                        "U6"
+                    ],
+                    "station": "Floridsdorf",
+                    "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche auf den U6 Bahnsteig.",
+                    "towards": "U6 beide Richtungen",
+                    "relatedStops": [
+                        4645,
+                        4646
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U6"
+                ],
+                "relatedStops": [
+                    4645,
+                    4646
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_1031280",
+                "title": "Stadlau",
+                "description": "Fahrtreppe fährt in Abwärtsrichtung vom U2 Bahnsteig in das Aufnahmegebäude.",
+                "attributes": {
+                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
+                    "relatedLines": [
+                        "U2"
+                    ],
+                    "station": "Stadlau",
+                    "location": "Fahrtreppe fährt in Abwärtsrichtung vom U2 Bahnsteig in das Aufnahmegebäude.",
+                    "towards": "U2 beide Richtungen",
+                    "relatedStops": [
+                        4254,
+                        4269
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U2"
+                ],
+                "relatedStops": [
+                    4254,
+                    4269
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_1031278",
+                "title": "Stadlau",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Aufnahmegebäude auf den ÖBB Bahnsteig.",
+                "attributes": {
+                    "reason": "Geplante Wartung wird durchgeführt. Voraussichtlich bis 12.06.2026 außer Betrieb!",
+                    "relatedLines": [
+                        "U2"
+                    ],
+                    "station": "Stadlau",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Aufnahmegebäude auf den ÖBB Bahnsteig.",
+                    "towards": "U2 beide Richtungen",
+                    "relatedStops": [
+                        4254,
+                        4269
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U2"
+                ],
+                "relatedStops": [
+                    4254,
+                    4269
+                ]
             }
         ],
         "trafficInfoCategories": [
@@ -429,7 +659,7 @@
                 "id": 4,
                 "refTrafficInfoCategoryGroupId": 1,
                 "name": "fahrtreppeninfo",
-                "trafficInfoNameList": "ftazS_56, ftazS_122, ftazS_195, ftazS_222, ftazS_272, ftazS_279, ftazS_382, ftazS_439, ftazS_453, ftazS_506, ftazS_537, ftazS_538, ftazS_765, ftazS_1016877, ftazS_1016879",
+                "trafficInfoNameList": "ftazS_720, ftazS_183, ftazS_96, ftazS_279, ftazS_278, ftazS_56, ftazS_272, ftazS_222, ftazS_195, ftazS_1018088, ftazS_1016879, ftazS_1016877, ftazS_129, ftazS_128, ftazS_122, ftazS_382, ftazS_418, ftazS_410, ftazS_439, ftazS_513, ftazS_538, ftazS_537, ftazS_1031280, ftazS_1031278",
                 "title": "Fahrtreppenstörungen"
             }
         ],
@@ -444,6 +674,6 @@
     "message": {
         "value": "OK",
         "messageCode": 1,
-        "serverTime": "2026-06-09T06:39:32.000+0200"
+        "serverTime": "2026-06-09T10:43:09.000+0200"
     }
 }
