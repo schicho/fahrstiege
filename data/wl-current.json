@@ -3,39 +3,6 @@
         "trafficInfos": [
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_26",
-                "title": "Hietzing",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung Hütteldorf an die Oberfläche.\n\n",
-                "attributes": {
-                    "ausBis": "26.06.2026 05:15",
-                    "reason": "",
-                    "relatedLines": [
-                        "U4"
-                    ],
-                    "station": "Hietzing",
-                    "ausVon": "26.06.2026 01:15",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung Hütteldorf an die Oberfläche.\n\n",
-                    "towards": "U4 beide Richtungen",
-                    "relatedStops": [
-                        4409,
-                        4428
-                    ],
-                    "status": "außer Betrieb"
-                },
-                "time": {
-                    "start": "2026-06-26T01:15:00.000+0200",
-                    "end": "2026-06-26T05:15:00.000+0200"
-                },
-                "relatedLines": [
-                    "U4"
-                ],
-                "relatedStops": [
-                    4409,
-                    4428
-                ]
-            },
-            {
-                "refTrafficInfoCategoryId": 4,
                 "name": "ftazS_35",
                 "title": "Herrengasse",
                 "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Herrengasse.",
@@ -90,6 +57,33 @@
             },
             {
                 "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_156",
+                "title": "Reumannplatz",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Reumannplatz.",
+                "attributes": {
+                    "reason": "Geplante Wartung wird durchgeführt.",
+                    "relatedLines": [
+                        "U1"
+                    ],
+                    "station": "Reumannplatz",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Reumannplatz.",
+                    "towards": "U1 beide Richtungen",
+                    "relatedStops": [
+                        4101,
+                        4128
+                    ],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U1"
+                ],
+                "relatedStops": [
+                    4101,
+                    4128
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
                 "name": "ftazS_222",
                 "title": "Bahnhof Meidling",
                 "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Schedifkaplatz in das Zwischengeschoß (Zugang zur ÖBB).\n",
@@ -112,6 +106,52 @@
                 },
                 "relatedLines": [
                     "U6"
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_248",
+                "title": "Karlsplatz",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U4 Bahnsteig zum Ausgang Resselpark/Verbindungsgang zur U2.",
+                "attributes": {
+                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
+                    "relatedLines": [
+                        "U4"
+                    ],
+                    "station": "Karlsplatz",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U4 Bahnsteig zum Ausgang Resselpark/Verbindungsgang zur U2.",
+                    "towards": "U4 beide Richtungen",
+                    "relatedStops": [],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U4"
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_257",
+                "title": "Karlsplatz",
+                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß (ZLS).\n\n",
+                "attributes": {
+                    "ausBis": "12.06.2026 05:15",
+                    "reason": "An der Instandsetzung wird bereits gearbeitet.",
+                    "relatedLines": [
+                        "U1"
+                    ],
+                    "station": "Karlsplatz",
+                    "ausVon": "12.06.2026 01:15",
+                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß (ZLS).\n\n",
+                    "towards": "U1 beide Richtungen",
+                    "relatedStops": [],
+                    "status": "außer Betrieb"
+                },
+                "time": {
+                    "start": "2026-06-12T01:15:00.000+0200",
+                    "end": "2026-06-12T05:15:00.000+0200"
+                },
+                "relatedLines": [
+                    "U1"
                 ]
             },
             {
@@ -143,16 +183,16 @@
             },
             {
                 "refTrafficInfoCategoryId": 4,
-                "name": "ftazS_383",
+                "name": "ftazS_380",
                 "title": "Zieglergasse",
-                "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (West) an die Oberfläche Ausgang Andreasgasse.",
+                "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß (West) auf den Bahnsteig Gleis 2 Richtung Erdberg.",
                 "attributes": {
-                    "reason": "",
+                    "reason": "Geplante Wartung wird durchgeführt.",
                     "relatedLines": [
                         "U3"
                     ],
                     "station": "Zieglergasse",
-                    "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (West) an die Oberfläche Ausgang Andreasgasse.",
+                    "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß (West) auf den Bahnsteig Gleis 2 Richtung Erdberg.",
                     "towards": "U3 beide Richtungen",
                     "relatedStops": [
                         4919,
@@ -369,7 +409,7 @@
                 "id": 4,
                 "refTrafficInfoCategoryGroupId": 1,
                 "name": "fahrtreppeninfo",
-                "trafficInfoNameList": "ftazS_26, ftazS_35, ftazS_56, ftazS_222, ftazS_272, ftazS_383, ftazS_439, ftazS_441, ftazS_449, ftazS_494, ftazS_537, ftazS_1018086, ftazS_1031278",
+                "trafficInfoNameList": "ftazS_35, ftazS_56, ftazS_156, ftazS_222, ftazS_248, ftazS_257, ftazS_272, ftazS_380, ftazS_439, ftazS_441, ftazS_449, ftazS_494, ftazS_537, ftazS_1018086, ftazS_1031278",
                 "title": "Fahrtreppenstörungen"
             }
         ],
@@ -384,6 +424,6 @@
     "message": {
         "value": "OK",
         "messageCode": 1,
-        "serverTime": "2026-06-11T18:31:36.000+0200"
+        "serverTime": "2026-06-11T21:48:33.000+0200"
     }
 }
