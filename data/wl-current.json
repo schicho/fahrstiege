@@ -116,6 +116,26 @@
             },
             {
                 "refTrafficInfoCategoryId": 4,
+                "name": "ftazS_260",
+                "title": "Karlsplatz",
+                "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U1 Bahnsteig.\n\n",
+                "attributes": {
+                    "reason": "Geplante Wartung wird durchgeführt.",
+                    "relatedLines": [
+                        "U1"
+                    ],
+                    "station": "Karlsplatz",
+                    "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U1 Bahnsteig.\n\n",
+                    "towards": "U1 beide Richtungen",
+                    "relatedStops": [],
+                    "status": "außer Betrieb"
+                },
+                "relatedLines": [
+                    "U1"
+                ]
+            },
+            {
+                "refTrafficInfoCategoryId": 4,
                 "name": "ftazS_272",
                 "title": "Landstraße",
                 "description": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig ins Zwischengeschoß zur U3.",
@@ -309,7 +329,7 @@
                 "id": 4,
                 "refTrafficInfoCategoryGroupId": 1,
                 "name": "fahrtreppeninfo",
-                "trafficInfoNameList": "ftazS_56, ftazS_186, ftazS_222, ftazS_238, ftazS_272, ftazS_358, ftazS_439, ftazS_498, ftazS_537, ftazS_1016879, ftazS_1018086",
+                "trafficInfoNameList": "ftazS_56, ftazS_186, ftazS_222, ftazS_238, ftazS_260, ftazS_272, ftazS_358, ftazS_439, ftazS_498, ftazS_537, ftazS_1016879, ftazS_1018086",
                 "title": "Fahrtreppenstörungen"
             }
         ],
@@ -324,6 +344,6 @@
     "message": {
         "value": "OK",
         "messageCode": 1,
-        "serverTime": "2026-06-14T22:01:00.000+0200"
+        "serverTime": "2026-06-14T23:44:17.000+0200"
     }
 }
