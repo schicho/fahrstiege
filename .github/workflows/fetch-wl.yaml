@@ -3,6 +3,7 @@ name: Fetch the escalator information from Wiener Linien API
 on:
     schedule:
         - cron: "15 6,9,12,15,18,21 * * *"
+          timezone: "Europe/Vienna"
     workflow_dispatch:
 
 permissions:
