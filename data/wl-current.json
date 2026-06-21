@@ -111,22 +111,28 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_221",
-        "title": "Bahnhof Meidling",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig ins Zwischengeschoß.",
+        "name": "ftazS_250",
+        "title": "Karlsplatz",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig in den Verbindungsgang zur U1.",
         "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "ausBis": "27.07.2026 00:45",
+          "reason": "Geplante Wartung wird durchgeführt.",
           "relatedLines": [
-            "U6"
+            "U4"
           ],
-          "station": "Bahnhof Meidling",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig ins Zwischengeschoß.",
-          "towards": "U6 beide Richtungen",
+          "station": "Karlsplatz",
+          "ausVon": "26.07.2026 20:45",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig in den Verbindungsgang zur U1.",
+          "towards": "U4 beide Richtungen",
           "relatedStops": [],
           "status": "außer Betrieb"
         },
+        "time": {
+          "start": "2026-07-26T20:45:00.000+0200",
+          "end": "2026-07-27T00:45:00.000+0200"
+        },
         "relatedLines": [
-          "U6"
+          "U4"
         ]
       },
       {
@@ -160,33 +166,6 @@
         "relatedStops": [
           4904,
           4913
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_280",
-        "title": "Volkstheater",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Volksgarten.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Volkstheater",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Volksgarten.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4908,
-            4909
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4908,
-          4909
         ]
       },
       {
@@ -247,6 +226,39 @@
         "relatedStops": [
           4919,
           4922
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_408",
+        "title": "Westbahnhof",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U3 Bahnsteig.",
+        "attributes": {
+          "ausBis": "27.07.2026 00:45",
+          "reason": "Geplante Wartung wird durchgeführt.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Westbahnhof",
+          "ausVon": "26.07.2026 20:45",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U3 Bahnsteig.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4920,
+            4921
+          ],
+          "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-07-26T20:45:00.000+0200",
+          "end": "2026-07-27T00:45:00.000+0200"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4920,
+          4921
         ]
       },
       {
@@ -363,7 +375,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_51, ftazS_56, ftazS_95, ftazS_163, ftazS_221, ftazS_273, ftazS_280, ftazS_286, ftazS_376, ftazS_441, ftazS_537, ftazS_609, ftazS_1031278",
+        "trafficInfoNameList": "ftazS_51, ftazS_56, ftazS_95, ftazS_163, ftazS_250, ftazS_273, ftazS_286, ftazS_376, ftazS_408, ftazS_441, ftazS_537, ftazS_609, ftazS_1031278",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -378,6 +390,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-06-21T19:53:13.000+0200"
+    "serverTime": "2026-06-21T22:47:48.000+0200"
   }
 }
