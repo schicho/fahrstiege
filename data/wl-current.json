@@ -117,33 +117,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_378",
-        "title": "Zieglergasse",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß (West) auf den Bahnsteig Gleis 1 Richtung Erdberg.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Zieglergasse",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß (West) auf den Bahnsteig Gleis 1 Richtung Erdberg.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4919,
-            4922
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4919,
-          4922
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_609",
         "title": "Hütteldorfer Straße",
         "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Hütteldorferstr./Breitenseerstraße auf den U3 Bahnsteig.",
@@ -167,6 +140,33 @@
         "relatedStops": [
           4928,
           4933
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_456",
+        "title": "Schweglerstraße",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig an die Oberfläche Ausgang Märzstraße.",
+        "attributes": {
+          "reason": "",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Schweglerstraße",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig an die Oberfläche Ausgang Märzstraße.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4924,
+            4927
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4924,
+          4927
         ]
       },
       {
@@ -249,33 +249,6 @@
           4105,
           4124
         ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_40",
-        "title": "Keplerplatz",
-        "description": "Fahrtreppe fährt vom Bahnsteig in Aufwärtsrichtung an die Oberfläche.\n\n",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Keplerplatz",
-          "location": "Fahrtreppe fährt vom Bahnsteig in Aufwärtsrichtung an die Oberfläche.\n\n",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4103,
-            4126
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4103,
-          4126
-        ]
       }
     ],
     "trafficInfoCategories": [
@@ -283,7 +256,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_273, ftazS_363, ftazS_1351730, ftazS_537, ftazS_378, ftazS_609, ftazS_163, ftazS_56, ftazS_95, ftazS_40",
+        "trafficInfoNameList": "ftazS_273, ftazS_363, ftazS_1351730, ftazS_537, ftazS_609, ftazS_456, ftazS_163, ftazS_56, ftazS_95",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -298,6 +271,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-06-23T18:06:53.000+0200"
+    "serverTime": "2026-06-23T20:15:07.000+0200"
   }
 }
