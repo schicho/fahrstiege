@@ -3,35 +3,29 @@
     "trafficInfos": [
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_122",
-        "title": "Schwedenplatz",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig ins Zwischengeschoß.\n\n",
+        "name": "ftazS_8",
+        "title": "Museumsquartier",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung von der Passage an die Oberfläche Ausgang Mariahilferstraße.",
         "attributes": {
-          "ausBis": "15.07.2026 00:45",
           "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
-            "U1"
+            "U2"
           ],
-          "station": "Schwedenplatz",
-          "ausVon": "14.07.2026 20:45",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig ins Zwischengeschoß.\n\n",
-          "towards": "U1 beide Richtungen",
+          "station": "Museumsquartier",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung von der Passage an die Oberfläche Ausgang Mariahilferstraße.",
+          "towards": "U2 beide Richtungen",
           "relatedStops": [
-            4113,
-            4116
+            4204,
+            4211
           ],
           "status": "außer Betrieb"
         },
-        "time": {
-          "start": "2026-07-14T20:45:00.000+0200",
-          "end": "2026-07-15T00:45:00.000+0200"
-        },
         "relatedLines": [
-          "U1"
+          "U2"
         ],
         "relatedStops": [
-          4113,
-          4116
+          4204,
+          4211
         ]
       },
       {
@@ -86,6 +80,60 @@
         "relatedStops": [
           4645,
           4646
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_614",
+        "title": "Hütteldorfer Straße",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Aufgang Reinlgasse auf den Bahnsteig.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Hütteldorfer Straße",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Aufgang Reinlgasse auf den Bahnsteig.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4928,
+            4933
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4928,
+          4933
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_615",
+        "title": "Hütteldorfer Straße",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Reinlgasse ins Zwischengeschoß.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Hütteldorfer Straße",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Reinlgasse ins Zwischengeschoß.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4928,
+            4933
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4928,
+          4933
         ]
       },
       {
@@ -161,6 +209,53 @@
           4254,
           4269
         ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_1031900",
+        "title": "Südtiroler Platz-Hauptbahnhof",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung von der Passage auf den Bahnsteig der Straßenbahnlinie 18 Richtung Schlachthausgasse/Ausgang Favoritenstraße.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "Unterflurstrassenbahn"
+          ],
+          "station": "Südtiroler Platz-Hauptbahnhof",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung von der Passage auf den Bahnsteig der Straßenbahnlinie 18 Richtung Schlachthausgasse/Ausgang Favoritenstraße.",
+          "towards": "Unterflurstrassenbahn beide Richtungen",
+          "relatedStops": [],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "Unterflurstrassenbahn"
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_1351728",
+        "title": "Troststraße",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Klausenburgerstraße auf den U1 Bahnsteig.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Troststraße",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Klausenburgerstraße auf den U1 Bahnsteig.",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4129,
+            4138
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4129,
+          4138
+        ]
       }
     ],
     "trafficInfoCategories": [
@@ -168,7 +263,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_122, ftazS_163, ftazS_537, ftazS_708, ftazS_761, ftazS_1031280",
+        "trafficInfoNameList": "ftazS_8, ftazS_163, ftazS_537, ftazS_614, ftazS_615, ftazS_708, ftazS_761, ftazS_1031280, ftazS_1031900, ftazS_1351728",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -183,6 +278,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-06-27T22:33:11.000+0200"
+    "serverTime": "2026-06-28T09:58:16.000+0200"
   }
 }
