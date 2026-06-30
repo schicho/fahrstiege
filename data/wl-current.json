@@ -36,39 +36,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_185",
-        "title": "Südtiroler Platz-Hauptbahnhof",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß/Passage zum U1 Bahnsteig.\n\n",
-        "attributes": {
-          "ausBis": "28.07.2026 05:15",
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Südtiroler Platz-Hauptbahnhof",
-          "ausVon": "28.07.2026 01:15",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß/Passage zum U1 Bahnsteig.\n\n",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4105,
-            4124
-          ],
-          "status": "außer Betrieb"
-        },
-        "time": {
-          "start": "2026-07-28T01:15:00.000+0200",
-          "end": "2026-07-28T05:15:00.000+0200"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4105,
-          4124
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_269",
         "title": "Landstraße",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß ins Aufnahmegebäude.",
@@ -98,6 +65,32 @@
         "relatedStops": [
           4904,
           4913
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_223",
+        "title": "Bahnhof Meidling",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Zugang zur ÖBB) an die Oberfläche Ausgang Schedifkaplatz.",
+        "attributes": {
+          "ausBis": "30.07.2026 05:15",
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "relatedLines": [
+            "U6"
+          ],
+          "station": "Bahnhof Meidling",
+          "ausVon": "30.07.2026 01:15",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Zugang zur ÖBB) an die Oberfläche Ausgang Schedifkaplatz.",
+          "towards": "U6 beide Richtungen",
+          "relatedStops": [],
+          "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-07-30T01:15:00.000+0200",
+          "end": "2026-07-30T05:15:00.000+0200"
+        },
+        "relatedLines": [
+          "U6"
         ]
       },
       {
@@ -203,22 +196,29 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_220",
-        "title": "Bahnhof Meidling",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U6 Bahnsteig.",
+        "name": "ftazS_35",
+        "title": "Herrengasse",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Herrengasse.",
         "attributes": {
-          "reason": "",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
-            "U6"
+            "U3"
           ],
-          "station": "Bahnhof Meidling",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U6 Bahnsteig.",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [],
+          "station": "Herrengasse",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Herrengasse.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4907,
+            4910
+          ],
           "status": "außer Betrieb"
         },
         "relatedLines": [
-          "U6"
+          "U3"
+        ],
+        "relatedStops": [
+          4907,
+          4910
         ]
       },
       {
@@ -247,33 +247,6 @@
           4936,
           4939
         ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_40",
-        "title": "Keplerplatz",
-        "description": "Fahrtreppe fährt vom Bahnsteig in Aufwärtsrichtung an die Oberfläche.\n\n",
-        "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Keplerplatz",
-          "location": "Fahrtreppe fährt vom Bahnsteig in Aufwärtsrichtung an die Oberfläche.\n\n",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4103,
-            4126
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4103,
-          4126
-        ]
       }
     ],
     "trafficInfoCategories": [
@@ -281,7 +254,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_400, ftazS_185, ftazS_269, ftazS_537, ftazS_609, ftazS_708, ftazS_163, ftazS_220, ftazS_761, ftazS_40",
+        "trafficInfoNameList": "ftazS_400, ftazS_269, ftazS_223, ftazS_537, ftazS_609, ftazS_708, ftazS_163, ftazS_35, ftazS_761",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -296,6 +269,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-06-30T17:41:21.000+0200"
+    "serverTime": "2026-06-30T20:15:30.000+0200"
   }
 }
