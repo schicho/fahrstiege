@@ -69,28 +69,29 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_223",
-        "title": "Bahnhof Meidling",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Zugang zur ÖBB) an die Oberfläche Ausgang Schedifkaplatz.",
+        "name": "ftazS_1018083",
+        "title": "Praterstern",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß Zugang U1/U2 an die Oberfläche Ausgang Prater/Zugang ÖBB.",
         "attributes": {
-          "ausBis": "30.07.2026 05:15",
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "reason": "",
           "relatedLines": [
-            "U6"
+            "U1"
           ],
-          "station": "Bahnhof Meidling",
-          "ausVon": "30.07.2026 01:15",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Zugang zur ÖBB) an die Oberfläche Ausgang Schedifkaplatz.",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [],
+          "station": "Praterstern",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß Zugang U1/U2 an die Oberfläche Ausgang Prater/Zugang ÖBB.",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4112,
+            4117
+          ],
           "status": "außer Betrieb"
         },
-        "time": {
-          "start": "2026-07-30T01:15:00.000+0200",
-          "end": "2026-07-30T05:15:00.000+0200"
-        },
         "relatedLines": [
-          "U6"
+          "U1"
+        ],
+        "relatedStops": [
+          4112,
+          4117
         ]
       },
       {
@@ -254,7 +255,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_400, ftazS_269, ftazS_223, ftazS_537, ftazS_609, ftazS_708, ftazS_163, ftazS_35, ftazS_761",
+        "trafficInfoNameList": "ftazS_400, ftazS_269, ftazS_1018083, ftazS_537, ftazS_609, ftazS_708, ftazS_163, ftazS_35, ftazS_761",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -269,6 +270,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-06-30T20:15:30.000+0200"
+    "serverTime": "2026-06-30T23:05:09.000+0200"
   }
 }
