@@ -322,6 +322,53 @@
         "relatedLines": [
           "Unterflurstrassenbahn"
         ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_1016601",
+        "title": "Erzherzog-Karl-Straße",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche.",
+        "attributes": {
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "relatedLines": [
+            "Unterflurstrassenbahn"
+          ],
+          "station": "Erzherzog-Karl-Straße",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche.",
+          "towards": "Unterflurstrassenbahn beide Richtungen",
+          "relatedStops": [],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "Unterflurstrassenbahn"
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_1031278",
+        "title": "Stadlau",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Aufnahmegebäude auf den ÖBB Bahnsteig.",
+        "attributes": {
+          "reason": "",
+          "relatedLines": [
+            "U2"
+          ],
+          "station": "Stadlau",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Aufnahmegebäude auf den ÖBB Bahnsteig.",
+          "towards": "U2 beide Richtungen",
+          "relatedStops": [
+            4254,
+            4269
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U2"
+        ],
+        "relatedStops": [
+          4254,
+          4269
+        ]
       }
     ],
     "trafficInfoCategories": [
@@ -329,7 +376,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_35, ftazS_163, ftazS_180, ftazS_201, ftazS_229, ftazS_253, ftazS_269, ftazS_363, ftazS_399, ftazS_537, ftazS_609, ftazS_708",
+        "trafficInfoNameList": "ftazS_35, ftazS_163, ftazS_180, ftazS_201, ftazS_229, ftazS_253, ftazS_269, ftazS_363, ftazS_399, ftazS_537, ftazS_609, ftazS_708, ftazS_1016601, ftazS_1031278",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -344,6 +391,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-07-03T17:26:14.000+0200"
+    "serverTime": "2026-07-03T19:48:40.000+0200"
   }
 }
