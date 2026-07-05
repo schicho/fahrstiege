@@ -7,7 +7,7 @@
         "title": "Stephansplatz",
         "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß N-1 (Stationswart) in das Zwischengeschoß N-3.\n\n",
         "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U1"
           ],
@@ -35,7 +35,7 @@
         "description": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig ins Zwischengeschoß.\n\n",
         "attributes": {
           "ausBis": "15.07.2026 00:45",
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U1"
           ],
@@ -68,7 +68,7 @@
         "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Zwischengeschoß auf den U4 Bahnsteig.\n\n",
         "attributes": {
           "ausBis": "16.07.2026 00:45",
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U1"
           ],
@@ -100,7 +100,7 @@
         "title": "Schwedenplatz",
         "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U1 Bahnsteig.\n\n",
         "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U1"
           ],
@@ -255,7 +255,7 @@
         "title": "Karlsplatz",
         "description": "Fahrtreppe fährt in Abwärtsrichtung vom U2 Bahnsteig Endstation Karlsplatz ins Zwischengeschoß.",
         "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U2"
           ],
@@ -275,7 +275,7 @@
         "title": "Karlsplatz",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß auf den U2 Bahnsteig Richtung SO.",
         "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U2"
           ],
@@ -295,7 +295,7 @@
         "title": "Karlsplatz",
         "description": "Fahrtreppe fährt in Abwärtsrichtung vom Bahnsteig U2 Endstation ins Zwischengeschoß.\n\n",
         "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U2"
           ],
@@ -505,33 +505,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_723",
-        "title": "Heiligenstadt",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig Endstation Gleis 1/5 in die Passage.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U4"
-          ],
-          "station": "Heiligenstadt",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig Endstation Gleis 1/5 in die Passage.",
-          "towards": "U4 beide Richtungen",
-          "relatedStops": [
-            4402,
-            4435
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U4"
-        ],
-        "relatedStops": [
-          4402,
-          4435
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_759",
         "title": "Enkplatz",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Simmeringer Hauptstraße.",
@@ -590,7 +563,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_55, ftazS_122, ftazS_124, ftazS_129, ftazS_163, ftazS_180, ftazS_201, ftazS_213, ftazS_229, ftazS_253, ftazS_254, ftazS_259, ftazS_269, ftazS_363, ftazS_399, ftazS_456, ftazS_537, ftazS_609, ftazS_708, ftazS_723, ftazS_759, ftazS_1018086",
+        "trafficInfoNameList": "ftazS_55, ftazS_122, ftazS_124, ftazS_129, ftazS_163, ftazS_180, ftazS_201, ftazS_213, ftazS_229, ftazS_253, ftazS_254, ftazS_259, ftazS_269, ftazS_363, ftazS_399, ftazS_456, ftazS_537, ftazS_609, ftazS_708, ftazS_759, ftazS_1018086",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -605,6 +578,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-07-05T16:53:42.000+0200"
+    "serverTime": "2026-07-05T19:32:11.000+0200"
   }
 }
