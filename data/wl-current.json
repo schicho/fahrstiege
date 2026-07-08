@@ -125,20 +125,20 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_376",
-        "title": "Zieglergasse",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß (Ost) auf den Bahnsteig Gleis 1 Richtung Simmering.",
+        "name": "ftazS_456",
+        "title": "Schweglerstraße",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig an die Oberfläche Ausgang Märzstraße.",
         "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U3"
           ],
-          "station": "Zieglergasse",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß (Ost) auf den Bahnsteig Gleis 1 Richtung Simmering.",
+          "station": "Schweglerstraße",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig an die Oberfläche Ausgang Märzstraße.",
           "towards": "U3 beide Richtungen",
           "relatedStops": [
-            4919,
-            4922
+            4924,
+            4927
           ],
           "status": "außer Betrieb"
         },
@@ -146,8 +146,28 @@
           "U3"
         ],
         "relatedStops": [
-          4919,
-          4922
+          4924,
+          4927
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_1016603",
+        "title": "Erzherzog-Karl-Straße",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "Unterflurstrassenbahn"
+          ],
+          "station": "Erzherzog-Karl-Straße",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche.",
+          "towards": "Unterflurstrassenbahn beide Richtungen",
+          "relatedStops": [],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "Unterflurstrassenbahn"
         ]
       }
     ],
@@ -156,7 +176,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_92, ftazS_537, ftazS_201, ftazS_609, ftazS_708, ftazS_376",
+        "trafficInfoNameList": "ftazS_92, ftazS_537, ftazS_201, ftazS_609, ftazS_708, ftazS_456, ftazS_1016603",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -171,6 +191,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-07-08T17:35:34.000+0200"
+    "serverTime": "2026-07-08T19:52:23.000+0200"
   }
 }
