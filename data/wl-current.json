@@ -3,68 +3,28 @@
     "trafficInfos": [
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_403",
-        "title": "Westbahnhof",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Stationswart) auf den U6 Bahnsteig.",
+        "name": "ftazS_257",
+        "title": "Karlsplatz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß (ZLS).\n\n",
         "attributes": {
-          "ausBis": "16.07.2026 05:15",
-          "reason": "",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Westbahnhof",
-          "ausVon": "16.07.2026 01:15",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Stationswart) auf den U6 Bahnsteig.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4920,
-            4921
-          ],
-          "status": "außer Betrieb"
-        },
-        "time": {
-          "start": "2026-07-16T01:15:00.000+0200",
-          "end": "2026-07-16T05:15:00.000+0200"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4920,
-          4921
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_272",
-        "title": "Landstraße",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig ins Zwischengeschoß zur U3.",
-        "attributes": {
-          "ausBis": "29.07.2026 00:45",
+          "ausBis": "10.07.2026 05:15",
           "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
-            "U3"
+            "U1"
           ],
-          "station": "Landstraße",
-          "ausVon": "28.07.2026 20:45",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig ins Zwischengeschoß zur U3.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4904,
-            4913
-          ],
+          "station": "Karlsplatz",
+          "ausVon": "10.07.2026 01:15",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß (ZLS).\n\n",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [],
           "status": "außer Betrieb"
         },
         "time": {
-          "start": "2026-07-28T20:45:00.000+0200",
-          "end": "2026-07-29T00:45:00.000+0200"
+          "start": "2026-07-10T01:15:00.000+0200",
+          "end": "2026-07-10T05:15:00.000+0200"
         },
         "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4904,
-          4913
+          "U1"
         ]
       },
       {
@@ -201,7 +161,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_403, ftazS_272, ftazS_537, ftazS_201, ftazS_609, ftazS_708, ftazS_456",
+        "trafficInfoNameList": "ftazS_257, ftazS_537, ftazS_201, ftazS_609, ftazS_708, ftazS_456",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -216,6 +176,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-07-09T18:09:53.000+0200"
+    "serverTime": "2026-07-09T20:10:42.000+0200"
   }
 }
