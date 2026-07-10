@@ -34,7 +34,7 @@
         "title": "Landstraße",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig ins Zwischengeschoß Aufgang Beatrixgasse / LandstrasserHauptstrasse (Ost).",
         "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U3"
           ],
@@ -80,6 +80,33 @@
         "relatedStops": [
           4613,
           4616
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_609",
+        "title": "Hütteldorfer Straße",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Hütteldorferstr./Breitenseerstraße auf den U3 Bahnsteig.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Hütteldorfer Straße",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Hütteldorferstr./Breitenseerstraße auf den U3 Bahnsteig.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4928,
+            4933
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4928,
+          4933
         ]
       },
       {
@@ -131,49 +158,29 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_524",
-        "title": "Handelskai",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom U6 Bahnsteig Gleis 2 Richtung Siebenhirten an die Oberfläche Ausgang Engerthstraße.\n",
+        "name": "ftazS_117",
+        "title": "Schwedenplatz",
+        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Rothenturmstraße.\n",
         "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
-            "U6"
+            "U1"
           ],
-          "station": "Handelskai",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom U6 Bahnsteig Gleis 2 Richtung Siebenhirten an die Oberfläche Ausgang Engerthstraße.\n",
-          "towards": "U6 beide Richtungen",
+          "station": "Schwedenplatz",
+          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Rothenturmstraße.\n",
+          "towards": "U1 beide Richtungen",
           "relatedStops": [
-            4643,
-            4648
+            4113,
+            4116
           ],
           "status": "außer Betrieb"
         },
         "relatedLines": [
-          "U6"
+          "U1"
         ],
         "relatedStops": [
-          4643,
-          4648
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_219",
-        "title": "Bahnhof Meidling",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig ins Zwischengeschoß.",
-        "attributes": {
-          "reason": "",
-          "relatedLines": [
-            "U6"
-          ],
-          "station": "Bahnhof Meidling",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig ins Zwischengeschoß.",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U6"
+          4113,
+          4116
         ]
       }
     ],
@@ -182,7 +189,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_537, ftazS_276, ftazS_201, ftazS_708, ftazS_456, ftazS_524, ftazS_219",
+        "trafficInfoNameList": "ftazS_537, ftazS_276, ftazS_201, ftazS_609, ftazS_708, ftazS_456, ftazS_117",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -197,6 +204,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-07-10T17:40:15.000+0200"
+    "serverTime": "2026-07-10T20:02:17.000+0200"
   }
 }
