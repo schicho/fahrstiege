@@ -30,60 +30,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_38",
-        "title": "Keplerplatz",
-        "description": "Fahrtreppe fährt vom Zwischengeschoß in Aufwärtsrichtung an die Oberfläche.\n\n",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Keplerplatz",
-          "location": "Fahrtreppe fährt vom Zwischengeschoß in Aufwärtsrichtung an die Oberfläche.\n\n",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4103,
-            4126
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4103,
-          4126
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_379",
-        "title": "Zieglergasse",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 1 Richtung Erdberg in das Zwischengeschoß (West).",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Zieglergasse",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 1 Richtung Erdberg in das Zwischengeschoß (West).",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4919,
-            4922
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4919,
-          4922
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_472",
         "title": "Alterlaa",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß Aufgang Baumgartnerstraße auf den Bahnsteig Gleis 1 Richtung Floridsdorf.",
@@ -107,33 +53,6 @@
         "relatedStops": [
           4631,
           4638
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_741",
-        "title": "Zippererstraße",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Zippererstraße / Simmeringer Hauptstraße.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Zippererstraße",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Zippererstraße / Simmeringer Hauptstraße.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4935,
-            4940
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4935,
-          4940
         ]
       },
       {
@@ -165,6 +84,33 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_68",
+        "title": "Stephansplatz",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß zum Gleis U3 Erdberg.",
+        "attributes": {
+          "reason": "Geplante Wartung wird durchgeführt.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Stephansplatz",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß zum Gleis U3 Erdberg.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4906,
+            4911
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4906,
+          4911
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_201",
         "title": "Niederhofstraße",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig ins Zwischengeschoß Ausgang Niederhofstraße.\n",
@@ -188,6 +134,60 @@
         "relatedStops": [
           4613,
           4616
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_204",
+        "title": "Nestroyplatz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Weintraubengasse.",
+        "attributes": {
+          "reason": "Geplante Wartung wird durchgeführt.",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Nestroyplatz",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Weintraubengasse.",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4114,
+            4115
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4114,
+          4115
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_526",
+        "title": "Handelskai",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung vom U6 Bahnsteig Gleis 1 Richtung Floridsdorf an die Oberfläche Ausgang Engerthstraße.",
+        "attributes": {
+          "reason": "Geplante Wartung wird durchgeführt.",
+          "relatedLines": [
+            "U6"
+          ],
+          "station": "Handelskai",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung vom U6 Bahnsteig Gleis 1 Richtung Floridsdorf an die Oberfläche Ausgang Engerthstraße.",
+          "towards": "U6 beide Richtungen",
+          "relatedStops": [
+            4643,
+            4648
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U6"
+        ],
+        "relatedStops": [
+          4643,
+          4648
         ]
       },
       {
@@ -219,16 +219,16 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_203",
+        "name": "ftazS_205",
         "title": "Nestroyplatz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Praterstraße Stadteinwärts.",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Rotensterngasse.",
         "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
           "relatedLines": [
             "U1"
           ],
           "station": "Nestroyplatz",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Praterstraße Stadteinwärts.",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Rotensterngasse.",
           "towards": "U1 beide Richtungen",
           "relatedStops": [
             4114,
@@ -293,38 +293,11 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_409",
-        "title": "Westbahnhof",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig ins Zwischengeschoß.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Westbahnhof",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig ins Zwischengeschoß.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4920,
-            4921
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4920,
-          4921
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_742",
         "title": "Zippererstraße",
         "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abfwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Zippererstraße / Simmeringer Hauptstraße.",
         "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
           "relatedLines": [
             "U3"
           ],
@@ -347,29 +320,83 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_527",
-        "title": "Handelskai",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung von der Oberfläche Ausgang Engerthstraße auf den U6 Bahnsteig Gleis 1 Richtung Floridsdorf.",
+        "name": "ftazS_39",
+        "title": "Keplerplatz",
+        "description": "Fahrtreppe fährt vom Bahnsteig in Aufwärtsrichtung in das Zwischengeschoß.\n\n",
         "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "reason": "Geplante Wartung wird durchgeführt.",
           "relatedLines": [
-            "U6"
+            "U1"
           ],
-          "station": "Handelskai",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung von der Oberfläche Ausgang Engerthstraße auf den U6 Bahnsteig Gleis 1 Richtung Floridsdorf.",
-          "towards": "U6 beide Richtungen",
+          "station": "Keplerplatz",
+          "location": "Fahrtreppe fährt vom Bahnsteig in Aufwärtsrichtung in das Zwischengeschoß.\n\n",
+          "towards": "U1 beide Richtungen",
           "relatedStops": [
-            4643,
-            4648
+            4103,
+            4126
           ],
           "status": "außer Betrieb"
         },
         "relatedLines": [
-          "U6"
+          "U1"
         ],
         "relatedStops": [
-          4643,
-          4648
+          4103,
+          4126
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_207",
+        "title": "Nestroyplatz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß Stadteinwärtiger Ausgang. (Stationswart)",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Nestroyplatz",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß Stadteinwärtiger Ausgang. (Stationswart)",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4114,
+            4115
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4114,
+          4115
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_35",
+        "title": "Herrengasse",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Herrengasse.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Herrengasse",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Herrengasse.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4907,
+            4910
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4907,
+          4910
         ]
       },
       {
@@ -401,20 +428,20 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_69",
-        "title": "Stephansplatz",
-        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Gleis U3 Erdberg ins Zwischengeschoß.",
+        "name": "ftazS_410",
+        "title": "Westbahnhof",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig ins Zwischengeschoß.",
         "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "reason": "Geplante Wartung wird durchgeführt.",
           "relatedLines": [
             "U3"
           ],
-          "station": "Stephansplatz",
-          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Gleis U3 Erdberg ins Zwischengeschoß.",
+          "station": "Westbahnhof",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig ins Zwischengeschoß.",
           "towards": "U3 beide Richtungen",
           "relatedStops": [
-            4906,
-            4911
+            4920,
+            4921
           ],
           "status": "außer Betrieb"
         },
@@ -422,35 +449,8 @@
           "U3"
         ],
         "relatedStops": [
-          4906,
-          4911
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_761",
-        "title": "Enkplatz",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Eingang Simmeringer Hauptstraße auf den Bahnsteig.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Enkplatz",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Eingang Simmeringer Hauptstraße auf den Bahnsteig.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4936,
-            4939
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4936,
-          4939
+          4920,
+          4921
         ]
       }
     ],
@@ -459,7 +459,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_537, ftazS_38, ftazS_379, ftazS_472, ftazS_741, ftazS_1016879, ftazS_201, ftazS_34, ftazS_203, ftazS_708, ftazS_456, ftazS_409, ftazS_742, ftazS_527, ftazS_49, ftazS_69, ftazS_761",
+        "trafficInfoNameList": "ftazS_537, ftazS_472, ftazS_1016879, ftazS_68, ftazS_201, ftazS_204, ftazS_526, ftazS_34, ftazS_205, ftazS_708, ftazS_456, ftazS_742, ftazS_39, ftazS_207, ftazS_35, ftazS_49, ftazS_410",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -474,6 +474,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-07-13T09:38:51.000+0200"
+    "serverTime": "2026-07-13T14:42:01.000+0200"
   }
 }
