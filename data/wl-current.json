@@ -3,43 +3,36 @@
     "trafficInfos": [
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_10",
-        "title": "Museumsquartier",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung von der Passage an die Oberfläche Ausgang Mariahilferstraße (Museumsquartier).",
+        "name": "ftazS_715",
+        "title": "Matzleinsdorfer Platz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung von der unteren Passage in den Zwischenstock zum Aufgang Triesterstraße.",
         "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
           "relatedLines": [
-            "U2"
+            "Unterflurstrassenbahn"
           ],
-          "station": "Museumsquartier",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung von der Passage an die Oberfläche Ausgang Mariahilferstraße (Museumsquartier).",
-          "towards": "U2 beide Richtungen",
-          "relatedStops": [
-            4204,
-            4211
-          ],
+          "station": "Matzleinsdorfer Platz",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung von der unteren Passage in den Zwischenstock zum Aufgang Triesterstraße.",
+          "towards": "Unterflurstrassenbahn beide Richtungen",
+          "relatedStops": [],
           "status": "außer Betrieb"
         },
         "relatedLines": [
-          "U2"
-        ],
-        "relatedStops": [
-          4204,
-          4211
+          "Unterflurstrassenbahn"
         ]
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_98",
+        "name": "ftazS_63",
         "title": "Stephansplatz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche.(Stephansplatz)",
+        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß Gleis U3 Ottakring.\n",
         "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
+          "reason": "",
           "relatedLines": [
             "U1"
           ],
           "station": "Stephansplatz",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche.(Stephansplatz)",
+          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß Gleis U3 Ottakring.\n",
           "towards": "U1 beide Richtungen",
           "relatedStops": [
             4111,
@@ -53,60 +46,6 @@
         "relatedStops": [
           4111,
           4118
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_155",
-        "title": "Reumannplatz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Reumannplatz.",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Reumannplatz",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Reumannplatz.",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4101,
-            4128
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4101,
-          4128
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_165",
-        "title": "Stubentor",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung Ottakring auf den Bahnsteig Gleis 1 Richtung Erdberg.",
-        "attributes": {
-          "reason": "",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Stubentor",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung Ottakring auf den Bahnsteig Gleis 1 Richtung Erdberg.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4905,
-            4912
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4905,
-          4912
         ]
       },
       {
@@ -134,33 +73,6 @@
         "relatedStops": [
           4907,
           4910
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_208",
-        "title": "Nestroyplatz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß Stadtauswärtiger Ausgang.",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Nestroyplatz",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß Stadtauswärtiger Ausgang.",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4114,
-            4115
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4114,
-          4115
         ]
       },
       {
@@ -239,60 +151,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_164",
-        "title": "Stubentor",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Bahnsteig Gleis 1 auf den Bahnsteig Gleis 2 Richtung Ottakring.",
-        "attributes": {
-          "reason": "",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Stubentor",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Bahnsteig Gleis 1 auf den Bahnsteig Gleis 2 Richtung Ottakring.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4905,
-            4912
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4905,
-          4912
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_120",
-        "title": "Schwedenplatz",
-        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Schwedenplatz.",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Schwedenplatz",
-          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Schwedenplatz.",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4113,
-            4116
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4113,
-          4116
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_49",
         "title": "Volkstheater",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig U2 Richtung Schottenring an die Oberfläche Ausgang Bellariastraße.",
@@ -317,33 +175,6 @@
           4908,
           4909
         ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_53",
-        "title": "Stephansplatz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Graben.\n",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Stephansplatz",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Graben.\n",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4111,
-            4118
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4111,
-          4118
-        ]
       }
     ],
     "trafficInfoCategories": [
@@ -351,7 +182,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_10, ftazS_98, ftazS_155, ftazS_165, ftazS_34, ftazS_208, ftazS_708, ftazS_456, ftazS_538, ftazS_164, ftazS_120, ftazS_49, ftazS_53",
+        "trafficInfoNameList": "ftazS_715, ftazS_63, ftazS_34, ftazS_708, ftazS_456, ftazS_538, ftazS_49",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -366,6 +197,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-07-15T13:49:45.000+0200"
+    "serverTime": "2026-07-15T17:01:50.000+0200"
   }
 }
