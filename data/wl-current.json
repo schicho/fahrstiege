@@ -36,28 +36,35 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_223",
-        "title": "Bahnhof Meidling",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Zugang zur ÖBB) an die Oberfläche Ausgang Schedifkaplatz.",
+        "name": "ftazS_273",
+        "title": "Landstraße",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß auf den U4 Bahnsteig.",
         "attributes": {
-          "ausBis": "30.07.2026 05:15",
+          "ausBis": "29.07.2026 05:15",
           "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
-            "U6"
+            "U3"
           ],
-          "station": "Bahnhof Meidling",
-          "ausVon": "30.07.2026 01:15",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Zugang zur ÖBB) an die Oberfläche Ausgang Schedifkaplatz.",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [],
+          "station": "Landstraße",
+          "ausVon": "29.07.2026 01:15",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß auf den U4 Bahnsteig.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4904,
+            4913
+          ],
           "status": "außer Betrieb"
         },
         "time": {
-          "start": "2026-07-30T01:15:00.000+0200",
-          "end": "2026-07-30T05:15:00.000+0200"
+          "start": "2026-07-29T01:15:00.000+0200",
+          "end": "2026-07-29T05:15:00.000+0200"
         },
         "relatedLines": [
-          "U6"
+          "U3"
+        ],
+        "relatedStops": [
+          4904,
+          4913
         ]
       },
       {
@@ -85,33 +92,6 @@
         "relatedStops": [
           4920,
           4921
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_184",
-        "title": "Südtiroler Platz-Hauptbahnhof",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (alter Südtirolerplatz) in das oberste Zwischengeschoß Ausgang Graf Starhemberggasse und Favoritenstraße.",
-        "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Südtiroler Platz-Hauptbahnhof",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (alter Südtirolerplatz) in das oberste Zwischengeschoß Ausgang Graf Starhemberggasse und Favoritenstraße.",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4105,
-            4124
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4105,
-          4124
         ]
       },
       {
@@ -170,20 +150,20 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_34",
-        "title": "Herrengasse",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Herrengasse.",
+        "name": "ftazS_763",
+        "title": "Enkplatz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Enkplatz.\n",
         "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt. Voraussichtlich bis 24.07.2026 außer Betrieb!",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U3"
           ],
-          "station": "Herrengasse",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Herrengasse.",
+          "station": "Enkplatz",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Enkplatz.\n",
           "towards": "U3 beide Richtungen",
           "relatedStops": [
-            4907,
-            4910
+            4936,
+            4939
           ],
           "status": "außer Betrieb"
         },
@@ -191,35 +171,35 @@
           "U3"
         ],
         "relatedStops": [
-          4907,
-          4910
+          4936,
+          4939
         ]
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_1017114",
-        "title": "Kagraner Platz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom  U1 Bahnsteig in das Aufnahmebegäude Ausgang Kagraner Platz/Wagramerstraße/Doningasse.",
+        "name": "ftazS_365",
+        "title": "Neubaugasse",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung Ottakring in das Zwischengeschoß. \n(West - Stiftg./Kircheng.)",
         "attributes": {
           "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
-            "U1"
+            "U3"
           ],
-          "station": "Kagraner Platz",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom  U1 Bahnsteig in das Aufnahmebegäude Ausgang Kagraner Platz/Wagramerstraße/Doningasse.",
-          "towards": "U1 beide Richtungen",
+          "station": "Neubaugasse",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung Ottakring in das Zwischengeschoß. \n(West - Stiftg./Kircheng.)",
+          "towards": "U3 beide Richtungen",
           "relatedStops": [
-            4181,
-            4186
+            4918,
+            4923
           ],
           "status": "außer Betrieb"
         },
         "relatedLines": [
-          "U1"
+          "U3"
         ],
         "relatedStops": [
-          4181,
-          4186
+          4918,
+          4923
         ]
       },
       {
@@ -298,29 +278,22 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_35",
-        "title": "Herrengasse",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Herrengasse.",
+        "name": "ftazS_1031900",
+        "title": "Südtiroler Platz-Hauptbahnhof",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung von der Passage auf den Bahnsteig der Straßenbahnlinie 18 Richtung Schlachthausgasse/Ausgang Favoritenstraße.",
         "attributes": {
           "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
-            "U3"
+            "Unterflurstrassenbahn"
           ],
-          "station": "Herrengasse",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Herrengasse.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4907,
-            4910
-          ],
+          "station": "Südtiroler Platz-Hauptbahnhof",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung von der Passage auf den Bahnsteig der Straßenbahnlinie 18 Richtung Schlachthausgasse/Ausgang Favoritenstraße.",
+          "towards": "Unterflurstrassenbahn beide Richtungen",
+          "relatedStops": [],
           "status": "außer Betrieb"
         },
         "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4907,
-          4910
+          "Unterflurstrassenbahn"
         ]
       },
       {
@@ -349,7 +322,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_446, ftazS_223, ftazS_403, ftazS_184, ftazS_1016879, ftazS_52, ftazS_34, ftazS_1017114, ftazS_708, ftazS_456, ftazS_538, ftazS_35, ftazS_1016603",
+        "trafficInfoNameList": "ftazS_446, ftazS_273, ftazS_403, ftazS_1016879, ftazS_52, ftazS_763, ftazS_365, ftazS_708, ftazS_456, ftazS_538, ftazS_1031900, ftazS_1016603",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -364,6 +337,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-07-17T19:31:33.000+0200"
+    "serverTime": "2026-07-17T22:14:23.000+0200"
   }
 }
