@@ -3,62 +3,49 @@
     "trafficInfos": [
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_32",
-        "title": "Herrengasse",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Aufgang Herrengasse auf den Bahnsteig.",
+        "name": "ftazS_77",
+        "title": "Taubstummengasse",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Taubstummengasse.\n",
         "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
           "relatedLines": [
-            "U3"
+            "U1"
           ],
-          "station": "Herrengasse",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Aufgang Herrengasse auf den Bahnsteig.",
-          "towards": "U3 beide Richtungen",
+          "station": "Taubstummengasse",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Taubstummengasse.\n",
+          "towards": "U1 beide Richtungen",
           "relatedStops": [
-            4907,
-            4910
+            4107,
+            4122
           ],
           "status": "außer Betrieb"
         },
         "relatedLines": [
-          "U3"
+          "U1"
         ],
         "relatedStops": [
-          4907,
-          4910
+          4107,
+          4122
         ]
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_269",
-        "title": "Landstraße",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß ins Aufnahmegebäude.",
+        "name": "ftazS_247",
+        "title": "Karlsplatz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig in die Passage Karlsplatz.",
         "attributes": {
-          "ausBis": "28.07.2026 05:15",
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
           "relatedLines": [
-            "U3"
+            "U1"
           ],
-          "station": "Landstraße",
-          "ausVon": "28.07.2026 01:15",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß ins Aufnahmegebäude.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4904,
-            4913
-          ],
+          "station": "Karlsplatz",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig in die Passage Karlsplatz.",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [],
           "status": "außer Betrieb"
         },
-        "time": {
-          "start": "2026-07-28T01:15:00.000+0200",
-          "end": "2026-07-28T05:15:00.000+0200"
-        },
         "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4904,
-          4913
+          "U1"
         ]
       },
       {
@@ -224,6 +211,33 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_764",
+        "title": "Enkplatz",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Eingang Enkplatz ins Zwischengeschoß.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Enkplatz",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Eingang Enkplatz ins Zwischengeschoß.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4936,
+            4939
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4936,
+          4939
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_1016603",
         "title": "Erzherzog-Karl-Straße",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche.",
@@ -268,33 +282,6 @@
           4112,
           4117
         ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_1032350",
-        "title": "Aspern Nord",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Ausgang Ostbahnbegleitstraße in das Obere Zwischengeschoß Zugang zur U2 bzw. Ausgang Mayrederstraße.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U2"
-          ],
-          "station": "Aspern Nord",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Ausgang Ostbahnbegleitstraße in das Obere Zwischengeschoß Zugang zur U2 bzw. Ausgang Mayrederstraße.",
-          "towards": "U2 beide Richtungen",
-          "relatedStops": [
-            4275,
-            4278
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U2"
-        ],
-        "relatedStops": [
-          4275,
-          4278
-        ]
       }
     ],
     "trafficInfoCategories": [
@@ -302,7 +289,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_32, ftazS_269, ftazS_403, ftazS_446, ftazS_456, ftazS_537, ftazS_538, ftazS_708, ftazS_1016603, ftazS_1016879, ftazS_1032350",
+        "trafficInfoNameList": "ftazS_77, ftazS_247, ftazS_403, ftazS_446, ftazS_456, ftazS_537, ftazS_538, ftazS_708, ftazS_764, ftazS_1016603, ftazS_1016879",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -317,6 +304,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-07-18T13:18:25.000+0200"
+    "serverTime": "2026-07-18T16:31:45.000+0200"
   }
 }
