@@ -3,39 +3,6 @@
     "trafficInfos": [
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_397",
-        "title": "Westbahnhof",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig an die Oberfläche.",
-        "attributes": {
-          "ausBis": "11.08.2026 00:45",
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Westbahnhof",
-          "ausVon": "10.08.2026 20:45",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig an die Oberfläche.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4920,
-            4921
-          ],
-          "status": "außer Betrieb"
-        },
-        "time": {
-          "start": "2026-08-10T20:45:00.000+0200",
-          "end": "2026-08-11T00:45:00.000+0200"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4920,
-          4921
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_1016879",
         "title": "Praterstern",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig Fahrtrichtung Leopoldau in das Zwischengeschoß Zugang zur U2.",
@@ -102,6 +69,33 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_363",
+        "title": "Neubaugasse",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 1 Richtung Erdberg in das Zwischengeschoß.\n(West - Stiftg./Kircheng.)",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Neubaugasse",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 1 Richtung Erdberg in das Zwischengeschoß.\n(West - Stiftg./Kircheng.)",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4918,
+            4923
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4918,
+          4923
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_43",
         "title": "Kaisermühlen-VIC",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung von der Oberfläche auf den U1 Bahnsteig Richtung Kagran.",
@@ -133,7 +127,7 @@
         "title": "Südtiroler Platz-Hauptbahnhof",
         "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Ausgang Kolschitzkygasse zum U1 Bahnsteig.\n\n",
         "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "reason": "Geplante Wartung wird durchgeführt. Voraussichtlich bis 31.07.2026 außer Betrieb!",
           "relatedLines": [
             "U1"
           ],
@@ -187,7 +181,7 @@
         "title": "Zippererstraße",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Zippererstraße / Simmeringer Hauptstraße.",
         "attributes": {
-          "reason": "",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U3"
           ],
@@ -210,33 +204,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_493",
-        "title": "Spittelau",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Heiligenstadter Straße.\n",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U6"
-          ],
-          "station": "Spittelau",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Heiligenstadter Straße.\n",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [
-            4627,
-            4651
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U6"
-        ],
-        "relatedStops": [
-          4627,
-          4651
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_750",
         "title": "Simmering",
         "description": "Fahrtreppe fährt in Abwärtsrichtung vom Aufnahmegebäude Simmeringer Hauptstraße/Hasenleitengasse auf den U3 Bahnsteig.",
@@ -247,6 +214,33 @@
           ],
           "station": "Simmering",
           "location": "Fahrtreppe fährt in Abwärtsrichtung vom Aufnahmegebäude Simmeringer Hauptstraße/Hasenleitengasse auf den U3 Bahnsteig.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4937,
+            4938
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4937,
+          4938
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_754",
+        "title": "Simmering",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung von der Passage in das Aufnahmegebäude Ausgang Simmeringer Hauptstraße.",
+        "attributes": {
+          "reason": "Geplante Wartung wird durchgeführt.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Simmering",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung von der Passage in das Aufnahmegebäude Ausgang Simmeringer Hauptstraße.",
           "towards": "U3 beide Richtungen",
           "relatedStops": [
             4937,
@@ -392,6 +386,33 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_1018074",
+        "title": "Taborstraße",
+        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U2 Mittelbahnsteig in das Zwischengeschoß Ausgang Taborstraße/Augarten.",
+        "attributes": {
+          "reason": "",
+          "relatedLines": [
+            "U2"
+          ],
+          "station": "Taborstraße",
+          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U2 Mittelbahnsteig in das Zwischengeschoß Ausgang Taborstraße/Augarten.",
+          "towards": "U2 beide Richtungen",
+          "relatedStops": [
+            4261,
+            4262
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U2"
+        ],
+        "relatedStops": [
+          4261,
+          4262
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_1017112",
         "title": "Kagraner Platz",
         "description": "Fahrtreppe fährt in Abwärtsrichtung vom Aufnahmebegäude Ausgang Kagraner Platz/Wagramerstraße/Doningasse auf den U1 Bahnsteig.",
@@ -416,6 +437,33 @@
           4181,
           4186
         ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_413",
+        "title": "Westbahnhof",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig ins Zwischengeschoß.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Westbahnhof",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig ins Zwischengeschoß.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4920,
+            4921
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4920,
+          4921
+        ]
       }
     ],
     "trafficInfoCategories": [
@@ -423,7 +471,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_397, ftazS_1016879, ftazS_446, ftazS_43, ftazS_142, ftazS_448, ftazS_741, ftazS_493, ftazS_750, ftazS_1030576, ftazS_34, ftazS_708, ftazS_456, ftazS_538, ftazS_1017112",
+        "trafficInfoNameList": "ftazS_1016879, ftazS_446, ftazS_363, ftazS_43, ftazS_142, ftazS_448, ftazS_741, ftazS_750, ftazS_754, ftazS_1030576, ftazS_34, ftazS_708, ftazS_456, ftazS_538, ftazS_1018074, ftazS_1017112, ftazS_413",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -438,6 +486,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-07-21T08:41:54.000+0200"
+    "serverTime": "2026-07-21T11:40:32.000+0200"
   }
 }
