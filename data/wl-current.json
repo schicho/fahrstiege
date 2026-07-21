@@ -30,6 +30,39 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_50",
+        "title": "Volkstheater",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Bahnsteig U2 Richtung SR auf den U3 Bahnsteig.",
+        "attributes": {
+          "ausBis": "19.08.2026 00:45",
+          "reason": "Geplante Wartung wird durchgeführt.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Volkstheater",
+          "ausVon": "18.08.2026 20:45",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Bahnsteig U2 Richtung SR auf den U3 Bahnsteig.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4908,
+            4909
+          ],
+          "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-08-18T20:45:00.000+0200",
+          "end": "2026-08-19T00:45:00.000+0200"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4908,
+          4909
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_142",
         "title": "Südtiroler Platz-Hauptbahnhof",
         "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Ausgang Kolschitzkygasse zum U1 Bahnsteig.\n\n",
@@ -57,22 +90,35 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_220",
-        "title": "Bahnhof Meidling",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U6 Bahnsteig.",
+        "name": "ftazS_270",
+        "title": "Landstraße",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß ins Zwischengeschoß Aufgang ins Aufnahmegebäude.",
         "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "ausBis": "04.08.2026 00:45",
+          "reason": "Geplante Wartung wird durchgeführt.",
           "relatedLines": [
-            "U6"
+            "U3"
           ],
-          "station": "Bahnhof Meidling",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U6 Bahnsteig.",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [],
+          "station": "Landstraße",
+          "ausVon": "03.08.2026 20:45",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß ins Zwischengeschoß Aufgang ins Aufnahmegebäude.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4904,
+            4913
+          ],
           "status": "außer Betrieb"
         },
+        "time": {
+          "start": "2026-08-03T20:45:00.000+0200",
+          "end": "2026-08-04T00:45:00.000+0200"
+        },
         "relatedLines": [
-          "U6"
+          "U3"
+        ],
+        "relatedStops": [
+          4904,
+          4913
         ]
       },
       {
@@ -383,7 +429,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_34, ftazS_142, ftazS_220, ftazS_446, ftazS_450, ftazS_451, ftazS_452, ftazS_453, ftazS_456, ftazS_538, ftazS_708, ftazS_742, ftazS_750, ftazS_1016879",
+        "trafficInfoNameList": "ftazS_34, ftazS_50, ftazS_142, ftazS_270, ftazS_446, ftazS_450, ftazS_451, ftazS_452, ftazS_453, ftazS_456, ftazS_538, ftazS_708, ftazS_742, ftazS_750, ftazS_1016879",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -398,6 +444,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-07-21T19:46:05.000+0200"
+    "serverTime": "2026-07-21T22:36:42.000+0200"
   }
 }
