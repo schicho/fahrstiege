@@ -84,53 +84,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_221",
-        "title": "Bahnhof Meidling",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig ins Zwischengeschoß.",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U6"
-          ],
-          "station": "Bahnhof Meidling",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig ins Zwischengeschoß.",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U6"
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_383",
-        "title": "Zieglergasse",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (West) an die Oberfläche Ausgang Andreasgasse.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Zieglergasse",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (West) an die Oberfläche Ausgang Andreasgasse.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4919,
-            4922
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4919,
-          4922
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_397",
         "title": "Westbahnhof",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig an die Oberfläche.",
@@ -380,33 +333,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_614",
-        "title": "Hütteldorfer Straße",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Aufgang Reinlgasse auf den Bahnsteig.",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Hütteldorfer Straße",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Aufgang Reinlgasse auf den Bahnsteig.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4928,
-            4933
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4928,
-          4933
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_708",
         "title": "Eichenstraße",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Fahrtrichtung Schlachthausgasse/Karlsplatz in das Zwischengeschoß.",
@@ -423,33 +349,6 @@
         },
         "relatedLines": [
           "Unterflurstrassenbahn"
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_750",
-        "title": "Simmering",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Aufnahmegebäude Simmeringer Hauptstraße/Hasenleitengasse auf den U3 Bahnsteig.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Simmering",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Aufnahmegebäude Simmeringer Hauptstraße/Hasenleitengasse auf den U3 Bahnsteig.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4937,
-            4938
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4937,
-          4938
         ]
       },
       {
@@ -487,20 +386,20 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_1351731",
-        "title": "Altes Landgut",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Altes Landgut auf den U1 Bahnsteig.",
+        "name": "ftazS_1018082",
+        "title": "Praterstern",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Prater/Zugang ÖBB in das Zwischengeschoß Zugang U1/U2.",
         "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
           "relatedLines": [
             "U1"
           ],
-          "station": "Altes Landgut",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Altes Landgut auf den U1 Bahnsteig.",
+          "station": "Praterstern",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Prater/Zugang ÖBB in das Zwischengeschoß Zugang U1/U2.",
           "towards": "U1 beide Richtungen",
           "relatedStops": [
-            4130,
-            4137
+            4112,
+            4117
           ],
           "status": "außer Betrieb"
         },
@@ -508,8 +407,8 @@
           "U1"
         ],
         "relatedStops": [
-          4130,
-          4137
+          4112,
+          4117
         ]
       }
     ],
@@ -518,7 +417,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_55, ftazS_71, ftazS_142, ftazS_221, ftazS_383, ftazS_397, ftazS_446, ftazS_450, ftazS_451, ftazS_452, ftazS_453, ftazS_456, ftazS_472, ftazS_538, ftazS_614, ftazS_708, ftazS_750, ftazS_1016879, ftazS_1351731",
+        "trafficInfoNameList": "ftazS_55, ftazS_71, ftazS_142, ftazS_397, ftazS_446, ftazS_450, ftazS_451, ftazS_452, ftazS_453, ftazS_456, ftazS_472, ftazS_538, ftazS_708, ftazS_1016879, ftazS_1018082",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -533,6 +432,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-07-28T14:14:29.000+0200"
+    "serverTime": "2026-07-28T19:45:28.000+0200"
   }
 }
