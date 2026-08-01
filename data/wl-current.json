@@ -237,33 +237,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_505",
-        "title": "Spittelau",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U4 Bahnsteig an die Oberfläche Ausgang Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Josef-Holaubek-Platz.\n",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U6"
-          ],
-          "station": "Spittelau",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U4 Bahnsteig an die Oberfläche Ausgang Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Josef-Holaubek-Platz.\n",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [
-            4627,
-            4651
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U6"
-        ],
-        "relatedStops": [
-          4627,
-          4651
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_452",
         "title": "Johnstraße",
         "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Eingang Markt ins Zwischengeschoß.",
@@ -388,33 +361,6 @@
         "relatedStops": [
           4111,
           4118
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_44",
-        "title": "Kaisermühlen-VIC",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung von der Oberfläche auf den U1 Bahnsteig Richtung Reumannplatz.",
-        "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Kaisermühlen-VIC",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung von der Oberfläche auf den U1 Bahnsteig Richtung Reumannplatz.",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4106,
-            4123
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4106,
-          4123
         ]
       },
       {
@@ -558,7 +504,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_109, ftazS_1016879, ftazS_272, ftazS_189, ftazS_373, ftazS_89, ftazS_450, ftazS_611, ftazS_505, ftazS_452, ftazS_708, ftazS_456, ftazS_538, ftazS_55, ftazS_44, ftazS_451, ftazS_71, ftazS_453, ftazS_95, ftazS_446",
+        "trafficInfoNameList": "ftazS_109, ftazS_1016879, ftazS_272, ftazS_189, ftazS_373, ftazS_89, ftazS_450, ftazS_611, ftazS_452, ftazS_708, ftazS_456, ftazS_538, ftazS_55, ftazS_451, ftazS_71, ftazS_453, ftazS_95, ftazS_446",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -573,6 +519,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-08-01T11:21:25.000+0200"
+    "serverTime": "2026-08-01T13:35:10.000+0200"
   }
 }
