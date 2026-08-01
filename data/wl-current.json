@@ -3,33 +3,6 @@
     "trafficInfos": [
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_34",
-        "title": "Herrengasse",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Herrengasse.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Herrengasse",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Herrengasse.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4907,
-            4910
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4907,
-          4910
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_55",
         "title": "Stephansplatz",
         "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß N-1 (Stationswart) in das Zwischengeschoß N-3.\n\n",
@@ -387,6 +360,33 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_506",
+        "title": "Jägerstraße",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Dresdnerstraße.",
+        "attributes": {
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "relatedLines": [
+            "U6"
+          ],
+          "station": "Jägerstraße",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Dresdnerstraße.",
+          "towards": "U6 beide Richtungen",
+          "relatedStops": [
+            4641,
+            4650
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U6"
+        ],
+        "relatedStops": [
+          4641,
+          4650
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_538",
         "title": "Floridsdorf",
         "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U6 Bahnsteig an die Oberfläche.",
@@ -498,7 +498,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_34, ftazS_55, ftazS_71, ftazS_89, ftazS_95, ftazS_189, ftazS_272, ftazS_373, ftazS_446, ftazS_450, ftazS_451, ftazS_452, ftazS_453, ftazS_456, ftazS_538, ftazS_611, ftazS_708, ftazS_1016879",
+        "trafficInfoNameList": "ftazS_55, ftazS_71, ftazS_89, ftazS_95, ftazS_189, ftazS_272, ftazS_373, ftazS_446, ftazS_450, ftazS_451, ftazS_452, ftazS_453, ftazS_456, ftazS_506, ftazS_538, ftazS_611, ftazS_708, ftazS_1016879",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -513,6 +513,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-08-01T16:40:29.000+0200"
+    "serverTime": "2026-08-01T19:16:26.000+0200"
   }
 }
