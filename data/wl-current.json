@@ -218,33 +218,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_279",
-        "title": "Volkstheater",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Dr.Karl Renner Ring.",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Volkstheater",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Dr.Karl Renner Ring.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4908,
-            4909
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4908,
-          4909
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_373",
         "title": "Zieglergasse",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Ost) an die Oberfläche Ausgang Schottenfeldgasse.",
@@ -255,6 +228,60 @@
           ],
           "station": "Zieglergasse",
           "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Ost) an die Oberfläche Ausgang Schottenfeldgasse.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4919,
+            4922
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4919,
+          4922
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_377",
+        "title": "Zieglergasse",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Ost) auf den Bahnsteig Gleis 1 Richtung Erdberg.",
+        "attributes": {
+          "reason": "Geplante Wartung wird durchgeführt.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Zieglergasse",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Ost) auf den Bahnsteig Gleis 1 Richtung Erdberg.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4919,
+            4922
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4919,
+          4922
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_379",
+        "title": "Zieglergasse",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 1 Richtung Erdberg in das Zwischengeschoß (West).",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Zieglergasse",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 1 Richtung Erdberg in das Zwischengeschoß (West).",
           "towards": "U3 beide Richtungen",
           "relatedStops": [
             4919,
@@ -327,33 +354,6 @@
         "time": {
           "start": "2026-08-11T20:45:00.000+0200",
           "end": "2026-08-12T00:45:00.000+0200"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4920,
-          4921
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_407",
-        "title": "Westbahnhof",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß Zugang U3/U6 (Stationsw.) in das Zwischengeschoß (WC).",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Westbahnhof",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß Zugang U3/U6 (Stationsw.) in das Zwischengeschoß (WC).",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4920,
-            4921
-          ],
-          "status": "außer Betrieb"
         },
         "relatedLines": [
           "U3"
@@ -618,33 +618,6 @@
         "relatedLines": [
           "Unterflurstrassenbahn"
         ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_1016877",
-        "title": "Praterstern",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Richtung Leopoldau in das Zwischengeschoß Ausgang Lassallstraße.",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Praterstern",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Richtung Leopoldau in das Zwischengeschoß Ausgang Lassallstraße.",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4112,
-            4117
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4112,
-          4117
-        ]
       }
     ],
     "trafficInfoCategories": [
@@ -652,7 +625,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_55, ftazS_71, ftazS_95, ftazS_118, ftazS_184, ftazS_186, ftazS_189, ftazS_255, ftazS_279, ftazS_373, ftazS_399, ftazS_400, ftazS_407, ftazS_441, ftazS_446, ftazS_450, ftazS_451, ftazS_452, ftazS_453, ftazS_456, ftazS_538, ftazS_708, ftazS_1016601, ftazS_1016877",
+        "trafficInfoNameList": "ftazS_55, ftazS_71, ftazS_95, ftazS_118, ftazS_184, ftazS_186, ftazS_189, ftazS_255, ftazS_373, ftazS_377, ftazS_379, ftazS_399, ftazS_400, ftazS_441, ftazS_446, ftazS_450, ftazS_451, ftazS_452, ftazS_453, ftazS_456, ftazS_538, ftazS_708, ftazS_1016601",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -667,6 +640,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-08-04T08:41:26.000+0200"
+    "serverTime": "2026-08-04T11:58:28.000+0200"
   }
 }
