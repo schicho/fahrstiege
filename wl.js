@@ -55,7 +55,11 @@ async function groupByLine(data) {
             if (!map[line]) {
                 map[line] = [];
             }
-            map[line].push(item);
+            // Check if an item with the same title already exists,
+            // Sometimes multiple escalators of one station are broken, but once is enough to show it in the overview.
+            if (!map[line].some(existingItem => existingItem.title === item.title)) {
+                map[line].push(item);
+            }
         });
     });
 
