@@ -3,105 +3,6 @@
     "trafficInfos": [
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_365",
-        "title": "Neubaugasse",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung Ottakring in das Zwischengeschoß. \n(West - Stiftg./Kircheng.)",
-        "attributes": {
-          "ausBis": "11.08.2026 05:15",
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Neubaugasse",
-          "ausVon": "11.08.2026 01:15",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung Ottakring in das Zwischengeschoß. \n(West - Stiftg./Kircheng.)",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4918,
-            4923
-          ],
-          "status": "außer Betrieb"
-        },
-        "time": {
-          "start": "2026-08-11T01:15:00.000+0200",
-          "end": "2026-08-11T05:15:00.000+0200"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4918,
-          4923
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_401",
-        "title": "Westbahnhof",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Stationsw.) auf den U6 Bahnsteig.",
-        "attributes": {
-          "ausBis": "13.08.2026 00:45",
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Westbahnhof",
-          "ausVon": "12.08.2026 20:45",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Stationsw.) auf den U6 Bahnsteig.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4920,
-            4921
-          ],
-          "status": "außer Betrieb"
-        },
-        "time": {
-          "start": "2026-08-12T20:45:00.000+0200",
-          "end": "2026-08-13T00:45:00.000+0200"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4920,
-          4921
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_26",
-        "title": "Hietzing",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung Hütteldorf an die Oberfläche.\n\n",
-        "attributes": {
-          "ausBis": "27.08.2026 05:15",
-          "reason": "",
-          "relatedLines": [
-            "U4"
-          ],
-          "station": "Hietzing",
-          "ausVon": "27.08.2026 01:15",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung Hütteldorf an die Oberfläche.\n\n",
-          "towards": "U4 beide Richtungen",
-          "relatedStops": [
-            4409,
-            4428
-          ],
-          "status": "außer Betrieb"
-        },
-        "time": {
-          "start": "2026-08-27T01:15:00.000+0200",
-          "end": "2026-08-27T05:15:00.000+0200"
-        },
-        "relatedLines": [
-          "U4"
-        ],
-        "relatedStops": [
-          4409,
-          4428
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_269",
         "title": "Landstraße",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß ins Aufnahmegebäude.",
@@ -131,6 +32,33 @@
         "relatedStops": [
           4904,
           4913
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_537",
+        "title": "Floridsdorf",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche auf den U6 Bahnsteig.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U6"
+          ],
+          "station": "Floridsdorf",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche auf den U6 Bahnsteig.",
+          "towards": "U6 beide Richtungen",
+          "relatedStops": [
+            4645,
+            4646
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U6"
+        ],
+        "relatedStops": [
+          4645,
+          4646
         ]
       },
       {
@@ -456,7 +384,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_365, ftazS_401, ftazS_26, ftazS_269, ftazS_450, ftazS_186, ftazS_452, ftazS_708, ftazS_456, ftazS_538, ftazS_55, ftazS_451, ftazS_447, ftazS_453, ftazS_446, ftazS_410",
+        "trafficInfoNameList": "ftazS_269, ftazS_537, ftazS_450, ftazS_186, ftazS_452, ftazS_708, ftazS_456, ftazS_538, ftazS_55, ftazS_451, ftazS_447, ftazS_453, ftazS_446, ftazS_410",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -471,6 +399,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-08-08T12:51:42.000+0200"
+    "serverTime": "2026-08-08T15:57:29.000+0200"
   }
 }
