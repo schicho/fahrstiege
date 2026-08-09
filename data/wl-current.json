@@ -36,6 +36,33 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_607",
+        "title": "Kendlerstraße",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom  Bahnsteig an die Oberfläche Ausgang Opfermanngasse.",
+        "attributes": {
+          "reason": "",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Kendlerstraße",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom  Bahnsteig an die Oberfläche Ausgang Opfermanngasse.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4929,
+            4932
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4929,
+          4932
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_450",
         "title": "Johnstraße",
         "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Sturzgasse ins Zwischengeschoß.",
@@ -86,6 +113,87 @@
         "relatedStops": [
           4112,
           4117
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_109",
+        "title": "Schottentor",
+        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U2 Bahnsteig in die Passage.\n\n",
+        "attributes": {
+          "reason": "",
+          "relatedLines": [
+            "U2"
+          ],
+          "station": "Schottentor",
+          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U2 Bahnsteig in die Passage.\n\n",
+          "towards": "U2 beide Richtungen",
+          "relatedStops": [
+            4203,
+            4212
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U2"
+        ],
+        "relatedStops": [
+          4203,
+          4212
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_133",
+        "title": "Schottenring",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U4 Bahnsteig Fahrtrichtung Hütteldorf an die Oberfläche.",
+        "attributes": {
+          "reason": "",
+          "relatedLines": [
+            "U2"
+          ],
+          "station": "Schottenring",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U4 Bahnsteig Fahrtrichtung Hütteldorf an die Oberfläche.",
+          "towards": "U2 beide Richtungen",
+          "relatedStops": [
+            4201,
+            4214
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U2"
+        ],
+        "relatedStops": [
+          4201,
+          4214
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_762",
+        "title": "Enkplatz",
+        "description": "Fahrteppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U3 Bahnsteig Eingang Enkplatz.\n",
+        "attributes": {
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Enkplatz",
+          "location": "Fahrteppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U3 Bahnsteig Eingang Enkplatz.\n",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4936,
+            4939
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4936,
+          4939
         ]
       },
       {
@@ -160,33 +268,6 @@
         "relatedStops": [
           4924,
           4927
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_742",
-        "title": "Zippererstraße",
-        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abfwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Zippererstraße / Simmeringer Hauptstraße.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Zippererstraße",
-          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abfwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Zippererstraße / Simmeringer Hauptstraße.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4935,
-            4940
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4935,
-          4940
         ]
       },
       {
@@ -353,6 +434,33 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_1030577",
+        "title": "Schottenring",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U4 Bahnsteig an die Oberfläche Ausgang Schottenring (Ringturm).",
+        "attributes": {
+          "reason": "",
+          "relatedLines": [
+            "U2"
+          ],
+          "station": "Schottenring",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U4 Bahnsteig an die Oberfläche Ausgang Schottenring (Ringturm).",
+          "towards": "U2 beide Richtungen",
+          "relatedStops": [
+            4201,
+            4214
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U2"
+        ],
+        "relatedStops": [
+          4201,
+          4214
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_410",
         "title": "Westbahnhof",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig ins Zwischengeschoß.",
@@ -384,7 +492,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_269, ftazS_450, ftazS_186, ftazS_452, ftazS_708, ftazS_456, ftazS_742, ftazS_538, ftazS_55, ftazS_451, ftazS_447, ftazS_453, ftazS_446, ftazS_410",
+        "trafficInfoNameList": "ftazS_269, ftazS_607, ftazS_450, ftazS_186, ftazS_109, ftazS_133, ftazS_762, ftazS_452, ftazS_708, ftazS_456, ftazS_538, ftazS_55, ftazS_451, ftazS_447, ftazS_453, ftazS_446, ftazS_1030577, ftazS_410",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -399,6 +507,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-08-08T21:45:06.000+0200"
+    "serverTime": "2026-08-09T07:19:03.000+0200"
   }
 }
