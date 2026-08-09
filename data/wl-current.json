@@ -198,33 +198,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_526",
-        "title": "Handelskai",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom U6 Bahnsteig Gleis 1 Richtung Floridsdorf an die Oberfläche Ausgang Engerthstraße.",
-        "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
-          "relatedLines": [
-            "U6"
-          ],
-          "station": "Handelskai",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom U6 Bahnsteig Gleis 1 Richtung Floridsdorf an die Oberfläche Ausgang Engerthstraße.",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [
-            4643,
-            4648
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U6"
-        ],
-        "relatedStops": [
-          4643,
-          4648
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_452",
         "title": "Johnstraße",
         "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Eingang Markt ins Zwischengeschoß.",
@@ -461,33 +434,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_527",
-        "title": "Handelskai",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung von der Oberfläche Ausgang Engerthstraße auf den U6 Bahnsteig Gleis 1 Richtung Floridsdorf.",
-        "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
-          "relatedLines": [
-            "U6"
-          ],
-          "station": "Handelskai",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung von der Oberfläche Ausgang Engerthstraße auf den U6 Bahnsteig Gleis 1 Richtung Floridsdorf.",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [
-            4643,
-            4648
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U6"
-        ],
-        "relatedStops": [
-          4643,
-          4648
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_410",
         "title": "Westbahnhof",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig ins Zwischengeschoß.",
@@ -519,7 +465,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_269, ftazS_1031292, ftazS_450, ftazS_186, ftazS_76, ftazS_1032343, ftazS_753, ftazS_526, ftazS_452, ftazS_708, ftazS_456, ftazS_538, ftazS_55, ftazS_451, ftazS_447, ftazS_453, ftazS_446, ftazS_527, ftazS_410",
+        "trafficInfoNameList": "ftazS_269, ftazS_1031292, ftazS_450, ftazS_186, ftazS_76, ftazS_1032343, ftazS_753, ftazS_452, ftazS_708, ftazS_456, ftazS_538, ftazS_55, ftazS_451, ftazS_447, ftazS_453, ftazS_446, ftazS_410",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -534,6 +480,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-08-09T15:59:15.000+0200"
+    "serverTime": "2026-08-09T18:54:46.000+0200"
   }
 }
