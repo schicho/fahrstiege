@@ -3,6 +3,65 @@
     "trafficInfos": [
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_241",
+        "title": "Karlsplatz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U4 Bahnsteig in die Passage.",
+        "attributes": {
+          "ausBis": "18.08.2026 05:15",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U4"
+          ],
+          "station": "Karlsplatz",
+          "ausVon": "18.08.2026 01:15",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U4 Bahnsteig in die Passage.",
+          "towards": "U4 beide Richtungen",
+          "relatedStops": [],
+          "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-08-18T01:15:00.000+0200",
+          "end": "2026-08-18T05:15:00.000+0200"
+        },
+        "relatedLines": [
+          "U4"
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_737",
+        "title": "Gasometer",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Gasometer.",
+        "attributes": {
+          "ausBis": "21.08.2026 01:00",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Gasometer",
+          "ausVon": "20.08.2026 21:00",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Gasometer.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4934,
+            4941
+          ],
+          "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-08-20T21:00:00.000+0200",
+          "end": "2026-08-21T01:00:00.000+0200"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4934,
+          4941
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_66",
         "title": "Stephansplatz",
         "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Gleis U3 Ottakring zum Gleis U3 Erdberg.",
@@ -36,28 +95,35 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_222",
-        "title": "Bahnhof Meidling",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Schedifkaplatz in das Zwischengeschoß (Zugang zur ÖBB).\n",
+        "name": "ftazS_64",
+        "title": "Stephansplatz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß Gleis U3 Ottakring.\n",
         "attributes": {
-          "ausBis": "27.08.2026 00:45",
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "ausBis": "08.09.2026 05:15",
+          "reason": "",
           "relatedLines": [
-            "U6"
+            "U1"
           ],
-          "station": "Bahnhof Meidling",
-          "ausVon": "26.08.2026 20:45",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Schedifkaplatz in das Zwischengeschoß (Zugang zur ÖBB).\n",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [],
+          "station": "Stephansplatz",
+          "ausVon": "08.09.2026 01:15",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß Gleis U3 Ottakring.\n",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4111,
+            4118
+          ],
           "status": "außer Betrieb"
         },
         "time": {
-          "start": "2026-08-26T20:45:00.000+0200",
-          "end": "2026-08-27T00:45:00.000+0200"
+          "start": "2026-09-08T01:15:00.000+0200",
+          "end": "2026-09-08T05:15:00.000+0200"
         },
         "relatedLines": [
-          "U6"
+          "U1"
+        ],
+        "relatedStops": [
+          4111,
+          4118
         ]
       },
       {
@@ -442,7 +508,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_66, ftazS_222, ftazS_446, ftazS_447, ftazS_450, ftazS_186, ftazS_278, ftazS_452, ftazS_708, ftazS_456, ftazS_538, ftazS_55, ftazS_451, ftazS_453, ftazS_1016600, ftazS_441",
+        "trafficInfoNameList": "ftazS_241, ftazS_737, ftazS_66, ftazS_64, ftazS_446, ftazS_447, ftazS_450, ftazS_186, ftazS_278, ftazS_452, ftazS_708, ftazS_456, ftazS_538, ftazS_55, ftazS_451, ftazS_453, ftazS_1016600, ftazS_441",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -457,6 +523,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-08-14T16:19:43.000+0200"
+    "serverTime": "2026-08-14T19:11:51.000+0200"
   }
 }
