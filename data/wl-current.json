@@ -3,20 +3,20 @@
     "trafficInfos": [
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_34",
-        "title": "Herrengasse",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Herrengasse.",
+        "name": "ftazS_49",
+        "title": "Volkstheater",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig U2 Richtung Schottenring an die Oberfläche Ausgang Bellariastraße.",
         "attributes": {
           "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U3"
           ],
-          "station": "Herrengasse",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Herrengasse.",
+          "station": "Volkstheater",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig U2 Richtung Schottenring an die Oberfläche Ausgang Bellariastraße.",
           "towards": "U3 beide Richtungen",
           "relatedStops": [
-            4907,
-            4910
+            4908,
+            4909
           ],
           "status": "außer Betrieb"
         },
@@ -24,8 +24,8 @@
           "U3"
         ],
         "relatedStops": [
-          4907,
-          4910
+          4908,
+          4909
         ]
       },
       {
@@ -117,29 +117,35 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_128",
-        "title": "Schwedenplatz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß.",
+        "name": "ftazS_156",
+        "title": "Reumannplatz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Reumannplatz.",
         "attributes": {
-          "reason": "",
+          "ausBis": "11.09.2026 00:45",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U1"
           ],
-          "station": "Schwedenplatz",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß.",
+          "station": "Reumannplatz",
+          "ausVon": "10.09.2026 20:45",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Reumannplatz.",
           "towards": "U1 beide Richtungen",
           "relatedStops": [
-            4113,
-            4116
+            4101,
+            4128
           ],
           "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-09-10T20:45:00.000+0200",
+          "end": "2026-09-11T00:45:00.000+0200"
         },
         "relatedLines": [
           "U1"
         ],
         "relatedStops": [
-          4113,
-          4116
+          4101,
+          4128
         ]
       },
       {
@@ -200,6 +206,32 @@
         "relatedStops": [
           4612,
           4617
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_223",
+        "title": "Bahnhof Meidling",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Zugang zur ÖBB) an die Oberfläche Ausgang Schedifkaplatz.",
+        "attributes": {
+          "ausBis": "27.08.2026 05:15",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U6"
+          ],
+          "station": "Bahnhof Meidling",
+          "ausVon": "27.08.2026 01:15",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Zugang zur ÖBB) an die Oberfläche Ausgang Schedifkaplatz.",
+          "towards": "U6 beide Richtungen",
+          "relatedStops": [],
+          "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-08-27T01:15:00.000+0200",
+          "end": "2026-08-27T05:15:00.000+0200"
+        },
+        "relatedLines": [
+          "U6"
         ]
       },
       {
@@ -432,33 +464,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_537",
-        "title": "Floridsdorf",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche auf den U6 Bahnsteig.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U6"
-          ],
-          "station": "Floridsdorf",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche auf den U6 Bahnsteig.",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [
-            4645,
-            4646
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U6"
-        ],
-        "relatedStops": [
-          4645,
-          4646
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_538",
         "title": "Floridsdorf",
         "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U6 Bahnsteig an die Oberfläche.",
@@ -486,16 +491,16 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_611",
+        "name": "ftazS_610",
         "title": "Hütteldorfer Straße",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Hütteldorferstr./Breitenseerstraße.",
+        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung von der Oberfläche Ausgang Hütteldorferstr./Breitenseerstraße auf den U3 Bahnsteig.",
         "attributes": {
           "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U3"
           ],
           "station": "Hütteldorfer Straße",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Hütteldorferstr./Breitenseerstraße.",
+          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung von der Oberfläche Ausgang Hütteldorferstr./Breitenseerstraße auf den U3 Bahnsteig.",
           "towards": "U3 beide Richtungen",
           "relatedStops": [
             4928,
@@ -617,7 +622,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_34, ftazS_55, ftazS_66, ftazS_73, ftazS_128, ftazS_186, ftazS_190, ftazS_278, ftazS_446, ftazS_447, ftazS_450, ftazS_451, ftazS_452, ftazS_453, ftazS_456, ftazS_537, ftazS_538, ftazS_611, ftazS_708, ftazS_737, ftazS_760, ftazS_1016600",
+        "trafficInfoNameList": "ftazS_49, ftazS_55, ftazS_66, ftazS_73, ftazS_156, ftazS_186, ftazS_190, ftazS_223, ftazS_278, ftazS_446, ftazS_447, ftazS_450, ftazS_451, ftazS_452, ftazS_453, ftazS_456, ftazS_538, ftazS_610, ftazS_708, ftazS_737, ftazS_760, ftazS_1016600",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -632,6 +637,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-08-15T21:34:40.000+0200"
+    "serverTime": "2026-08-16T06:50:24.000+0200"
   }
 }
