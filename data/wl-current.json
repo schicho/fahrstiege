@@ -177,54 +177,28 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_223",
-        "title": "Bahnhof Meidling",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Zugang zur ÖBB) an die Oberfläche Ausgang Schedifkaplatz.",
-        "attributes": {
-          "ausBis": "27.08.2026 05:15",
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U6"
-          ],
-          "station": "Bahnhof Meidling",
-          "ausVon": "27.08.2026 01:15",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Zugang zur ÖBB) an die Oberfläche Ausgang Schedifkaplatz.",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [],
-          "status": "außer Betrieb"
-        },
-        "time": {
-          "start": "2026-08-27T01:15:00.000+0200",
-          "end": "2026-08-27T05:15:00.000+0200"
-        },
-        "relatedLines": [
-          "U6"
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_251",
+        "name": "ftazS_260",
         "title": "Karlsplatz",
-        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Verbindungsgang von der U1 auf den Bahnsteig der U4.",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U1 Bahnsteig.\n\n",
         "attributes": {
-          "ausBis": "24.08.2026 05:15",
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "ausBis": "14.09.2026 00:45",
+          "reason": "Geplante Wartung wird durchgeführt.",
           "relatedLines": [
-            "U4"
+            "U1"
           ],
           "station": "Karlsplatz",
-          "ausVon": "24.08.2026 01:15",
-          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Verbindungsgang von der U1 auf den Bahnsteig der U4.",
-          "towards": "U4 beide Richtungen",
+          "ausVon": "13.09.2026 20:45",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U1 Bahnsteig.\n\n",
+          "towards": "U1 beide Richtungen",
           "relatedStops": [],
           "status": "außer Betrieb"
         },
         "time": {
-          "start": "2026-08-24T01:15:00.000+0200",
-          "end": "2026-08-24T05:15:00.000+0200"
+          "start": "2026-09-13T20:45:00.000+0200",
+          "end": "2026-09-14T00:45:00.000+0200"
         },
         "relatedLines": [
-          "U4"
+          "U1"
         ]
       },
       {
@@ -598,33 +572,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_610",
-        "title": "Hütteldorfer Straße",
-        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung von der Oberfläche Ausgang Hütteldorferstr./Breitenseerstraße auf den U3 Bahnsteig.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Hütteldorfer Straße",
-          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung von der Oberfläche Ausgang Hütteldorferstr./Breitenseerstraße auf den U3 Bahnsteig.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4928,
-            4933
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4928,
-          4933
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_708",
         "title": "Eichenstraße",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Fahrtrichtung Schlachthausgasse/Karlsplatz in das Zwischengeschoß.",
@@ -695,26 +642,6 @@
         "relatedLines": [
           "Unterflurstrassenbahn"
         ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_1016603",
-        "title": "Erzherzog-Karl-Straße",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "Unterflurstrassenbahn"
-          ],
-          "station": "Erzherzog-Karl-Straße",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche.",
-          "towards": "Unterflurstrassenbahn beide Richtungen",
-          "relatedStops": [],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "Unterflurstrassenbahn"
-        ]
       }
     ],
     "trafficInfoCategories": [
@@ -722,7 +649,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_52, ftazS_55, ftazS_66, ftazS_73, ftazS_186, ftazS_190, ftazS_223, ftazS_251, ftazS_278, ftazS_286, ftazS_360, ftazS_377, ftazS_378, ftazS_446, ftazS_447, ftazS_450, ftazS_451, ftazS_452, ftazS_453, ftazS_456, ftazS_538, ftazS_610, ftazS_708, ftazS_737, ftazS_1016600, ftazS_1016603",
+        "trafficInfoNameList": "ftazS_52, ftazS_55, ftazS_66, ftazS_73, ftazS_186, ftazS_190, ftazS_260, ftazS_278, ftazS_286, ftazS_360, ftazS_377, ftazS_378, ftazS_446, ftazS_447, ftazS_450, ftazS_451, ftazS_452, ftazS_453, ftazS_456, ftazS_538, ftazS_708, ftazS_737, ftazS_1016600",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -737,6 +664,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-08-16T18:42:37.000+0200"
+    "serverTime": "2026-08-16T21:34:15.000+0200"
   }
 }
