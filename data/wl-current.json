@@ -3,6 +3,105 @@
     "trafficInfos": [
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_273",
+        "title": "Landstraße",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß auf den U4 Bahnsteig.",
+        "attributes": {
+          "ausBis": "20.08.2026 00:45",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Landstraße",
+          "ausVon": "19.08.2026 20:45",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß auf den U4 Bahnsteig.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4904,
+            4913
+          ],
+          "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-08-19T20:45:00.000+0200",
+          "end": "2026-08-20T00:45:00.000+0200"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4904,
+          4913
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_286",
+        "title": "Kagran",
+        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung von der Oberfläche auf den U1 Bahnsteig.\n\n",
+        "attributes": {
+          "ausBis": "03.09.2026 05:15",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Kagran",
+          "ausVon": "03.09.2026 01:15",
+          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung von der Oberfläche auf den U1 Bahnsteig.\n\n",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4102,
+            4127
+          ],
+          "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-09-03T01:15:00.000+0200",
+          "end": "2026-09-03T05:15:00.000+0200"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4102,
+          4127
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_287",
+        "title": "Kagran",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung von der Oberfläche auf den U1 Bahnsteig.\n\n",
+        "attributes": {
+          "ausBis": "04.09.2026 00:45",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Kagran",
+          "ausVon": "03.09.2026 20:45",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung von der Oberfläche auf den U1 Bahnsteig.\n\n",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4102,
+            4127
+          ],
+          "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-09-03T20:45:00.000+0200",
+          "end": "2026-09-04T00:45:00.000+0200"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4102,
+          4127
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_498",
         "title": "Spittelau",
         "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U4 Bahnsteig.",
@@ -200,87 +299,6 @@
         "relatedStops": [
           4112,
           4117
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_206",
-        "title": "Nestroyplatz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Praterstraße Stadteinwärts.",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Nestroyplatz",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Praterstraße Stadteinwärts.",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4114,
-            4115
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4114,
-          4115
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_759",
-        "title": "Enkplatz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Simmeringer Hauptstraße.",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Enkplatz",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Simmeringer Hauptstraße.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4936,
-            4939
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4936,
-          4939
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_238",
-        "title": "Landstraße",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberflßche Ausgang Beatrixgasse / Landstrasse Hauptstrasse(Ost).",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Landstraße",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberflßche Ausgang Beatrixgasse / Landstrasse Hauptstrasse(Ost).",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4904,
-            4913
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4904,
-          4913
         ]
       },
       {
@@ -494,53 +512,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_714",
-        "title": "Matzleinsdorfer Platz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Triesterstraße und Zugang zu den ÖBB.",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "Unterflurstrassenbahn"
-          ],
-          "station": "Matzleinsdorfer Platz",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Triesterstraße und Zugang zu den ÖBB.",
-          "towards": "Unterflurstrassenbahn beide Richtungen",
-          "relatedStops": [],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "Unterflurstrassenbahn"
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_496",
-        "title": "Spittelau",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß auf den U6 Bahnsteig Gleis 2 Richtung Siebenhirten.\n",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U6"
-          ],
-          "station": "Spittelau",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß auf den U6 Bahnsteig Gleis 2 Richtung Siebenhirten.\n",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [
-            4627,
-            4651
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U6"
-        ],
-        "relatedStops": [
-          4627,
-          4651
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_1016600",
         "title": "Erzherzog-Karl-Straße",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche.",
@@ -592,7 +563,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_498, ftazS_92, ftazS_446, ftazS_447, ftazS_94, ftazS_450, ftazS_186, ftazS_206, ftazS_759, ftazS_238, ftazS_452, ftazS_708, ftazS_456, ftazS_409, ftazS_538, ftazS_55, ftazS_451, ftazS_453, ftazS_714, ftazS_496, ftazS_1016600, ftazS_410",
+        "trafficInfoNameList": "ftazS_273, ftazS_286, ftazS_287, ftazS_498, ftazS_92, ftazS_446, ftazS_447, ftazS_94, ftazS_450, ftazS_186, ftazS_452, ftazS_708, ftazS_456, ftazS_409, ftazS_538, ftazS_55, ftazS_451, ftazS_453, ftazS_1016600, ftazS_410",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -607,6 +578,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-08-19T15:57:58.000+0200"
+    "serverTime": "2026-08-19T18:47:02.000+0200"
   }
 }
