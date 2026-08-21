@@ -61,6 +61,62 @@
     margin-top: 0.5rem;
 }
 
+.outage-item {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    text-align: left;
+}
+
+.outage-item:not(:disabled)::after {
+    display: inline-block;
+    margin-left: 0.35rem;
+    border-top: 0.3rem solid transparent;
+    border-bottom: 0.3rem solid transparent;
+    border-left: 0.4rem solid var(--metro-line-color);
+}
+
+.outage-item:not(:disabled):hover,
+.outage-item:not(:disabled):focus-visible {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 0.15em;
+}
+
+.outage-item:focus-visible {
+    outline: 2px solid var(--metro-line-color);
+    outline-offset: 2px;
+}
+
+#outage-dialog {
+    margin: auto;
+    max-width: min(32rem, calc(100% - 2rem));
+    border: 1px solid #d8d8d8;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+}
+
+#outage-dialog::backdrop {
+    background: rgb(0 0 0 / 35%);
+}
+
+#outage-dialog h2 {
+    margin-top: 0;
+    padding-right: 2rem;
+}
+
+.dialog-close {
+    float: right;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
 
 @media (max-width: 768px) {
     #wl {

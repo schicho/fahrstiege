@@ -68,6 +68,10 @@ async function groupByLine(data) {
 
 async function renderOverview(groupedData) {
     const container = getOverviewContainer();
+    const dialog = document.getElementById("outage-dialog");
+    const dialogTitle = document.getElementById("outage-dialog-title");
+    const dialogReason = document.getElementById("outage-dialog-reason");
+    const dialogDescription = document.getElementById("outage-dialog-description");
 
     if (!container) {
         return;
@@ -95,10 +99,23 @@ async function renderOverview(groupedData) {
 
         lineItems.forEach(item => {
             const listItem = document.createElement("li");
-            listItem.textContent = item.title;
-            if (item.description && item.reason) {
-                listItem.title = item.reason + "\n\n" + item.description;
+            const detailsAvailable = item.description && item.reason && dialog;
+            const itemButton = document.createElement("button");
+            itemButton.className = "outage-item";
+            itemButton.type = "button";
+            itemButton.textContent = item.title;
+
+            if (detailsAvailable) {
+                itemButton.addEventListener("click", () => {
+                    dialogTitle.textContent = item.title;
+                    dialogReason.textContent = item.reason;
+                    dialogDescription.textContent = item.description;
+                    dialog.showModal();
+                });
+            } else {
+                itemButton.disabled = true;
             }
+            listItem.appendChild(itemButton);
             list.appendChild(listItem);
         });
 
