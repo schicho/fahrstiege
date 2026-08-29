@@ -515,6 +515,33 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_742",
+        "title": "Zippererstraße",
+        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abfwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Zippererstraße / Simmeringer Hauptstraße.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Zippererstraße",
+          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abfwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Zippererstraße / Simmeringer Hauptstraße.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4935,
+            4940
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4935,
+          4940
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_760",
         "title": "Enkplatz",
         "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Simmeringer Hauptstraße.",
@@ -620,7 +647,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_1354522, ftazS_1354523, ftazS_51, ftazS_52, ftazS_55, ftazS_96, ftazS_118, ftazS_140, ftazS_190, ftazS_378, ftazS_406, ftazS_446, ftazS_450, ftazS_451, ftazS_452, ftazS_453, ftazS_456, ftazS_538, ftazS_708, ftazS_760, ftazS_764, ftazS_1016600, ftazS_1017112",
+        "trafficInfoNameList": "ftazS_1354522, ftazS_1354523, ftazS_51, ftazS_52, ftazS_55, ftazS_96, ftazS_118, ftazS_140, ftazS_190, ftazS_378, ftazS_406, ftazS_446, ftazS_450, ftazS_451, ftazS_452, ftazS_453, ftazS_456, ftazS_538, ftazS_708, ftazS_742, ftazS_760, ftazS_764, ftazS_1016600, ftazS_1017112",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -635,6 +662,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-08-29T13:07:01.000+0200"
+    "serverTime": "2026-08-29T19:08:52.000+0200"
   }
 }
