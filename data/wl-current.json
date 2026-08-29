@@ -168,35 +168,35 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_195",
-        "title": "Michelbeuern-AKH",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig in die Passage AKH oder über den Gürtel.",
+        "name": "ftazS_190",
+        "title": "Längenfeldgasse",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung U6 Siebenhirten / U4 Hütteldorf.\n",
         "attributes": {
-          "ausBis": "16.09.2026 00:45",
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "ausBis": "25.09.2026 05:15",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U6"
           ],
-          "station": "Michelbeuern-AKH",
-          "ausVon": "15.09.2026 20:45",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig in die Passage AKH oder über den Gürtel.",
+          "station": "Längenfeldgasse",
+          "ausVon": "25.09.2026 01:15",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung U6 Siebenhirten / U4 Hütteldorf.\n",
           "towards": "U6 beide Richtungen",
           "relatedStops": [
-            4605,
-            4624
+            4612,
+            4617
           ],
           "status": "außer Betrieb"
         },
         "time": {
-          "start": "2026-09-15T20:45:00.000+0200",
-          "end": "2026-09-16T00:45:00.000+0200"
+          "start": "2026-09-25T01:15:00.000+0200",
+          "end": "2026-09-25T05:15:00.000+0200"
         },
         "relatedLines": [
           "U6"
         ],
         "relatedStops": [
-          4605,
-          4624
+          4612,
+          4617
         ]
       },
       {
@@ -482,6 +482,33 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_764",
+        "title": "Enkplatz",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Eingang Enkplatz ins Zwischengeschoß.",
+        "attributes": {
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Enkplatz",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Eingang Enkplatz ins Zwischengeschoß.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4936,
+            4939
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4936,
+          4939
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_1016600",
         "title": "Erzherzog-Karl-Straße",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche.",
@@ -506,7 +533,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_1354522, ftazS_1354523, ftazS_51, ftazS_52, ftazS_55, ftazS_96, ftazS_118, ftazS_195, ftazS_406, ftazS_446, ftazS_450, ftazS_451, ftazS_452, ftazS_453, ftazS_456, ftazS_538, ftazS_708, ftazS_760, ftazS_1016600",
+        "trafficInfoNameList": "ftazS_1354522, ftazS_1354523, ftazS_51, ftazS_52, ftazS_55, ftazS_96, ftazS_118, ftazS_190, ftazS_406, ftazS_446, ftazS_450, ftazS_451, ftazS_452, ftazS_453, ftazS_456, ftazS_538, ftazS_708, ftazS_760, ftazS_764, ftazS_1016600",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -521,6 +548,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-08-28T18:39:59.000+0200"
+    "serverTime": "2026-08-29T04:12:37.000+0200"
   }
 }
