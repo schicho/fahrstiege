@@ -33,33 +33,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_32",
-        "title": "Herrengasse",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Aufgang Herrengasse auf den Bahnsteig.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Herrengasse",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Aufgang Herrengasse auf den Bahnsteig.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4907,
-            4910
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4907,
-          4910
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_33",
         "title": "Herrengasse",
         "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Herrengasse.\n",
@@ -141,39 +114,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_63",
-        "title": "Stephansplatz",
-        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß Gleis U3 Ottakring.\n",
-        "attributes": {
-          "ausBis": "09.09.2026 00:45",
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Stephansplatz",
-          "ausVon": "08.09.2026 20:45",
-          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß Gleis U3 Ottakring.\n",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4111,
-            4118
-          ],
-          "status": "außer Betrieb"
-        },
-        "time": {
-          "start": "2026-09-08T20:45:00.000+0200",
-          "end": "2026-09-09T00:45:00.000+0200"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4111,
-          4118
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_94",
         "title": "Südtiroler Platz-Hauptbahnhof",
         "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß Ausgang Kolschitzkygasse.\n\n",
@@ -206,7 +146,7 @@
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung U6 Siebenhirten / U4 Hütteldorf.\n",
         "attributes": {
           "ausBis": "25.09.2026 05:15",
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U6"
           ],
@@ -230,52 +170,6 @@
         "relatedStops": [
           4612,
           4617
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_214",
-        "title": "Bahnhof Meidling",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Wilhelmstraße.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U6"
-          ],
-          "station": "Bahnhof Meidling",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Wilhelmstraße.",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U6"
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_223",
-        "title": "Bahnhof Meidling",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Zugang zur ÖBB) an die Oberfläche Ausgang Schedifkaplatz.",
-        "attributes": {
-          "ausBis": "24.09.2026 05:15",
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U6"
-          ],
-          "station": "Bahnhof Meidling",
-          "ausVon": "24.09.2026 01:15",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß (Zugang zur ÖBB) an die Oberfläche Ausgang Schedifkaplatz.",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [],
-          "status": "außer Betrieb"
-        },
-        "time": {
-          "start": "2026-09-24T01:15:00.000+0200",
-          "end": "2026-09-24T05:15:00.000+0200"
-        },
-        "relatedLines": [
-          "U6"
         ]
       },
       {
@@ -545,7 +439,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_1354522, ftazS_1354523, ftazS_32, ftazS_33, ftazS_49, ftazS_55, ftazS_63, ftazS_94, ftazS_190, ftazS_214, ftazS_223, ftazS_437, ftazS_441, ftazS_538, ftazS_708, ftazS_715, ftazS_723, ftazS_742, ftazS_1016600, ftazS_1031281, ftazS_1351731",
+        "trafficInfoNameList": "ftazS_1354522, ftazS_1354523, ftazS_33, ftazS_49, ftazS_55, ftazS_94, ftazS_190, ftazS_437, ftazS_441, ftazS_538, ftazS_708, ftazS_715, ftazS_723, ftazS_742, ftazS_1016600, ftazS_1031281, ftazS_1351731",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -560,6 +454,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-09-06T15:41:51.000+0200"
+    "serverTime": "2026-09-06T20:18:47.000+0200"
   }
 }
