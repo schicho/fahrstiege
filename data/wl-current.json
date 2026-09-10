@@ -114,6 +114,33 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_57",
+        "title": "Stephansplatz",
+        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Zwischengeschoß N-1 (Stationswart) in das Zwischengeschoß N-3.\n\n",
+        "attributes": {
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Stephansplatz",
+          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Zwischengeschoß N-1 (Stationswart) in das Zwischengeschoß N-3.\n\n",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4111,
+            4118
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4111,
+          4118
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_72",
         "title": "Stephansplatz",
         "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Gleis U3 Ottakring ins Zwischengeschoß.",
@@ -170,6 +197,60 @@
         "relatedStops": [
           4908,
           4909
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_127",
+        "title": "Schwedenplatz",
+        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\n Fahrtreppe fährt in Auf/Abwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Schwedenplatz",
+          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\n Fahrtreppe fährt in Auf/Abwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß.",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4113,
+            4116
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4113,
+          4116
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_155",
+        "title": "Reumannplatz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Reumannplatz.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Reumannplatz",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Reumannplatz.",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4101,
+            4128
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4101,
+          4128
         ]
       },
       {
@@ -284,7 +365,7 @@
         "title": "Zieglergasse",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung Ottakring in das Zwischengeschoß (Ost).",
         "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U3"
           ],
@@ -626,7 +707,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_1354522, ftazS_1354523, ftazS_33, ftazS_51, ftazS_55, ftazS_72, ftazS_93, ftazS_157, ftazS_205, ftazS_221, ftazS_257, ftazS_375, ftazS_377, ftazS_380, ftazS_495, ftazS_539, ftazS_609, ftazS_708, ftazS_1016600, ftazS_1016601, ftazS_1016602, ftazS_1016603, ftazS_1031281, ftazS_1031287, ftazS_1031901",
+        "trafficInfoNameList": "ftazS_1354522, ftazS_1354523, ftazS_33, ftazS_51, ftazS_55, ftazS_57, ftazS_72, ftazS_93, ftazS_127, ftazS_155, ftazS_157, ftazS_205, ftazS_221, ftazS_257, ftazS_375, ftazS_377, ftazS_380, ftazS_495, ftazS_539, ftazS_609, ftazS_708, ftazS_1016600, ftazS_1016601, ftazS_1016602, ftazS_1016603, ftazS_1031281, ftazS_1031287, ftazS_1031901",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -641,6 +722,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-09-10T21:07:33.000+0200"
+    "serverTime": "2026-09-10T23:39:01.000+0200"
   }
 }
