@@ -62,6 +62,33 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_116",
+        "title": "Schwedenplatz",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Rothenturmstr. ins Zwischengeschoß.\n\n",
+        "attributes": {
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Schwedenplatz",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Rothenturmstr. ins Zwischengeschoß.\n\n",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4113,
+            4116
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4113,
+          4116
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_157",
         "title": "Reumannplatz",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Quellenstraße.",
@@ -439,6 +466,33 @@
           4645,
           4646
         ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_49",
+        "title": "Volkstheater",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig U2 Richtung Schottenring an die Oberfläche Ausgang Bellariastraße.",
+        "attributes": {
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Volkstheater",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig U2 Richtung Schottenring an die Oberfläche Ausgang Bellariastraße.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4908,
+            4909
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4908,
+          4909
+        ]
       }
     ],
     "trafficInfoCategories": [
@@ -446,7 +500,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_93, ftazS_1016600, ftazS_157, ftazS_1351732, ftazS_1018076, ftazS_72, ftazS_708, ftazS_456, ftazS_1031281, ftazS_33, ftazS_143, ftazS_51, ftazS_1354522, ftazS_1354523, ftazS_1016603, ftazS_1016601, ftazS_1016602, ftazS_539",
+        "trafficInfoNameList": "ftazS_93, ftazS_1016600, ftazS_116, ftazS_157, ftazS_1351732, ftazS_1018076, ftazS_72, ftazS_708, ftazS_456, ftazS_1031281, ftazS_33, ftazS_143, ftazS_51, ftazS_1354522, ftazS_1354523, ftazS_1016603, ftazS_1016601, ftazS_1016602, ftazS_539, ftazS_49",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -461,6 +515,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-09-11T21:09:43.000+0200"
+    "serverTime": "2026-09-11T23:44:19.000+0200"
   }
 }
