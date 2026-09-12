@@ -116,33 +116,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_765",
-        "title": "Enkplatz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Enkplatz.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Enkplatz",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Enkplatz.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4936,
-            4939
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4936,
-          4939
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_1351732",
         "title": "Altes Landgut",
         "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.",
@@ -379,33 +352,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_507",
-        "title": "Jägerstraße",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Leipzigerplatz.",
-        "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
-          "relatedLines": [
-            "U6"
-          ],
-          "station": "Jägerstraße",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Leipzigerplatz.",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [
-            4641,
-            4650
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U6"
-        ],
-        "relatedStops": [
-          4641,
-          4650
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_1354522",
         "title": "Frankhplatz",
         "description": "",
@@ -483,29 +429,29 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_198",
-        "title": "Meidling Hauptstraße",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Mittelbahnsteig an die Oberfläche.\n",
+        "name": "ftazS_49",
+        "title": "Volkstheater",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig U2 Richtung Schottenring an die Oberfläche Ausgang Bellariastraße.",
         "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
-            "U4"
+            "U3"
           ],
-          "station": "Meidling Hauptstraße",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Mittelbahnsteig an die Oberfläche.\n",
-          "towards": "U4 beide Richtungen",
+          "station": "Volkstheater",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig U2 Richtung Schottenring an die Oberfläche Ausgang Bellariastraße.",
+          "towards": "U3 beide Richtungen",
           "relatedStops": [
-            4413,
-            4424
+            4908,
+            4909
           ],
           "status": "außer Betrieb"
         },
         "relatedLines": [
-          "U4"
+          "U3"
         ],
         "relatedStops": [
-          4413,
-          4424
+          4908,
+          4909
         ]
       }
     ],
@@ -514,7 +460,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_93, ftazS_1016600, ftazS_116, ftazS_157, ftazS_765, ftazS_1351732, ftazS_1018076, ftazS_72, ftazS_708, ftazS_78, ftazS_1031281, ftazS_33, ftazS_143, ftazS_51, ftazS_507, ftazS_1354522, ftazS_1354523, ftazS_1016603, ftazS_539, ftazS_198",
+        "trafficInfoNameList": "ftazS_93, ftazS_1016600, ftazS_116, ftazS_157, ftazS_1351732, ftazS_1018076, ftazS_72, ftazS_708, ftazS_78, ftazS_1031281, ftazS_33, ftazS_143, ftazS_51, ftazS_1354522, ftazS_1354523, ftazS_1016603, ftazS_539, ftazS_49",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -529,6 +475,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-09-12T20:24:35.000+0200"
+    "serverTime": "2026-09-12T23:26:31.000+0200"
   }
 }
