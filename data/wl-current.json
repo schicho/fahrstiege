@@ -33,6 +33,39 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_26",
+        "title": "Hietzing",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung Hütteldorf an die Oberfläche.\n\n",
+        "attributes": {
+          "ausBis": "30.09.2026 05:15",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U4"
+          ],
+          "station": "Hietzing",
+          "ausVon": "30.09.2026 01:15",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung Hütteldorf an die Oberfläche.\n\n",
+          "towards": "U4 beide Richtungen",
+          "relatedStops": [
+            4409,
+            4428
+          ],
+          "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-09-30T01:15:00.000+0200",
+          "end": "2026-09-30T05:15:00.000+0200"
+        },
+        "relatedLines": [
+          "U4"
+        ],
+        "relatedStops": [
+          4409,
+          4428
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_73",
         "title": "Stephansplatz",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Gleis U3 Ottakring ins Zwischengeschoß.",
@@ -60,20 +93,53 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_207",
-        "title": "Nestroyplatz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß Stadteinwärtiger Ausgang. (Stationswart)",
+        "name": "ftazS_143",
+        "title": "Praterstern",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß zum U1 Bahnsteig Fahrtrichtung Oberlaa.",
         "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt. Voraussichtlich bis 25.09.2026 außer Betrieb!",
+          "ausBis": "05.10.2026 00:45",
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
           "relatedLines": [
             "U1"
           ],
-          "station": "Nestroyplatz",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß Stadteinwärtiger Ausgang. (Stationswart)",
+          "station": "Praterstern",
+          "ausVon": "04.10.2026 20:45",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß zum U1 Bahnsteig Fahrtrichtung Oberlaa.",
           "towards": "U1 beide Richtungen",
           "relatedStops": [
-            4114,
-            4115
+            4112,
+            4117
+          ],
+          "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-10-04T20:45:00.000+0200",
+          "end": "2026-10-05T00:45:00.000+0200"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4112,
+          4117
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_154",
+        "title": "Reumannplatz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Amalienbad.",
+        "attributes": {
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Reumannplatz",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Amalienbad.",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4101,
+            4128
           ],
           "status": "außer Betrieb"
         },
@@ -81,67 +147,41 @@
           "U1"
         ],
         "relatedStops": [
-          4114,
-          4115
+          4101,
+          4128
         ]
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_247",
-        "title": "Karlsplatz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig in die Passage Karlsplatz.",
+        "name": "ftazS_188",
+        "title": "Längenfeldgasse",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 1 Richtung U6 Floridsdorf / U4 Heiligenstadt an die Oberfläche.\n",
         "attributes": {
-          "ausBis": "07.10.2026 00:45",
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "ausBis": "29.10.2026 00:45",
+          "reason": "Geplante Wartung wird durchgeführt.",
           "relatedLines": [
-            "U1"
+            "U6"
           ],
-          "station": "Karlsplatz",
-          "ausVon": "06.10.2026 20:45",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig in die Passage Karlsplatz.",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [],
-          "status": "außer Betrieb"
-        },
-        "time": {
-          "start": "2026-10-06T20:45:00.000+0200",
-          "end": "2026-10-07T00:45:00.000+0200"
-        },
-        "relatedLines": [
-          "U1"
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_273",
-        "title": "Landstraße",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß auf den U4 Bahnsteig.",
-        "attributes": {
-          "ausBis": "22.10.2026 05:15",
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Landstraße",
-          "ausVon": "22.10.2026 01:15",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß auf den U4 Bahnsteig.",
-          "towards": "U3 beide Richtungen",
+          "station": "Längenfeldgasse",
+          "ausVon": "28.10.2026 20:45",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 1 Richtung U6 Floridsdorf / U4 Heiligenstadt an die Oberfläche.\n",
+          "towards": "U6 beide Richtungen",
           "relatedStops": [
-            4904,
-            4913
+            4612,
+            4617
           ],
           "status": "außer Betrieb"
         },
         "time": {
-          "start": "2026-10-22T01:15:00.000+0200",
-          "end": "2026-10-22T05:15:00.000+0200"
+          "start": "2026-10-28T20:45:00.000+0100",
+          "end": "2026-10-29T00:45:00.000+0100"
         },
         "relatedLines": [
-          "U3"
+          "U6"
         ],
         "relatedStops": [
-          4904,
-          4913
+          4612,
+          4617
         ]
       },
       {
@@ -196,6 +236,33 @@
         "relatedStops": [
           4631,
           4638
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_507",
+        "title": "Jägerstraße",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Leipzigerplatz.",
+        "attributes": {
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "relatedLines": [
+            "U6"
+          ],
+          "station": "Jägerstraße",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Leipzigerplatz.",
+          "towards": "U6 beide Richtungen",
+          "relatedStops": [
+            4641,
+            4650
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U6"
+        ],
+        "relatedStops": [
+          4641,
+          4650
         ]
       },
       {
@@ -267,6 +334,33 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_1017114",
+        "title": "Kagraner Platz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom  U1 Bahnsteig in das Aufnahmebegäude Ausgang Kagraner Platz/Wagramerstraße/Doningasse.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Kagraner Platz",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom  U1 Bahnsteig in das Aufnahmebegäude Ausgang Kagraner Platz/Wagramerstraße/Doningasse.",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4181,
+            4186
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4181,
+          4186
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_1018074",
         "title": "Taborstraße",
         "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U2 Mittelbahnsteig in das Zwischengeschoß Ausgang Taborstraße/Augarten.",
@@ -290,6 +384,33 @@
         "relatedStops": [
           4261,
           4262
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_1018083",
+        "title": "Praterstern",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß Zugang U1/U2 an die Oberfläche Ausgang Prater/Zugang ÖBB.",
+        "attributes": {
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Praterstern",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß Zugang U1/U2 an die Oberfläche Ausgang Prater/Zugang ÖBB.",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4112,
+            4117
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4112,
+          4117
         ]
       },
       {
@@ -318,6 +439,33 @@
           4254,
           4269
         ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_207",
+        "title": "Nestroyplatz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß Stadteinwärtiger Ausgang. (Stationswart)",
+        "attributes": {
+          "reason": "Geplante Wartung wird durchgeführt. Voraussichtlich bis 25.09.2026 außer Betrieb!",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Nestroyplatz",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß Stadteinwärtiger Ausgang. (Stationswart)",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4114,
+            4115
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4114,
+          4115
+        ]
       }
     ],
     "trafficInfoCategories": [
@@ -325,7 +473,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_1354522, ftazS_1354523, ftazS_73, ftazS_207, ftazS_247, ftazS_273, ftazS_452, ftazS_472, ftazS_539, ftazS_708, ftazS_712, ftazS_1018074, ftazS_1031281",
+        "trafficInfoNameList": "ftazS_1354522, ftazS_1354523, ftazS_26, ftazS_73, ftazS_143, ftazS_154, ftazS_188, ftazS_452, ftazS_472, ftazS_507, ftazS_539, ftazS_708, ftazS_712, ftazS_1017114, ftazS_1018074, ftazS_1018083, ftazS_1031281, ftazS_207",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -340,6 +488,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-09-24T17:07:43.000+0200"
+    "serverTime": "2026-09-24T21:59:40.000+0200"
   }
 }
