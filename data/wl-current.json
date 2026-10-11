@@ -33,68 +33,29 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_151",
-        "title": "Rochusgasse",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Rochusmarkt.(West)",
+        "name": "ftazS_116",
+        "title": "Schwedenplatz",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Rothenturmstr. ins Zwischengeschoß.\n\n",
         "attributes": {
-          "ausBis": "23.10.2026 05:15",
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Rochusgasse",
-          "ausVon": "23.10.2026 01:15",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Rochusmarkt.(West)",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4903,
-            4914
-          ],
-          "status": "außer Betrieb"
-        },
-        "time": {
-          "start": "2026-10-23T01:15:00.000+0200",
-          "end": "2026-10-23T05:15:00.000+0200"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4903,
-          4914
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_190",
-        "title": "Längenfeldgasse",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung U6 Siebenhirten / U4 Hütteldorf.\n",
-        "attributes": {
-          "ausBis": "29.10.2026 05:15",
           "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
-            "U6"
+            "U1"
           ],
-          "station": "Längenfeldgasse",
-          "ausVon": "29.10.2026 01:15",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung U6 Siebenhirten / U4 Hütteldorf.\n",
-          "towards": "U6 beide Richtungen",
+          "station": "Schwedenplatz",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Rothenturmstr. ins Zwischengeschoß.\n\n",
+          "towards": "U1 beide Richtungen",
           "relatedStops": [
-            4612,
-            4617
+            4113,
+            4116
           ],
           "status": "außer Betrieb"
         },
-        "time": {
-          "start": "2026-10-29T01:15:00.000+0100",
-          "end": "2026-10-29T05:15:00.000+0100"
-        },
         "relatedLines": [
-          "U6"
+          "U1"
         ],
         "relatedStops": [
-          4612,
-          4617
+          4113,
+          4116
         ]
       },
       {
@@ -314,29 +275,35 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_434",
-        "title": "Schweglerstraße",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Märzstraße auf den U3 Bahnsteig.",
+        "name": "ftazS_400",
+        "title": "Westbahnhof",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung vom U6 Bahnsteig ins Zwischengeschoß (Stationswart).",
         "attributes": {
+          "ausBis": "14.10.2026 00:45",
           "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U3"
           ],
-          "station": "Schweglerstraße",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Märzstraße auf den U3 Bahnsteig.",
+          "station": "Westbahnhof",
+          "ausVon": "13.10.2026 20:45",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung vom U6 Bahnsteig ins Zwischengeschoß (Stationswart).",
           "towards": "U3 beide Richtungen",
           "relatedStops": [
-            4924,
-            4927
+            4920,
+            4921
           ],
           "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-10-13T20:45:00.000+0200",
+          "end": "2026-10-14T00:45:00.000+0200"
         },
         "relatedLines": [
           "U3"
         ],
         "relatedStops": [
-          4924,
-          4927
+          4920,
+          4921
         ]
       },
       {
@@ -473,33 +440,6 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_456",
-        "title": "Schweglerstraße",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig an die Oberfläche Ausgang Märzstraße.",
-        "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Schweglerstraße",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig an die Oberfläche Ausgang Märzstraße.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4924,
-            4927
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4924,
-          4927
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_498",
         "title": "Spittelau",
         "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U4 Bahnsteig.",
@@ -533,6 +473,33 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_537",
+        "title": "Floridsdorf",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche auf den U6 Bahnsteig.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U6"
+          ],
+          "station": "Floridsdorf",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche auf den U6 Bahnsteig.",
+          "towards": "U6 beide Richtungen",
+          "relatedStops": [
+            4645,
+            4646
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U6"
+        ],
+        "relatedStops": [
+          4645,
+          4646
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_539",
         "title": "Floridsdorf",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig an die Oberfläche.",
@@ -560,6 +527,33 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_614",
+        "title": "Hütteldorfer Straße",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Aufgang Reinlgasse auf den Bahnsteig.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Hütteldorfer Straße",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Aufgang Reinlgasse auf den Bahnsteig.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4928,
+            4933
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4928,
+          4933
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_712",
         "title": "Eichenstraße",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Fahrtrichtung Burggasse/Lainz/Baden in das Zwischengeschoß.",
@@ -576,6 +570,33 @@
         },
         "relatedLines": [
           "Unterflurstrassenbahn"
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_751",
+        "title": "Simmering",
+        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Aufnahmegebäude Simmeringer Hauptstraße/Hasenleitengasse auf den U3 Bahnsteig.",
+        "attributes": {
+          "reason": "",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Simmering",
+          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Aufnahmegebäude Simmeringer Hauptstraße/Hasenleitengasse auf den U3 Bahnsteig.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4937,
+            4938
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4937,
+          4938
         ]
       },
       {
@@ -611,7 +632,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_1354522, ftazS_1354523, ftazS_151, ftazS_190, ftazS_213, ftazS_269, ftazS_286, ftazS_372, ftazS_374, ftazS_378, ftazS_379, ftazS_381, ftazS_434, ftazS_446, ftazS_448, ftazS_452, ftazS_454, ftazS_456, ftazS_498, ftazS_539, ftazS_712, ftazS_1018078",
+        "trafficInfoNameList": "ftazS_1354522, ftazS_1354523, ftazS_116, ftazS_213, ftazS_269, ftazS_286, ftazS_372, ftazS_374, ftazS_378, ftazS_379, ftazS_381, ftazS_400, ftazS_446, ftazS_448, ftazS_452, ftazS_454, ftazS_498, ftazS_537, ftazS_539, ftazS_614, ftazS_712, ftazS_751, ftazS_1018078",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -626,6 +647,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-10-11T12:50:09.000+0200"
+    "serverTime": "2026-10-11T20:05:26.000+0200"
   }
 }
