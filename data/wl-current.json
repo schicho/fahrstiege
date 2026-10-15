@@ -3,6 +3,21 @@
     "trafficInfos": [
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_92",
+        "title": "Volkstheater",
+        "description": "",
+        "attributes": {
+          "reason": "Geplante Wartung wird durchgeführt.",
+          "relatedLines": [],
+          "station": "Volkstheater",
+          "location": "",
+          "towards": "",
+          "relatedStops": [],
+          "status": "außer Betrieb"
+        }
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_1354522",
         "title": "Frankhplatz",
         "description": "",
@@ -252,6 +267,33 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_156",
+        "title": "Reumannplatz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Reumannplatz.",
+        "attributes": {
+          "reason": "Geplante Wartung wird durchgeführt.",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Reumannplatz",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig ins Zwischengeschoß Aufgang Reumannplatz.",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4101,
+            4128
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4101,
+          4128
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_186",
         "title": "Praterstern",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Heinestraße/Praterstraße.\n\n",
@@ -326,16 +368,16 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_217",
+        "name": "ftazS_219",
         "title": "Bahnhof Meidling",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U6 Bahnsteig.",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig ins Zwischengeschoß.",
         "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U6"
           ],
           "station": "Bahnhof Meidling",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß auf den U6 Bahnsteig.",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig ins Zwischengeschoß.",
           "towards": "U6 beide Richtungen",
           "relatedStops": [],
           "status": "außer Betrieb"
@@ -346,22 +388,22 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
-        "name": "ftazS_249",
+        "name": "ftazS_242",
         "title": "Karlsplatz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß der U2 zum Ausgang Resselpark/Verbindungsgang zur U4.",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Passage in das Zwischengeschoß.",
         "attributes": {
-          "reason": "",
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
           "relatedLines": [
-            "U2"
+            "U1"
           ],
           "station": "Karlsplatz",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß der U2 zum Ausgang Resselpark/Verbindungsgang zur U4.",
-          "towards": "U2 beide Richtungen",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Passage in das Zwischengeschoß.",
+          "towards": "U1 beide Richtungen",
           "relatedStops": [],
           "status": "außer Betrieb"
         },
         "relatedLines": [
-          "U2"
+          "U1"
         ]
       },
       {
@@ -573,6 +615,72 @@
       },
       {
         "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_437",
+        "title": "Schweglerstraße",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Ausgang Goldschladstrasse/Stättermeyergasse auf den U3 Bahnsteig.",
+        "attributes": {
+          "ausBis": "16.10.2026 05:00",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Schweglerstraße",
+          "ausVon": "16.10.2026 01:00",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Ausgang Goldschladstrasse/Stättermeyergasse auf den U3 Bahnsteig.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4924,
+            4927
+          ],
+          "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-10-16T01:00:00.000+0200",
+          "end": "2026-10-16T05:00:00.000+0200"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4924,
+          4927
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_455",
+        "title": "Johnstraße",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß Eingang Markt an die Oberfläche Ausgang Hütteldorferstraße.",
+        "attributes": {
+          "ausBis": "16.10.2026 05:00",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Johnstraße",
+          "ausVon": "16.10.2026 01:00",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß Eingang Markt an die Oberfläche Ausgang Hütteldorferstraße.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4925,
+            4926
+          ],
+          "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-10-16T01:00:00.000+0200",
+          "end": "2026-10-16T05:00:00.000+0200"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4925,
+          4926
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
         "name": "ftazS_539",
         "title": "Floridsdorf",
         "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig an die Oberfläche.",
@@ -596,6 +704,33 @@
         "relatedStops": [
           4645,
           4646
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "name": "ftazS_614",
+        "title": "Hütteldorfer Straße",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Aufgang Reinlgasse auf den Bahnsteig.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Hütteldorfer Straße",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß Aufgang Reinlgasse auf den Bahnsteig.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4928,
+            4933
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4928,
+          4933
         ]
       },
       {
@@ -624,7 +759,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_1354522, ftazS_1354523, ftazS_65, ftazS_66, ftazS_67, ftazS_69, ftazS_123, ftazS_140, ftazS_141, ftazS_186, ftazS_204, ftazS_213, ftazS_217, ftazS_249, ftazS_254, ftazS_259, ftazS_260, ftazS_277, ftazS_278, ftazS_280, ftazS_412, ftazS_413, ftazS_539, ftazS_712",
+        "trafficInfoNameList": "ftazS_92, ftazS_1354522, ftazS_1354523, ftazS_65, ftazS_66, ftazS_67, ftazS_69, ftazS_123, ftazS_140, ftazS_141, ftazS_156, ftazS_186, ftazS_204, ftazS_213, ftazS_219, ftazS_242, ftazS_254, ftazS_259, ftazS_260, ftazS_277, ftazS_278, ftazS_280, ftazS_412, ftazS_413, ftazS_437, ftazS_455, ftazS_539, ftazS_614, ftazS_712",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -639,6 +774,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-10-15T17:02:22.000+0200"
+    "serverTime": "2026-10-15T21:53:28.000+0200"
   }
 }
