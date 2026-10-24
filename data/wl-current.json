@@ -7,36 +7,67 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
-        "name": "ftazS_140",
-        "parentName": "ftazS_140",
-        "title": "Südtiroler Platz-Hauptbahnhof",
-        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß/Passage.\n\n",
+        "name": "ftazS_247",
+        "parentName": "ftazS_247",
+        "title": "Karlsplatz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig in die Passage Karlsplatz.",
         "attributes": {
-          "ausBis": "29.10.2026 05:15",
+          "ausBis": "04.11.2026 00:45",
           "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
             "U1"
           ],
-          "station": "Südtiroler Platz-Hauptbahnhof",
-          "ausVon": "29.10.2026 01:15",
-          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß/Passage.\n\n",
+          "station": "Karlsplatz",
+          "ausVon": "03.11.2026 20:45",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig in die Passage Karlsplatz.",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [],
+          "status": "außer Betrieb"
+        },
+        "time": {
+          "start": "2026-11-03T20:45:00.000+0100",
+          "end": "2026-11-04T00:45:00.000+0100"
+        },
+        "relatedLines": [
+          "U1"
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "alertCauseId": 255,
+        "alertCause": "undefined alert cause",
+        "reasonId": 0,
+        "reasonName": "undefined",
+        "name": "ftazS_61",
+        "parentName": "ftazS_61",
+        "title": "Stephansplatz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß Gleis U3 Ottakring.\n",
+        "attributes": {
+          "ausBis": "10.11.2026 00:45",
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Stephansplatz",
+          "ausVon": "09.11.2026 20:45",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß Gleis U3 Ottakring.\n",
           "towards": "U1 beide Richtungen",
           "relatedStops": [
-            4105,
-            4124
+            4111,
+            4118
           ],
           "status": "außer Betrieb"
         },
         "time": {
-          "start": "2026-10-29T01:15:00.000+0100",
-          "end": "2026-10-29T05:15:00.000+0100"
+          "start": "2026-11-09T20:45:00.000+0100",
+          "end": "2026-11-10T00:45:00.000+0100"
         },
         "relatedLines": [
           "U1"
         ],
         "relatedStops": [
-          4105,
-          4124
+          4111,
+          4118
         ]
       },
       {
@@ -230,38 +261,6 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
-        "name": "ftazS_507",
-        "parentName": "ftazS_507",
-        "title": "Jägerstraße",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Leipzigerplatz.",
-        "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
-          "relatedLines": [
-            "U6"
-          ],
-          "station": "Jägerstraße",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Leipzigerplatz.",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [
-            4641,
-            4650
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U6"
-        ],
-        "relatedStops": [
-          4641,
-          4650
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
         "name": "ftazS_1354522",
         "parentName": "ftazS_1354522",
         "title": "Frankhplatz",
@@ -302,7 +301,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_140, ftazS_712, ftazS_204, ftazS_1351732, ftazS_1017114, ftazS_168, ftazS_451, ftazS_507, ftazS_1354522, ftazS_1354523",
+        "trafficInfoNameList": "ftazS_247, ftazS_61, ftazS_712, ftazS_204, ftazS_1351732, ftazS_1017114, ftazS_168, ftazS_451, ftazS_1354522, ftazS_1354523",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -317,6 +316,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-10-24T16:01:10.000+0200"
+    "serverTime": "2026-10-24T20:48:00.000+0200"
   }
 }
