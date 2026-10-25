@@ -45,36 +45,36 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
-        "name": "ftazS_151",
-        "parentName": "ftazS_151",
-        "title": "Rochusgasse",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Rochusmarkt.(West)",
+        "name": "ftazS_446",
+        "parentName": "ftazS_446",
+        "title": "Johnstraße",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Wasserwelt auf den U3 Bahnsteig.",
         "attributes": {
-          "ausBis": "20.11.2026 05:15",
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "ausBis": "24.11.2026 00:45",
+          "reason": "",
           "relatedLines": [
             "U3"
           ],
-          "station": "Rochusgasse",
-          "ausVon": "20.11.2026 01:15",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Rochusmarkt.(West)",
+          "station": "Johnstraße",
+          "ausVon": "23.11.2026 20:45",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Wasserwelt auf den U3 Bahnsteig.",
           "towards": "U3 beide Richtungen",
           "relatedStops": [
-            4903,
-            4914
+            4925,
+            4926
           ],
           "status": "außer Betrieb"
         },
         "time": {
-          "start": "2026-11-20T01:15:00.000+0100",
-          "end": "2026-11-20T05:15:00.000+0100"
+          "start": "2026-11-23T20:45:00.000+0100",
+          "end": "2026-11-24T00:45:00.000+0100"
         },
         "relatedLines": [
           "U3"
         ],
         "relatedStops": [
-          4903,
-          4914
+          4925,
+          4926
         ]
       },
       {
@@ -396,6 +396,31 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
+        "name": "ftazS_714",
+        "parentName": "ftazS_714",
+        "title": "Matzleinsdorfer Platz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Triesterstraße und Zugang zu den ÖBB.",
+        "attributes": {
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "relatedLines": [
+            "Unterflurstrassenbahn"
+          ],
+          "station": "Matzleinsdorfer Platz",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Triesterstraße und Zugang zu den ÖBB.",
+          "towards": "Unterflurstrassenbahn beide Richtungen",
+          "relatedStops": [],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "Unterflurstrassenbahn"
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "alertCauseId": 255,
+        "alertCause": "undefined alert cause",
+        "reasonId": 0,
+        "reasonName": "undefined",
         "name": "ftazS_1354522",
         "parentName": "ftazS_1354522",
         "title": "Frankhplatz",
@@ -436,6 +461,38 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
+        "name": "ftazS_53",
+        "parentName": "ftazS_53",
+        "title": "Stephansplatz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Graben.\n",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Stephansplatz",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Graben.\n",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4111,
+            4118
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4111,
+          4118
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "alertCauseId": 255,
+        "alertCause": "undefined alert cause",
+        "reasonId": 0,
+        "reasonName": "undefined",
         "name": "ftazS_229",
         "parentName": "ftazS_229",
         "title": "Praterstern",
@@ -468,7 +525,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_61, ftazS_151, ftazS_1032351, ftazS_712, ftazS_204, ftazS_1351732, ftazS_1017114, ftazS_168, ftazS_70, ftazS_439, ftazS_764, ftazS_451, ftazS_1354522, ftazS_1354523, ftazS_229",
+        "trafficInfoNameList": "ftazS_61, ftazS_446, ftazS_1032351, ftazS_712, ftazS_204, ftazS_1351732, ftazS_1017114, ftazS_168, ftazS_70, ftazS_439, ftazS_764, ftazS_451, ftazS_714, ftazS_1354522, ftazS_1354523, ftazS_53, ftazS_229",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -483,6 +540,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-10-25T15:57:36.000+0100"
+    "serverTime": "2026-10-25T20:38:40.000+0100"
   }
 }
