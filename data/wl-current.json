@@ -45,48 +45,36 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
-        "name": "ftazS_715",
-        "parentName": "ftazS_715",
-        "title": "Matzleinsdorfer Platz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung von der unteren Passage in den Zwischenstock zum Aufgang Triesterstraße.",
+        "name": "ftazS_151",
+        "parentName": "ftazS_151",
+        "title": "Rochusgasse",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Rochusmarkt.(West)",
         "attributes": {
+          "ausBis": "20.11.2026 05:15",
           "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
-            "Unterflurstrassenbahn"
+            "U3"
           ],
-          "station": "Matzleinsdorfer Platz",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung von der unteren Passage in den Zwischenstock zum Aufgang Triesterstraße.",
-          "towards": "Unterflurstrassenbahn beide Richtungen",
-          "relatedStops": [],
+          "station": "Rochusgasse",
+          "ausVon": "20.11.2026 01:15",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Rochusmarkt.(West)",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4903,
+            4914
+          ],
           "status": "außer Betrieb"
         },
-        "relatedLines": [
-          "Unterflurstrassenbahn"
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
-        "name": "ftazS_244",
-        "parentName": "ftazS_244",
-        "title": "Karlsplatz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß in die Passage.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Karlsplatz",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß in die Passage.",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [],
-          "status": "außer Betrieb"
+        "time": {
+          "start": "2026-11-20T01:15:00.000+0100",
+          "end": "2026-11-20T05:15:00.000+0100"
         },
         "relatedLines": [
-          "U1"
+          "U3"
+        ],
+        "relatedStops": [
+          4903,
+          4914
         ]
       },
       {
@@ -248,38 +236,6 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
-        "name": "ftazS_723",
-        "parentName": "ftazS_723",
-        "title": "Heiligenstadt",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig Endstation Gleis 1/5 in die Passage.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U4"
-          ],
-          "station": "Heiligenstadt",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom U4 Bahnsteig Endstation Gleis 1/5 in die Passage.",
-          "towards": "U4 beide Richtungen",
-          "relatedStops": [
-            4402,
-            4435
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U4"
-        ],
-        "relatedStops": [
-          4402,
-          4435
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
         "name": "ftazS_168",
         "parentName": "ftazS_168",
         "title": "Schlachthausgasse",
@@ -304,6 +260,70 @@
         "relatedStops": [
           4901,
           4916
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "alertCauseId": 255,
+        "alertCause": "undefined alert cause",
+        "reasonId": 0,
+        "reasonName": "undefined",
+        "name": "ftazS_70",
+        "parentName": "ftazS_70",
+        "title": "Stephansplatz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Gleis U3 Erdberg ins Zwischengeschoß.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Stephansplatz",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Gleis U3 Erdberg ins Zwischengeschoß.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4906,
+            4911
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4906,
+          4911
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "alertCauseId": 255,
+        "alertCause": "undefined alert cause",
+        "reasonId": 0,
+        "reasonName": "undefined",
+        "name": "ftazS_439",
+        "parentName": "ftazS_439",
+        "title": "Schweglerstraße",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Stättermeyergasse ins Zwischengeschoß.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Schweglerstraße",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Stättermeyergasse ins Zwischengeschoß.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4924,
+            4927
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4924,
+          4927
         ]
       },
       {
@@ -448,7 +468,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_61, ftazS_715, ftazS_244, ftazS_1032351, ftazS_712, ftazS_204, ftazS_1351732, ftazS_1017114, ftazS_723, ftazS_168, ftazS_764, ftazS_451, ftazS_1354522, ftazS_1354523, ftazS_229",
+        "trafficInfoNameList": "ftazS_61, ftazS_151, ftazS_1032351, ftazS_712, ftazS_204, ftazS_1351732, ftazS_1017114, ftazS_168, ftazS_70, ftazS_439, ftazS_764, ftazS_451, ftazS_1354522, ftazS_1354523, ftazS_229",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -463,6 +483,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-10-25T10:49:26.000+0100"
+    "serverTime": "2026-10-25T15:57:36.000+0100"
   }
 }
