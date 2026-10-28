@@ -7,36 +7,76 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
-        "name": "ftazS_737",
-        "parentName": "ftazS_737",
-        "title": "Gasometer",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Gasometer.",
+        "name": "ftazS_1354522",
+        "parentName": "ftazS_1354522",
+        "title": "Frankhplatz",
+        "description": "",
         "attributes": {
-          "ausBis": "19.11.2026 01:00",
           "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [],
+          "station": "Frankhplatz",
+          "location": "",
+          "towards": "",
+          "relatedStops": [],
+          "status": "außer Betrieb"
+        }
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "alertCauseId": 255,
+        "alertCause": "undefined alert cause",
+        "reasonId": 0,
+        "reasonName": "undefined",
+        "name": "ftazS_1354523",
+        "parentName": "ftazS_1354523",
+        "title": "Frankhplatz",
+        "description": "",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [],
+          "station": "Frankhplatz",
+          "location": "",
+          "towards": "",
+          "relatedStops": [],
+          "status": "außer Betrieb"
+        }
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "alertCauseId": 255,
+        "alertCause": "undefined alert cause",
+        "reasonId": 0,
+        "reasonName": "undefined",
+        "name": "ftazS_50",
+        "parentName": "ftazS_50",
+        "title": "Volkstheater",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Bahnsteig U2 Richtung SR auf den U3 Bahnsteig.",
+        "attributes": {
+          "ausBis": "29.10.2026 00:45",
+          "reason": "Geplante Wartung wird durchgeführt.",
           "relatedLines": [
             "U3"
           ],
-          "station": "Gasometer",
-          "ausVon": "18.11.2026 21:00",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Gasometer.",
+          "station": "Volkstheater",
+          "ausVon": "28.10.2026 20:45",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Bahnsteig U2 Richtung SR auf den U3 Bahnsteig.",
           "towards": "U3 beide Richtungen",
           "relatedStops": [
-            4934,
-            4941
+            4908,
+            4909
           ],
           "status": "außer Betrieb"
         },
         "time": {
-          "start": "2026-11-18T21:00:00.000+0100",
-          "end": "2026-11-19T01:00:00.000+0100"
+          "start": "2026-10-28T20:45:00.000+0100",
+          "end": "2026-10-29T00:45:00.000+0100"
         },
         "relatedLines": [
           "U3"
         ],
         "relatedStops": [
-          4934,
-          4941
+          4908,
+          4909
         ]
       },
       {
@@ -83,174 +123,21 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
-        "name": "ftazS_1018081",
-        "parentName": "ftazS_1018081",
-        "title": "Schottenring",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U2 Bahnsteig zum U4 Bahnsteig.",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U2"
-          ],
-          "station": "Schottenring",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U2 Bahnsteig zum U4 Bahnsteig.",
-          "towards": "U2 beide Richtungen",
-          "relatedStops": [
-            4201,
-            4214
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U2"
-        ],
-        "relatedStops": [
-          4201,
-          4214
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
-        "name": "ftazS_287",
-        "parentName": "ftazS_287",
-        "title": "Kagran",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung von der Oberfläche auf den U1 Bahnsteig.\n\n",
-        "attributes": {
-          "reason": "",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Kagran",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung von der Oberfläche auf den U1 Bahnsteig.\n\n",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4102,
-            4127
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4102,
-          4127
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
-        "name": "ftazS_361",
-        "parentName": "ftazS_361",
-        "title": "Neubaugasse",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 1 Richtung Erdberg in das Zwischengeschoß. \n(Ost - Amerlingstr./Neubaug.)",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Neubaugasse",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 1 Richtung Erdberg in das Zwischengeschoß. \n(Ost - Amerlingstr./Neubaug.)",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4918,
-            4923
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4918,
-          4923
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
-        "name": "ftazS_181",
-        "parentName": "ftazS_181",
-        "title": "Südtiroler Platz-Hauptbahnhof",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom obersten Zwischengeschoß an die Oberfläche Ausgang Graf Starhemberggasse.",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Südtiroler Platz-Hauptbahnhof",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom obersten Zwischengeschoß an die Oberfläche Ausgang Graf Starhemberggasse.",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4105,
-            4124
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4105,
-          4124
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
-        "name": "ftazS_712",
-        "parentName": "ftazS_712",
-        "title": "Eichenstraße",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Fahrtrichtung Burggasse/Lainz/Baden in das Zwischengeschoß.",
+        "name": "ftazS_168",
+        "parentName": "ftazS_168",
+        "title": "Schlachthausgasse",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Markhofgasse.(OST)",
         "attributes": {
           "reason": "FAHRTREPPENERNEUERUNG Voraussichtlich bis 21.12.2026 außer Betrieb!",
           "relatedLines": [
-            "Unterflurstrassenbahn"
-          ],
-          "station": "Eichenstraße",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Fahrtrichtung Burggasse/Lainz/Baden in das Zwischengeschoß.",
-          "towards": "Unterflurstrassenbahn beide Richtungen",
-          "relatedStops": [],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "Unterflurstrassenbahn"
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
-        "name": "ftazS_755",
-        "parentName": "ftazS_755",
-        "title": "Simmering",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung von der Passage in das Aufnahmegebäude Ausgang Kaiser Ebersdorfer Straße.",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
             "U3"
           ],
-          "station": "Simmering",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung von der Passage in das Aufnahmegebäude Ausgang Kaiser Ebersdorfer Straße.",
+          "station": "Schlachthausgasse",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Markhofgasse.(OST)",
           "towards": "U3 beide Richtungen",
           "relatedStops": [
-            4937,
-            4938
+            4901,
+            4916
           ],
           "status": "außer Betrieb"
         },
@@ -258,8 +145,8 @@
           "U3"
         ],
         "relatedStops": [
-          4937,
-          4938
+          4901,
+          4916
         ]
       },
       {
@@ -300,262 +187,23 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
-        "name": "ftazS_1017114",
-        "parentName": "ftazS_1017114",
-        "title": "Kagraner Platz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom  U1 Bahnsteig in das Aufnahmebegäude Ausgang Kagraner Platz/Wagramerstraße/Doningasse.",
-        "attributes": {
-          "reason": "FAHRTREPPENERNEUERUNG Voraussichtlich bis 16.11.2026 außer Betrieb!",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Kagraner Platz",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom  U1 Bahnsteig in das Aufnahmebegäude Ausgang Kagraner Platz/Wagramerstraße/Doningasse.",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4181,
-            4186
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4181,
-          4186
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
-        "name": "ftazS_107",
-        "parentName": "ftazS_107",
-        "title": "Schottentor",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoss an die Oberfläche Ausgang Lichtensteinstraße.\n\n",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U2"
-          ],
-          "station": "Schottentor",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoss an die Oberfläche Ausgang Lichtensteinstraße.\n\n",
-          "towards": "U2 beide Richtungen",
-          "relatedStops": [
-            4203,
-            4212
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U2"
-        ],
-        "relatedStops": [
-          4203,
-          4212
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
-        "name": "ftazS_168",
-        "parentName": "ftazS_168",
-        "title": "Schlachthausgasse",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Markhofgasse.(OST)",
-        "attributes": {
-          "reason": "FAHRTREPPENERNEUERUNG Voraussichtlich bis 21.12.2026 außer Betrieb!",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Schlachthausgasse",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Markhofgasse.(OST)",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4901,
-            4916
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4901,
-          4916
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
-        "name": "ftazS_764",
-        "parentName": "ftazS_764",
-        "title": "Enkplatz",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Eingang Enkplatz ins Zwischengeschoß.",
+        "name": "ftazS_213",
+        "parentName": "ftazS_213",
+        "title": "Bahnhof Meidling",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Wilhelmstraße ins Zwischengeschoß.",
         "attributes": {
           "reason": "An der Instandsetzung wird bereits gearbeitet.",
           "relatedLines": [
-            "U3"
+            "U6"
           ],
-          "station": "Enkplatz",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Eingang Enkplatz ins Zwischengeschoß.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4936,
-            4939
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4936,
-          4939
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
-        "name": "ftazS_55",
-        "parentName": "ftazS_55",
-        "title": "Stephansplatz",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß N-1 (Stationswart) in das Zwischengeschoß N-3.\n\n",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Stephansplatz",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Zwischengeschoß N-1 (Stationswart) in das Zwischengeschoß N-3.\n\n",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4111,
-            4118
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4111,
-          4118
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
-        "name": "ftazS_451",
-        "parentName": "ftazS_451",
-        "title": "Johnstraße",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Sturzgasse.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Johnstraße",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Sturzgasse.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4925,
-            4926
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4925,
-          4926
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
-        "name": "ftazS_1354522",
-        "parentName": "ftazS_1354522",
-        "title": "Frankhplatz",
-        "description": "",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [],
-          "station": "Frankhplatz",
-          "location": "",
-          "towards": "",
+          "station": "Bahnhof Meidling",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Wilhelmstraße ins Zwischengeschoß.",
+          "towards": "U6 beide Richtungen",
           "relatedStops": [],
           "status": "außer Betrieb"
-        }
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
-        "name": "ftazS_1354523",
-        "parentName": "ftazS_1354523",
-        "title": "Frankhplatz",
-        "description": "",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [],
-          "station": "Frankhplatz",
-          "location": "",
-          "towards": "",
-          "relatedStops": [],
-          "status": "außer Betrieb"
-        }
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
-        "name": "ftazS_1351729",
-        "parentName": "ftazS_1351729",
-        "title": "Troststraße",
-        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Troststraße",
-          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4129,
-            4138
-          ],
-          "status": "außer Betrieb"
         },
         "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4129,
-          4138
+          "U6"
         ]
       },
       {
@@ -589,6 +237,120 @@
           4112,
           4117
         ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "alertCauseId": 255,
+        "alertCause": "undefined alert cause",
+        "reasonId": 0,
+        "reasonName": "undefined",
+        "name": "ftazS_712",
+        "parentName": "ftazS_712",
+        "title": "Eichenstraße",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Fahrtrichtung Burggasse/Lainz/Baden in das Zwischengeschoß.",
+        "attributes": {
+          "reason": "FAHRTREPPENERNEUERUNG Voraussichtlich bis 21.12.2026 außer Betrieb!",
+          "relatedLines": [
+            "Unterflurstrassenbahn"
+          ],
+          "station": "Eichenstraße",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Fahrtrichtung Burggasse/Lainz/Baden in das Zwischengeschoß.",
+          "towards": "Unterflurstrassenbahn beide Richtungen",
+          "relatedStops": [],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "Unterflurstrassenbahn"
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "alertCauseId": 255,
+        "alertCause": "undefined alert cause",
+        "reasonId": 0,
+        "reasonName": "undefined",
+        "name": "ftazS_715",
+        "parentName": "ftazS_715",
+        "title": "Matzleinsdorfer Platz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung von der unteren Passage in den Zwischenstock zum Aufgang Triesterstraße.",
+        "attributes": {
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "relatedLines": [
+            "Unterflurstrassenbahn"
+          ],
+          "station": "Matzleinsdorfer Platz",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung von der unteren Passage in den Zwischenstock zum Aufgang Triesterstraße.",
+          "towards": "Unterflurstrassenbahn beide Richtungen",
+          "relatedStops": [],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "Unterflurstrassenbahn"
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "alertCauseId": 255,
+        "alertCause": "undefined alert cause",
+        "reasonId": 0,
+        "reasonName": "undefined",
+        "name": "ftazS_1017114",
+        "parentName": "ftazS_1017114",
+        "title": "Kagraner Platz",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom  U1 Bahnsteig in das Aufnahmebegäude Ausgang Kagraner Platz/Wagramerstraße/Doningasse.",
+        "attributes": {
+          "reason": "FAHRTREPPENERNEUERUNG Voraussichtlich bis 16.11.2026 außer Betrieb!",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Kagraner Platz",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom  U1 Bahnsteig in das Aufnahmebegäude Ausgang Kagraner Platz/Wagramerstraße/Doningasse.",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4181,
+            4186
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4181,
+          4186
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "alertCauseId": 255,
+        "alertCause": "undefined alert cause",
+        "reasonId": 0,
+        "reasonName": "undefined",
+        "name": "ftazS_1018081",
+        "parentName": "ftazS_1018081",
+        "title": "Schottenring",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U2 Bahnsteig zum U4 Bahnsteig.",
+        "attributes": {
+          "reason": "Geplante Wartung wird durchgeführt.",
+          "relatedLines": [
+            "U2"
+          ],
+          "station": "Schottenring",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U2 Bahnsteig zum U4 Bahnsteig.",
+          "towards": "U2 beide Richtungen",
+          "relatedStops": [
+            4201,
+            4214
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U2"
+        ],
+        "relatedStops": [
+          4201,
+          4214
+        ]
       }
     ],
     "trafficInfoCategories": [
@@ -596,7 +358,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_737, ftazS_67, ftazS_1018081, ftazS_287, ftazS_361, ftazS_181, ftazS_712, ftazS_755, ftazS_204, ftazS_1017114, ftazS_107, ftazS_168, ftazS_764, ftazS_55, ftazS_451, ftazS_1354522, ftazS_1354523, ftazS_1351729, ftazS_229",
+        "trafficInfoNameList": "ftazS_1354522, ftazS_1354523, ftazS_50, ftazS_67, ftazS_168, ftazS_204, ftazS_213, ftazS_229, ftazS_712, ftazS_715, ftazS_1017114, ftazS_1018081",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -611,6 +373,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-10-28T12:21:27.000+0100"
+    "serverTime": "2026-10-28T20:35:01.000+0100"
   }
 }
