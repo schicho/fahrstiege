@@ -7,29 +7,36 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
-        "name": "ftazS_257",
-        "parentName": "ftazS_257",
-        "title": "Karlsplatz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß (ZLS).\n\n",
+        "name": "ftazS_359",
+        "parentName": "ftazS_359",
+        "title": "Neubaugasse",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung Ottakring in das Zwischengeschoß.\n (Ost - Amerlingstr./Neubaug.)",
         "attributes": {
-          "ausBis": "06.11.2026 05:15",
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "ausBis": "09.11.2026 05:15",
+          "reason": "",
           "relatedLines": [
-            "U1"
+            "U3"
           ],
-          "station": "Karlsplatz",
-          "ausVon": "06.11.2026 01:15",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U1 Bahnsteig ins Zwischengeschoß (ZLS).\n\n",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [],
+          "station": "Neubaugasse",
+          "ausVon": "09.11.2026 01:15",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig Gleis 2 Richtung Ottakring in das Zwischengeschoß.\n (Ost - Amerlingstr./Neubaug.)",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4918,
+            4923
+          ],
           "status": "außer Betrieb"
         },
         "time": {
-          "start": "2026-11-06T01:15:00.000+0100",
-          "end": "2026-11-06T05:15:00.000+0100"
+          "start": "2026-11-09T01:15:00.000+0100",
+          "end": "2026-11-09T05:15:00.000+0100"
         },
         "relatedLines": [
-          "U1"
+          "U3"
+        ],
+        "relatedStops": [
+          4918,
+          4923
         ]
       },
       {
@@ -76,38 +83,6 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
-        "name": "ftazS_287",
-        "parentName": "ftazS_287",
-        "title": "Kagran",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung von der Oberfläche auf den U1 Bahnsteig.\n\n",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt. Voraussichtlich bis 11.11.2026 außer Betrieb!",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Kagran",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung von der Oberfläche auf den U1 Bahnsteig.\n\n",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4102,
-            4127
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4102,
-          4127
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
         "name": "ftazS_712",
         "parentName": "ftazS_712",
         "title": "Eichenstraße",
@@ -125,6 +100,38 @@
         },
         "relatedLines": [
           "Unterflurstrassenbahn"
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "alertCauseId": 255,
+        "alertCause": "undefined alert cause",
+        "reasonId": 0,
+        "reasonName": "undefined",
+        "name": "ftazS_52",
+        "parentName": "ftazS_52",
+        "title": "Stephansplatz",
+        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Graben.\n",
+        "attributes": {
+          "reason": "Geplante Wartung wird durchgeführt.",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Stephansplatz",
+          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Graben.\n",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4111,
+            4118
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4111,
+          4118
         ]
       },
       {
@@ -197,38 +204,6 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
-        "name": "ftazS_512",
-        "parentName": "ftazS_512",
-        "title": "Dresdner Straße",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Pasettistraße.\n",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U6"
-          ],
-          "station": "Dresdner Straße",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Bahnsteig an die Oberfläche Ausgang Pasettistraße.\n",
-          "towards": "U6 beide Richtungen",
-          "relatedStops": [
-            4642,
-            4649
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U6"
-        ],
-        "relatedStops": [
-          4642,
-          4649
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
         "name": "ftazS_168",
         "parentName": "ftazS_168",
         "title": "Schlachthausgasse",
@@ -253,38 +228,6 @@
         "relatedStops": [
           4901,
           4916
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
-        "name": "ftazS_409",
-        "parentName": "ftazS_409",
-        "title": "Westbahnhof",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig ins Zwischengeschoß.",
-        "attributes": {
-          "reason": "Geplante Wartung wird durchgeführt. Voraussichtlich bis 06.11.2026 außer Betrieb!",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Westbahnhof",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U3 Bahnsteig ins Zwischengeschoß.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4920,
-            4921
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4920,
-          4921
         ]
       },
       {
@@ -333,6 +276,31 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
+        "name": "ftazS_219",
+        "parentName": "ftazS_219",
+        "title": "Bahnhof Meidling",
+        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig ins Zwischengeschoß.",
+        "attributes": {
+          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
+          "relatedLines": [
+            "U6"
+          ],
+          "station": "Bahnhof Meidling",
+          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U6 Bahnsteig ins Zwischengeschoß.",
+          "towards": "U6 beide Richtungen",
+          "relatedStops": [],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U6"
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "alertCauseId": 255,
+        "alertCause": "undefined alert cause",
+        "reasonId": 0,
+        "reasonName": "undefined",
         "name": "ftazS_229",
         "parentName": "ftazS_229",
         "title": "Praterstern",
@@ -365,7 +333,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_257, ftazS_499, ftazS_287, ftazS_712, ftazS_204, ftazS_1017114, ftazS_512, ftazS_168, ftazS_409, ftazS_1354522, ftazS_1354523, ftazS_229",
+        "trafficInfoNameList": "ftazS_359, ftazS_499, ftazS_712, ftazS_52, ftazS_204, ftazS_1017114, ftazS_168, ftazS_1354522, ftazS_1354523, ftazS_219, ftazS_229",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -380,6 +348,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-11-05T22:05:18.000+0100"
+    "serverTime": "2026-11-06T13:57:53.000+0100"
   }
 }
