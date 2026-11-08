@@ -45,6 +45,38 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
+        "name": "ftazS_286",
+        "parentName": "ftazS_286",
+        "title": "Kagran",
+        "description": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung von der Oberfläche auf den U1 Bahnsteig.\n\n",
+        "attributes": {
+          "reason": "",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Kagran",
+          "location": "Diese Anlage wird betriebsabhängig auf- oder abwärts geschaltet.\nFahrtreppe fährt in Auf/Abwärtsrichtung von der Oberfläche auf den U1 Bahnsteig.\n\n",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4102,
+            4127
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4102,
+          4127
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "alertCauseId": 255,
+        "alertCause": "undefined alert cause",
+        "reasonId": 0,
+        "reasonName": "undefined",
         "name": "ftazS_712",
         "parentName": "ftazS_712",
         "title": "Eichenstraße",
@@ -134,6 +166,38 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
+        "name": "ftazS_1031287",
+        "parentName": "ftazS_1031287",
+        "title": "Donauspital",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung vom U2 Bahnsteig in das Aufnahmegebäude Ausgang Zschokkegasse/Langobardenstraße.",
+        "attributes": {
+          "reason": "An der Instandsetzung wird bereits gearbeitet.",
+          "relatedLines": [
+            "U2"
+          ],
+          "station": "Donauspital",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung vom U2 Bahnsteig in das Aufnahmegebäude Ausgang Zschokkegasse/Langobardenstraße.",
+          "towards": "U2 beide Richtungen",
+          "relatedStops": [
+            4252,
+            4271
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U2"
+        ],
+        "relatedStops": [
+          4252,
+          4271
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "alertCauseId": 255,
+        "alertCause": "undefined alert cause",
+        "reasonId": 0,
+        "reasonName": "undefined",
         "name": "ftazS_1017114",
         "parentName": "ftazS_1017114",
         "title": "Kagraner Platz",
@@ -166,70 +230,6 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
-        "name": "ftazS_134",
-        "parentName": "ftazS_134",
-        "title": "Schottenring",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom U4 Bahnsteig Fahrtrichtung Heiligenstadt an die Oberfläche.",
-        "attributes": {
-          "reason": "Störung bekannt, erforderliche Maßnahmen wurden eingeleitet.",
-          "relatedLines": [
-            "U2"
-          ],
-          "station": "Schottenring",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom U4 Bahnsteig Fahrtrichtung Heiligenstadt an die Oberfläche.",
-          "towards": "U2 beide Richtungen",
-          "relatedStops": [
-            4201,
-            4214
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U2"
-        ],
-        "relatedStops": [
-          4201,
-          4214
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
-        "name": "ftazS_205",
-        "parentName": "ftazS_205",
-        "title": "Nestroyplatz",
-        "description": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Rotensterngasse.",
-        "attributes": {
-          "reason": "An der Instandsetzung wird bereits gearbeitet.",
-          "relatedLines": [
-            "U1"
-          ],
-          "station": "Nestroyplatz",
-          "location": "Fahrtreppe fährt in Aufwärtsrichtung vom Zwischengeschoß an die Oberfläche Ausgang Rotensterngasse.",
-          "towards": "U1 beide Richtungen",
-          "relatedStops": [
-            4114,
-            4115
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U1"
-        ],
-        "relatedStops": [
-          4114,
-          4115
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
         "name": "ftazS_168",
         "parentName": "ftazS_168",
         "title": "Schlachthausgasse",
@@ -254,6 +254,38 @@
         "relatedStops": [
           4901,
           4916
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "alertCauseId": 255,
+        "alertCause": "undefined alert cause",
+        "reasonId": 0,
+        "reasonName": "undefined",
+        "name": "ftazS_164",
+        "parentName": "ftazS_164",
+        "title": "Stubentor",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Bahnsteig Gleis 1 auf den Bahnsteig Gleis 2 Richtung Ottakring.",
+        "attributes": {
+          "reason": "",
+          "relatedLines": [
+            "U3"
+          ],
+          "station": "Stubentor",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Bahnsteig Gleis 1 auf den Bahnsteig Gleis 2 Richtung Ottakring.",
+          "towards": "U3 beide Richtungen",
+          "relatedStops": [
+            4905,
+            4912
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U3"
+        ],
+        "relatedStops": [
+          4905,
+          4912
         ]
       },
       {
@@ -334,7 +366,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_452, ftazS_712, ftazS_372, ftazS_204, ftazS_1017114, ftazS_134, ftazS_205, ftazS_168, ftazS_1354522, ftazS_1354523, ftazS_229",
+        "trafficInfoNameList": "ftazS_452, ftazS_286, ftazS_712, ftazS_372, ftazS_204, ftazS_1031287, ftazS_1017114, ftazS_168, ftazS_164, ftazS_1354522, ftazS_1354523, ftazS_229",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -349,6 +381,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-11-08T00:38:39.000+0100"
+    "serverTime": "2026-11-08T12:56:44.000+0100"
   }
 }
