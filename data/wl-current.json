@@ -77,6 +77,38 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
+        "name": "ftazS_1018082",
+        "parentName": "ftazS_1018082",
+        "title": "Praterstern",
+        "description": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Prater/Zugang ÖBB in das Zwischengeschoß Zugang U1/U2.",
+        "attributes": {
+          "reason": "",
+          "relatedLines": [
+            "U1"
+          ],
+          "station": "Praterstern",
+          "location": "Fahrtreppe fährt in Abwärtsrichtung von der Oberfläche Ausgang Prater/Zugang ÖBB in das Zwischengeschoß Zugang U1/U2.",
+          "towards": "U1 beide Richtungen",
+          "relatedStops": [
+            4112,
+            4117
+          ],
+          "status": "außer Betrieb"
+        },
+        "relatedLines": [
+          "U1"
+        ],
+        "relatedStops": [
+          4112,
+          4117
+        ]
+      },
+      {
+        "refTrafficInfoCategoryId": 4,
+        "alertCauseId": 255,
+        "alertCause": "undefined alert cause",
+        "reasonId": 0,
+        "reasonName": "undefined",
         "name": "ftazS_712",
         "parentName": "ftazS_712",
         "title": "Eichenstraße",
@@ -262,38 +294,6 @@
         "alertCause": "undefined alert cause",
         "reasonId": 0,
         "reasonName": "undefined",
-        "name": "ftazS_164",
-        "parentName": "ftazS_164",
-        "title": "Stubentor",
-        "description": "Fahrtreppe fährt in Abwärtsrichtung vom Bahnsteig Gleis 1 auf den Bahnsteig Gleis 2 Richtung Ottakring.",
-        "attributes": {
-          "reason": "",
-          "relatedLines": [
-            "U3"
-          ],
-          "station": "Stubentor",
-          "location": "Fahrtreppe fährt in Abwärtsrichtung vom Bahnsteig Gleis 1 auf den Bahnsteig Gleis 2 Richtung Ottakring.",
-          "towards": "U3 beide Richtungen",
-          "relatedStops": [
-            4905,
-            4912
-          ],
-          "status": "außer Betrieb"
-        },
-        "relatedLines": [
-          "U3"
-        ],
-        "relatedStops": [
-          4905,
-          4912
-        ]
-      },
-      {
-        "refTrafficInfoCategoryId": 4,
-        "alertCauseId": 255,
-        "alertCause": "undefined alert cause",
-        "reasonId": 0,
-        "reasonName": "undefined",
         "name": "ftazS_1354522",
         "parentName": "ftazS_1354522",
         "title": "Frankhplatz",
@@ -366,7 +366,7 @@
         "id": 4,
         "refTrafficInfoCategoryGroupId": 1,
         "name": "fahrtreppeninfo",
-        "trafficInfoNameList": "ftazS_452, ftazS_286, ftazS_712, ftazS_372, ftazS_204, ftazS_1031287, ftazS_1017114, ftazS_168, ftazS_164, ftazS_1354522, ftazS_1354523, ftazS_229",
+        "trafficInfoNameList": "ftazS_452, ftazS_286, ftazS_1018082, ftazS_712, ftazS_372, ftazS_204, ftazS_1031287, ftazS_1017114, ftazS_168, ftazS_1354522, ftazS_1354523, ftazS_229",
         "title": "Fahrtreppenstörungen"
       }
     ],
@@ -381,6 +381,6 @@
   "message": {
     "value": "OK",
     "messageCode": 1,
-    "serverTime": "2026-11-08T12:56:44.000+0100"
+    "serverTime": "2026-11-08T19:50:24.000+0100"
   }
 }
